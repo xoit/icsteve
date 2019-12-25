@@ -25,7 +25,7 @@
   <div id="app">Please wait...</div>
   <script>
     window.$docsify = {
-        basePath:".",
+        basePath:"https://raw.githubusercontent.com/xoit/icsteve/master",
         search: 'auto',
         subMaxLevel:5,
         loadSidebar: true,
@@ -43,6 +43,13 @@
           ,'/_navbar.md': '/navbar.md'
           ,'/_sidebar.md': '/sidebar.md'
         }
+        ,footer: {
+        copy: '<span>IC Steve; 2019</span>',
+        auth: 'by Steve',
+        pre: '<hr/>',
+        style: 'text-align: right;',
+        style: 'className',
+      }
     }
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
@@ -59,5 +66,6 @@
   <script src="./vendor/docsify/v4/plugins/pdfobject.min.js"></script> 
   <script src="./vendor/docsify/v4/plugins/docsify-pdf-embed.js"></script>
   <script src="./vendor/docsify/v4/plugins/docsify-plugin-flexible-alerts.min.js"></script>
+  <script src="./vendor/docsify/v4/plugins/docsify-footer-enh.min.js></script>
 </body>
 </html>
