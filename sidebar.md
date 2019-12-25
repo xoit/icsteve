@@ -2,6 +2,10 @@
 
   - [:thought_balloon: README](README.md)
 
+- IC Cad
+
+  - [:key: Test](README.md)
+
 - IC Frontend
 
   - [:book: Test](icfe/cdc_rdc.md)
@@ -10,10 +14,6 @@
 - IC Backend
 
   - [:book: Test](README.md)
-
-- IC Cad
-
-  - [:key: Test](README.md)
 
 - Others
 
