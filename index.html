@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="ccds.css">
+  <link rel="stylesheet" href="./vendor/docsify/v4/plugins/toc.css">
   <style>
     :root {
       --docsifytabs-border-color: #ededed;
@@ -50,6 +51,11 @@
         style: 'text-align: right;',
         style: 'className',
       }
+      ,toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2, h3',
+        title: 'Table of Contents',
+      }
     }
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
@@ -66,6 +72,7 @@
   <script src="./vendor/docsify/v4/plugins/pdfobject.min.js"></script> 
   <script src="./vendor/docsify/v4/plugins/docsify-pdf-embed.js"></script>
   <script src="./vendor/docsify/v4/plugins/docsify-plugin-flexible-alerts.min.js"></script>
-  <script src="./vendor/docsify/v4/plugins/docsify-footer-enh.min.js></script>
+  <script src="./vendor/docsify/v4/plugins/docsify-footer-enh.min.js"></script>
+  <script src="./vendor/docsify/v4/plugins/toc.js"></script>
 </body>
 </html>
