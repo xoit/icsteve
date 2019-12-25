@@ -1,6 +1,3 @@
 # icsteve
-ICSteve  Sharing
 
-Test
-
-Mytest
+[changelog](CHANGELOG.md ':include')
