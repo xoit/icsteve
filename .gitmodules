@@ -1,0 +1,3 @@
+[submodule "icscript"]
+	path = icscript
+	url = https://github.com/xoit/ICScript.git
