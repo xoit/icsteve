@@ -27,4 +27,18 @@ Low Power Cell 的特性
 
 Reset tree is similar to Clock tree.
 
+The primary purpose of a reset is to force the SoC into a known state for stable
+operations. This would avoid the SoC to power on to a random state and get hanged.
+
+In a design, we could have hundreds of clocks, but usually we have several reset.
+
+- hardward reset
+- software reset
+- other types
+
+Reset strategy
+
+- use synchronous or asynchronous resets
+- will every flipflop receive a reset
+
 Domain crossing:
