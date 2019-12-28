@@ -16,4 +16,4 @@
 
 - Others
 
-  - [Web 技术](other/web.md)
+  - [Metabase 初试](other/use_metabase.md)
