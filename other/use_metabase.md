@@ -5,10 +5,14 @@ Metabase is an open source business intelligence tool. It lets you ask questions
 Your questions can be saved for later, making it easy to come back to them, or you can group questions into great looking dashboards. Metabase also makes it easy to share questions and dashboards with the rest of your team.
 
 <!--
+
 [Steve]
+
+TODO:
 
 - Reference of metrics system.
 - Teach the user make full use of the data.
+
 -->
 
 ## Launch VSCode
