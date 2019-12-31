@@ -16,9 +16,9 @@
 
 - Others
 
-  - [Metabase 初试](other/use_metabase.md)
-  - [Tcl 中使用Toolatra 构建Web Server](other/use_toolatra.md)
+  - [:key: Metabase 初试](other/use_metabase.md)
+  - [:key: Tcl 中使用Toolatra 构建Web Server](other/use_toolatra.md)
 
 - IC Course
 
-  - [Tcl 从入门到专家](ictcl/README.md)
+  - [:book: Tcl 从入门到专家](ictcl/README.md)

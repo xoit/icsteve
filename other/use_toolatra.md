@@ -10,7 +10,7 @@ Perl 的话，我推荐[mojolicious](https://www.mojolicious.org/)，这个也�
 
 从Github 下载Toolatra，下载下来是一个tcl package。可以直接使用，无特殊的库依赖，只需要Tcllib 的支持。
 
-为了最大程度的能够复现我的脚本，请参考我的[开发环境搭建](other/devenv.md)。
+为了最大程度的能够复现我的脚本，请参考我的[开发环境搭建](other/dev_env.md)。
 
 ```tcl
 # git clone https://github.com/timkoi/toolatra.git ~/local/tcltk/toolatra
@@ -33,7 +33,7 @@ tclsh tcl/app.tcl
 
 ![show docsify](use_toolatra_1.png)
 
-## 扩展
+## 话题扩展
 
 在app.tcl 中，我们可以定义不同的路由（URL 路径）来实现不同的功能。
 
