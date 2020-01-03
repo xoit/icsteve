@@ -4,15 +4,15 @@
 
 - IC Cad
 
-  - [:key: CAD Framework简介](iccad/cad_framework.md)
+  - [:article: CAD Framework简介](iccad/cad_framework.md)
 
 - IC Frontend
 
-  - [:book: Setup and Hold 分析](icfe/setup_hold.md)
+  - [:article: Setup and Hold 分析](icfe/setup_hold.md)
 
 - IC Backend
 
-  - [:book: Useful Skew](icbe/useful_skew.md)
+  - [:article: Useful Skew](icbe/useful_skew.md)
 
 - Others
 
@@ -22,3 +22,4 @@
 - IC Course
 
   - [:book: Tcl 从入门到专家](ictcl/README.md)
+  - [:book: IC CAD 养成记](ictcl/README.md)
