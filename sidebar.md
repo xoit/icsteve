@@ -4,7 +4,7 @@
 
 - IC Cad
 
-  - [:article: CAD Framework简介](iccad/cad_framework.md)
+  - [:article: CAD Framework 简介](iccad/cad_framework.md)
 
 - IC Frontend
 
