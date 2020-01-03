@@ -22,4 +22,4 @@
 - IC Course
 
   - [:book: Tcl 从入门到专家](ictcl/README.md)
-  - [:book: IC CAD 养成记](ictcl/README.md)
+  - [:book: IC CAD 养成记-职业篇](ictcl/README.md)
