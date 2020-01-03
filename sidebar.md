@@ -21,5 +21,5 @@
 
 - IC Course
 
-  - [:book: Tcl 从入门到专家](ictcl/README.md)
-  - [:book: IC CAD 养成记-职业篇](ictcl/README.md)
+  - [:book: Tcl 从入门到专家](iccourse/README.ictcl.md)
+  - [:book: IC CAD 养成记 vs 职业篇](iccourse/README.iccad.md)
