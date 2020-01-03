@@ -4,12 +4,12 @@
 
 我们来看一下某公司招Methodology and Flow Engineer 的描述（JD）：
 
-> Support customers on ASIC Physical Design Implementation on TSMC's advanced process technologies (22nm/16nm/7nm/5nm). 
-> Provide design flow support for TSMC customers in North-America including training, issue resolution, and solution development/deployment.
-> Root-cause design flow issues, Develop Innovative solutions for design and design methodology challenges, validate and document solutions, deploy to customers.
-> Design block physical design implementation to validate TSMC technology scaling capability.
-> Work closely with Design Flow team at company headquarters to gain a deep understanding of design methodology & flow, technology capabilities and constraints.
-> Work closely with EDA vendors to understand/enhance tool capabilities as well as with TSMC customers to understand design requirements of their SoC products.
+> - Support customers on ASIC Physical Design Implementation on TSMC's advanced process technologies (22nm/16nm/7nm/5nm). 
+> - Provide design flow support for TSMC customers in North-America including training, issue resolution, and solution development/deployment.
+> - Root-cause design flow issues, Develop Innovative solutions for design and design methodology challenges, validate and document solutions, deploy to customers.
+> - Design block physical design implementation to validate TSMC technology scaling capability.
+> - Work closely with Design Flow team at company headquarters to gain a deep understanding of design methodology & flow, technology capabilities and constraints.
+> - Work closely with EDA vendors to understand/enhance tool capabilities as well as with TSMC customers to understand design requirements of their SoC products.
 
 - 负责对接客户，一般是设计团队，所以CAD 可以说是一种提供Service 的工种，需要有服务意识
 - 需要帮助Support 现有流程，开发新流程，部署新流程以及负责培训，还要解决设计中出现的问题
@@ -38,4 +38,4 @@
 
 ## 加入知识星球看连载（收费）
 
-![ICSteve 知识星球](icsteve_zsxq.jpg)
+![ICSteve 知识星球](icsteve_zsxq.jpg ':size=300')
