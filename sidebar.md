@@ -1,6 +1,6 @@
 - Get Started
 
-  - [:thought_balloon: 文章目录](README.md)
+  - [:thought_balloon: 关于ICSteve](README.md)
 
 - IC Cad
 
