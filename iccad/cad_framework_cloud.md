@@ -31,8 +31,8 @@ CAD Framework 的演进是让数据管理变得更加科学，高效。
 
 云的演变从按机器资源为最小颗粒到以功能，以函数的调用提供服务。
 
-– 租用云服务器，作为本地服务器的扩展，通过组网完成数据互通
-– 租用Runtime，比如我只需要做一个dc 的综合并且希望充分利用资源最多一晚上要出结果
+- 租用云服务器，作为本地服务器的扩展，通过组网完成数据互通
+- 租用Runtime，比如我只需要做一个dc 的综合并且希望充分利用资源最多一晚上要出结果
 - 租用函数，我只需要做综合里的compile_ultra，前期以及后续都在本地完成
 
 ### 数据传输
@@ -55,7 +55,13 @@ CAD Framework 的演进是让数据管理变得更加科学，高效。
 
 每家云服务商的接口不尽相同，对于一个CAD框架来说，无论是面对本地环境也好，云环境也罢，都需要有一个坚实的底层架构。
 
-所谓的以不变应万变。
+基础架构的健壮性可以做到不变应万变。
 
+## Reference
 
+- [DAC 2019: Design on Cloud](https://www.youtube.com/watch?v=jJGDro5xmtQ&list=PLKqCo4MpJlW8hgxreoqmOBC59GwMWhYhe)
+- [EDA is Better in the Cloud. Here’s Why the Cloud is the Future of EDA](https://blog.semi.org/technology-trends/eda-is-better-in-the-cloud.-heres-why-the-cloud-is-the-future-of-eda)
+- [Optimizing Electronic Design Automation (EDA) Workflows on AWS](https://d1.awsstatic.com/HPC2019/optimizing-electronic-design-automation-eda-workflows-on-aws.pdf)
+- 更多参考文献，加入[知识星球](https://wx.zsxq.com/dweb2/index/group/88518421841542)可获得所有离线资源
 
+![ICSteve 知识星球](../iccourse/icsteve_zsxq.jpg ':size=300')

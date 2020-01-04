@@ -63,10 +63,6 @@ EDA 工具的管理很多时候看似都是IT 的活，但是对于工具装好�
 
 无论自建还是购买，都需要一定的CAD 人力资源的配置，全职的CAD 工程师或者某些设计人员的兼职CAD 角色。所以对Design Engineer 做CAD 相关的培训是很有必要的。
 
-## 下集预告
-
-[Cloud 正在改变CAD Framework](iccad/cad_framework_cloud.md)
-
 ## Reference
 
 - [Electronic CAD Frameworks](https://www.goodreads.com/book/show/18200731-electronic-cad-frameworks)
