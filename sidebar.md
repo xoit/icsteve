@@ -6,6 +6,7 @@
 
   - [:article: CAD Framework 简介](iccad/cad_framework.md)
   - [:article: CAD Framework 与“云”俱进](iccad/cad_framework_cloud.md)
+  - [:article: CAD Framework 为啥难落地](iccad/cad_framework_deploy.md)
 
 - IC Frontend
 
