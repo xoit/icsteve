@@ -5,10 +5,28 @@
     <link>https://icsteve.com/</link>
     <description>Recent content on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我的文档工作流 （工具篇）</title>
+      <link>https://icsteve.com/2020/01/document_flow/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/2020/01/document_flow/</guid>
+      <description>效果预期与知识储备 我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工作中常用到的文档类型。 产</description>
+    </item>
+    
+    <item>
+      <title>CAD Framework： 来自90 年代的黄金准则</title>
+      <link>https://icsteve.com/2020/01/cad_framework/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/2020/01/cad_framework/</guid>
+      <description>为什么起这个标题呢？我这篇文章的参考书目是两本来自90 年代的书，而里面的概念放到无论哪个先进的Framework 里都是妥妥的黄金准则（除了C</description>
+    </item>
     
     <item>
       <title>CAD Framework: Cloud 带来的变化</title>
@@ -29,15 +47,6 @@
     </item>
     
     <item>
-      <title>CAD Framework： 来自90 年代的黄金准则</title>
-      <link>https://icsteve.com/2020/01/cad_framework/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/2020/01/cad_framework/</guid>
-      <description>为什么起这个标题呢？我这篇文章的参考书目是两本来自90 年代的书，而里面的概念放到无论哪个先进的Framework 里都是妥妥的黄金准则（除了C</description>
-    </item>
-    
-    <item>
       <title>Use Asciinema</title>
       <link>https://icsteve.com/2020/01/cad_asciinema_deploy/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
@@ -49,15 +58,6 @@ Deploymnet Make sure you have python3 installed.
 I will use &amp;ldquo;Run from source&amp;rdquo; approach.
  download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
 export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
-    </item>
-    
-    <item>
-      <title>我的文档工作流 （工具篇）</title>
-      <link>https://icsteve.com/2020/01/document_flow/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/2020/01/document_flow/</guid>
-      <description>效果预期与知识储备 我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工作中常用到的文档类型。 产</description>
     </item>
     
     <item>
