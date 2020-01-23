@@ -38,6 +38,20 @@
     </item>
     
     <item>
+      <title>Use Asciinema</title>
+      <link>https://icsteve.com/2020/01/cad_asciinema_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/2020/01/cad_asciinema_deploy/</guid>
+      <description>This is a terminal recording tool.
+Enjoy a lightweight, purely text-based approach to terminal recording.
+Deploymnet Make sure you have python3 installed.
+I will use &amp;ldquo;Run from source&amp;rdquo; approach.
+ download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
+export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
+    </item>
+    
+    <item>
       <title>我的文档工作流 （工具篇）</title>
       <link>https://icsteve.com/2020/01/document_flow/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
@@ -64,20 +78,6 @@
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
  https://github.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://icsteve.com/1/01/cad_asciinema_deploy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/1/01/cad_asciinema_deploy/</guid>
-      <description>Use Asciinema This is a terminal recording tool.
-Enjoy a lightweight, purely text-based approach to terminal recording.
-Deploymnet Make sure you have python3 installed.
-I will use &amp;ldquo;Run from source&amp;rdquo; approach.
- download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
-export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
     </item>
     
   </channel>

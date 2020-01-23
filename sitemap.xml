@@ -59,6 +59,13 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/2020/01/cad_asciinema_deploy/</loc>
+    <lastmod>2020-01-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/2020/01/document_flow/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -84,11 +91,6 @@
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/1/01/cad_asciinema_deploy/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
