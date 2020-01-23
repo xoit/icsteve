@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shortcodes on IC Steve</title>
+    <link>http://icsteve.com/tags/shortcodes/</link>
+    <description>Recent content in shortcodes on IC Steve</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://icsteve.com/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CAD Framework: Cloud 带来的变化</title>
+      <link>http://icsteve.com/2020/01/cad_framework_cloud/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://icsteve.com/2020/01/cad_framework_cloud/</guid>
+      <description>CAD Framework 的目标是让使用者忘记框架，专心于具体的IC 设计工作。 Framework 能做的尽量让Framework 去做； Framework 不能做的，想办法让Framework 去做。 在</description>
+    </item>
+    
+    <item>
+      <title>CAD Framework: 框架为什么难落地</title>
+      <link>http://icsteve.com/2020/01/cad_framework_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://icsteve.com/2020/01/cad_framework_deploy/</guid>
+      <description>一个框架的部署牵涉到的东西太多，这里聊聊为什么部署一个大而全的框架那么困难，sFramework 准备怎么做。 你到了一个新的公司，很多时候你不</description>
+    </item>
+    
+    <item>
+      <title>CAD Framework： 来自90 年代的黄金准则</title>
+      <link>http://icsteve.com/2020/01/cad_framework/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://icsteve.com/2020/01/cad_framework/</guid>
+      <description>为什么起这个标题呢？我这篇文章的参考书目是两本来自90 年代的书，而里面的概念放到无论哪个先进的Framework 里都是妥妥的黄金准则（除了C</description>
+    </item>
+    
+    <item>
+      <title>我的文档工作流 （工具篇）</title>
+      <link>http://icsteve.com/2020/01/document_flow/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://icsteve.com/2020/01/document_flow/</guid>
+      <description>效果预期与知识储备 我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工作中常用到的文档类型。 产</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>http://icsteve.com/2019/03/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://icsteve.com/2019/03/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://icsteve.com/2019/02/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://icsteve.com/2019/02/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://icsteve.com/1/01/cad_asciinema_deploy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://icsteve.com/1/01/cad_asciinema_deploy/</guid>
+      <description>Use Asciinema This is a terminal recording tool.
+Enjoy a lightweight, purely text-based approach to terminal recording.
+Deploymnet Make sure you have python3 installed.
+I will use &amp;ldquo;Run from source&amp;rdquo; approach.
+ download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
+export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
+    </item>
+    
+  </channel>
+</rss>

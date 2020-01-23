@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        我的文档工作流 （工具篇） - IC Steve
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <meta name="description" content="我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工作中常用到的文档类型。" />
+  <meta name="generator" content="Hugo 0.62.2 with theme pure" />
+  <title>我的文档工作流 （工具篇） - IC Steve</title>
+  
+  
+  <link rel="stylesheet" href="http://icsteve.com/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
+  
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+  <meta property="og:title" content="我的文档工作流 （工具篇）" />
+<meta property="og:description" content="我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工作中常用到的文档类型。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://icsteve.com/2020/01/document_flow/" />
+<meta property="article:published_time" content="2020-01-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-12T00:00:00+00:00" />
+<meta itemprop="name" content="我的文档工作流 （工具篇）">
+<meta itemprop="description" content="我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工作中常用到的文档类型。">
+<meta itemprop="datePublished" content="2020-01-12T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-01-12T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1961">
+
+
+
+<meta itemprop="keywords" content="shortcodes,privacy," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="我的文档工作流 （工具篇）"/>
+<meta name="twitter:description" content="我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工作中常用到的文档类型。"/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+
+  
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://icsteve.com" target="_blank">
+            <img class="img-circle img-rotate" src="http://icsteve.com/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">ICSteve</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">IC Developer</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>BayArea, US</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>enjoy~</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="http://icsteve.com/tags/privacy/" class="tag-list-link">privacy</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://icsteve.com/tags/shortcodes/" class="tag-list-link">shortcodes</a><span
+                    class="tag-list-count">4</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://icsteve.com/2020/01/cad_framework_cloud/" class="title">CAD Framework: Cloud 带来的变化</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-01-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-12</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://icsteve.com/2020/01/cad_framework_deploy/" class="title">CAD Framework: 框架为什么难落地</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-01-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-12</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://icsteve.com/2020/01/cad_framework/" class="title">CAD Framework： 来自90 年代的黄金准则</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-01-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-12</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://icsteve.com/2020/01/document_flow/" class="title">我的文档工作流 （工具篇）</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-01-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-12</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://icsteve.com/2019/03/math-typesetting/" class="title">Math Typesetting</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-03-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-08</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2020/01/document_flow/"
+    >我的文档工作流 （工具篇）</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="http://icsteve.com/2020/01/document_flow/" class="article-date">
+  <time datetime="2020-01-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-12</time>
+</a>
+</span>
+  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/shortcodes/"> shortcodes </a>
+    <a class="article-tag-link" href="/tags/privacy/"> privacy </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2020/01/document_flow/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1961words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <h2 id="效果预期与知识储备">效果预期与知识储备</h2>
+<p>我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工作中常用到的文档类型。</p>
+<ul>
+<li>产品手册</li>
+<li>演示文档</li>
+<li>邮件模板</li>
+<li>代码管理</li>
+<li>知识积累</li>
+</ul>
+<h3 id="知识储备">知识储备</h3>
+<p>此内容适合所有人，无论是基础篇还是高级篇都不需要花费很大的时间精力去掌握，内容很直接，没有太难的学习曲线。</p>
+<ul>
+<li>基础篇
+<ul>
+<li>Markdown</li>
+<li>Unix Environment</li>
+</ul>
+</li>
+<li>高级篇
+<ul>
+<li>Javascript</li>
+<li>HTML/CSS</li>
+</ul>
+</li>
+</ul>
+<h2 id="个人内容组织原则">个人内容组织原则</h2>
+<ul>
+<li>所有内容必须能用最简单的文本编辑器打开</li>
+<li>标记方法必须要尽量使用</li>
+<li>定期做Review 和Update，知识之间要连接</li>
+<li>避免知识内容收集的重复</li>
+<li>给内容分等级，优先级的等级，专业程度的等级，兴趣的等级等等</li>
+</ul>
+<p>即使我养成了上述习惯，我还是会定期去过一遍list，看最近是不是有哪几项没有做。</p>
+<h2 id="工具安装">工具安装</h2>
+<h3 id="wsl-ubuntu">WSL: Ubuntu</h3>
+<p>在Windows 环境中，推荐安装WSL。近几个月的更新，Windows 的Power Terminal，Visual Studio Code 已经可以很好地和WSL 互动了，开发的体验已经比之前好很多倍了。</p>
+<p><img src="iccad_vsc.png" alt=""></p>
+<h3 id="markdown-editor">Markdown Editor</h3>
+<p>近几年流行起来的Visual Studio Code 很好8用，安装也非常简单，<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> 从官网下载安装文件。</p>
+<p>我之前购买过收费的markdown 工具，以前markdown 并没有像标配一样被很多工具支持，但我一看见它就被它的简洁吸引了，然后我逐渐去看更多和标记语言有关的内容和积累自己的库，比如js markdown-it，php parsedown，python Python-Markdown 当然还有很多啦。</p>
+<p>Markdown 语法参考</p>
+<p><a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a></p>
+<h3 id="docsify">Docsify</h3>
+<p>文档的框架分为两个派，一派是写完文档需要做一次“生成”的动作，另一派是直接动态解析源文件，没有一个中间生成的过程。</p>
+<p>我偏向于直接解析Markdown 源文件的一派，Docsify 就是属于这一派。</p>
+<p><a href="https://docsify.js.org/">https://docsify.js.org/</a></p>
+<p>几乎无需安装，一个index.html 就可以完成工作，sWeb 已经将这个实例放到了template 内，包括所有的js 和css。</p>
+<ul>
+<li><a href="https://docsify.js.org/#/quickstart">快速开始</a></li>
+<li><a href="https://docsify.js.org/#/more-pages?id=sidebar">如何设置sidebar</a></li>
+<li><a href="https://docsify.js.org/#/configuration?id=loadnavbar">如何设置navbar</a></li>
+</ul>
+<p>下面是 <a href="http://icsteve.com">http://icsteve.com</a> 使用的index.html，外加了几个有用的插件。</p>
+<ul>
+<li>toc</li>
+<li>external-script</li>
+<li>search</li>
+<li>docsify-pagination</li>
+<li>docsify-tabs</li>
+<li>docsify-example-panels</li>
+<li>emoji</li>
+<li>pdfobject</li>
+<li>docsify-pdf-embed</li>
+<li>ocsify-plugin-flexible-alerts</li>
+<li>docsify-footer-enh</li>
+<li>zoom-image</li>
+</ul>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;!--
+  No
+  &lt;base target=&quot;_blank&quot;&gt;
+  --&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;icsteve.css&quot;&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/toc.css&quot;&gt;
+  &lt;link rel=&quot;shortcut icon&quot; href=&quot;favicon.ico&quot; type=&quot;image/x-icon&quot;&gt;
+  &lt;style&gt;
+    :root {
+      --docsifytabs-border-color: #ededed;
+      --docsifytabs-tab-highlight-color: purple;
+    }
+    h1 .anchor span {
+      color: #f05e2f ;
+    }
+    .emoji {
+      height: 0.91rem ;
+      padding-bottom:3px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body onload=&quot;WaveDrom.ProcessAll()&quot;&gt;
+  &lt;div id=&quot;app&quot;&gt;Please wait...&lt;/div&gt;
+  &lt;script&gt;
+    window.$docsify = {
+        basePath:&quot;.&quot;,
+        search: 'auto',
+        subMaxLevel:5,
+        loadSidebar: true,
+        loadNavbar: true,
+        tabs: {
+          persist    : true,      // default
+          sync       : true,      // default
+          theme      : 'classic', // default
+          tabComments: true,      // default
+          tabHeadings: true       // default
+        },
+        alias: {
+          '/.*/_sidebar.md': '/sidebar.md'
+          ,'/.*/_navbar.md': '/navbar.md'
+          ,'/_navbar.md': '/navbar.md'
+          ,'/_sidebar.md': '/sidebar.md'
+        }
+        ,footer: {
+        copy: '&lt;span&gt;IC Steve &amp;copy; 2019&lt;/span&gt;',
+        auth: ' 转载引用请注明出处',
+        pre: '&lt;br/&gt;',
+        style: 'text-align: right;'
+      }
+    }
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  &lt;/script&gt;
+  &lt;!-- libraries --&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/docsify.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/external-script.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/search.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/docsify-pagination.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/docsify-tabs.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/docsify-example-panels.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/emoji.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/pdfobject.min.js&quot;&gt;&lt;/script&gt; 
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/docsify-pdf-embed.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/docsify-plugin-flexible-alerts.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/docsify-footer-enh.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://icsteve.com/vendor/docsify/4.8.3/plugins/zoom-image.min.js&quot;&gt;&lt;/script&gt;
+  &lt;!--
+  &lt;script src=&quot;./vendor/docsify/4.8.3/plugins/toc.js&quot;&gt;&lt;/script&gt;
+  --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>更多开箱即用的实例请关注<a href="https://wx.zsxq.com/dweb2/index/group/88518421841542">ICSteve 知识星球</a> （收费）。</p>
+<h3 id="marp">Marp</h3>
+<p>Marp 的官网：https://marpit.marp.app/</p>
+<p>安装Marp 的Cli 工具。</p>
+<pre><code class="language-sh">npm install --save-dev @marp-team/marp-cli -g
+marp -v
+</code></pre>
+<blockquote>
+<p>@marp-team/marp-cli v0.16.2 (w/ @marp-team/marp-core v0.15.2)</p>
+</blockquote>
+<p>Marpit 可以做为库使用，内部使用了markdown-it 解释markdown 文件的结构。</p>
+<p>Marp 可以使用theme，我制作了一个theme 以及background，很容易制作一个模板。我制作了我司的PPT 模板的Marp theme，markdown 直接生成PPT 是HTML 格式，方便更新的发布，不像固定的文件需要不断的发送PPT 文件，HTML 在浏览器里浏览，也很容易保存成PDF，Marp 本身也可以存为PDF 格式。</p>
+<p><img src="marp-cli.gif" alt="marp-cli"></p>
+<p>更多开箱即用的实例请关注<a href="https://wx.zsxq.com/dweb2/index/group/88518421841542">ICSteve 知识星球</a> （收费）。</p>
+<h3 id="mjml">Mjml</h3>
+<p><a href="https://mjml.io/">https://mjml.io/</a></p>
+<p>由于Outlook 显示HTML 的方式就像IE 一样特殊，要很多特殊的处理方式。MJML 使用自己的标记语言来统一各个平台下的显示问题，一套语法适合桌面端客户端（Outlook 等）以及移动端各种邮件app。</p>
+<p>对于这个工具我并没有完全部署到我自己的环境中，只是参考它转换出来的HTML，并参考这些HTML 搭建自己的HTML 邮件模板。</p>
+<p>更多开箱即用的实例请关注<a href="https://wx.zsxq.com/dweb2/index/group/88518421841542">ICSteve 知识星球</a> （收费）。</p>
+<h3 id="asciinema">Asciinema</h3>
+<p>这个工具可以帮助你录制Terminal 的一个工具，效果可以参考</p>
+<p><a href="https://asciinema.org/">https://asciinema.org/</a></p>
+<p>我并没有安装，使用的是 Running from source</p>
+<pre><code class="language-sh">git clone https://github.com/asciinema/asciinema.git
+cd asciinema
+python3 -m asciinema --version
+</code></pre>
+<p>录制完成后，可以通过<a href="https://github.com/asciinema/asciinema-player">asciinema-player</a> 来对录制的内容进行播放，可以轻松插入到docsify 文档中。</p>
+<p>更多开箱即用的实例请关注<a href="https://wx.zsxq.com/dweb2/index/group/88518421841542">ICSteve 知识星球</a> （收费）。</p>
+<h3 id="webserver">Webserver</h3>
+<p>很多内容是已经往web 方向发展了，所以我们需要假设一个本地的服务器以测试和运行很多功能，当然nodejs 本身有server 模块，为了简单和扩展，我也安装了XAMPP，而且平时也会用到nodejs 的server 以及sWeb。</p>
+<p><a href="https://www.apachefriends.org/index.html">https://www.apachefriends.org/index.html</a></p>
+<h2 id="工具篇总结">工具篇总结</h2>
+<p>互联网还在初期发展阶段的时候，掌握word 和excel 是很多工作，学习的一大技能，可以让你所做的事情事半功倍，现在掌握一些Web 技能，Python 技能，Tcl 技能或者其他脚本程序，这种过程非常类似那时候的office 技能，这些基本技能也正在被逐渐加入到课堂。</p>
+<p>当然我们不能只停留在使用的阶段，工具越来越开放，我们使用工具的方式正在变化。</p>
+<p>更多开箱即用的实例请关注<a href="https://wx.zsxq.com/dweb2/index/group/88518421841542">ICSteve 知识星球</a> （收费）。</p>
+<p><img src="../assert/zsxq_icsteve.jpg" alt="zsxq"></p>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="http://icsteve.com/2020/01/document_flow/" title="我的文档工作流 （工具篇）" target="_blank" rel="external">http://icsteve.com/2020/01/document_flow/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://icsteve.com" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="http://icsteve.com/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://icsteve.com" target="_blank"><span class="text-dark">ICSteve</span><small class="ml-1x">IC Developer</small></a></h3>
+        <div>Good Good Study, Day Day Up~</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="http://icsteve.com/2019/03/math-typesetting/" title="Math Typesetting"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="http://icsteve.com/2020/01/cad_framework/"
+                    title="CAD Framework： 来自90 年代的黄金准则"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="wechat,weibo,facebook,twitter,qq"
+                data-mobile-sites="wechat,weibo,qq"></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/xoit" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="http://icsteve.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2019  -
+    2020
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/tcl.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="http://icsteve.com/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="http://icsteve.com/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'http:\/\/icsteve.com\/',
+            CONTENT_URL: 'http:\/\/icsteve.com\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="http://icsteve.com/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-19459399-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
