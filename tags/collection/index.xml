@@ -11,9 +11,21 @@
     
     
     <item>
+      <title>English pronunciation helper: youglish.com</title>
+      <link>https://icsteve.com/2020/12/youglish/</link>
+      <pubDate>Thu, 31 Dec 2020 20:20:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/2020/12/youglish/</guid>
+      <description>This is a website to help on the English pronunciation.
+Youglish : https://youglish.com
+The website will pick a lot of youtube videos which includes the words we searched. You will see it shows up 1951 videos and now is currently playing the 4th one.
+This is quite useful because not like the dictionary, the video will not only tell you how the word is pronounced, but also tell you when it is used via video, not just a sentence.</description>
+    </item>
+    
+    <item>
       <title>Csh Argument</title>
       <link>https://icsteve.com/2020/12/csh_argument/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 31 Dec 2020 15:15:15 +0000</pubDate>
       
       <guid>https://icsteve.com/2020/12/csh_argument/</guid>
       <description>Case Study There is a cshell script file which is working in others&#39; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&#39; .cshrc files, but not in yours.
