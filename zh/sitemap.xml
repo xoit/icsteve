@@ -3,25 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://icsteve.com/zh/categories/cad/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/categories/cad/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/categories/cad/"
-                />
-  </url>
-  
-  <url>
     <loc>https://icsteve.com/zh/categories/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-31T15:15:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -37,8 +20,25 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/zh/2020/12/csh_argument/</loc>
+    <lastmod>2020-12-31T15:15:15+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/12/csh_argument/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/12/csh_argument/"
+                />
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/zh/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-31T15:15:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -55,7 +55,7 @@
   
   <url>
     <loc>https://icsteve.com/zh/posts/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-31T15:15:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -67,6 +67,40 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://icsteve.com/zh/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/categories/rui/</loc>
+    <lastmod>2020-12-31T15:15:15+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/rui/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/rui/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/categories/cad/</loc>
+    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/cad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/cad/"
                 />
   </url>
   

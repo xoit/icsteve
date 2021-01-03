@@ -103,6 +103,16 @@
     <lastmod>2020-12-31T15:15:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/12/csh_argument/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/12/csh_argument/"
+                />
   </url>
   
   <url>
@@ -110,6 +120,16 @@
     <lastmod>2020-12-31T15:15:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/rui/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/rui/"
+                />
   </url>
   
   <url>
