@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Use tree command to list the structure - IC Steve
+        使用tree 命令展示文件结构 - IC Steve
       </title>
     <head>
   <meta charset="utf-8">
@@ -25,30 +25,30 @@
   
   <meta name="description" content="Plan RUI - tree command" />
   <meta name="generator" content="Hugo 0.79.1 with theme pure" />
-  <title>Use tree command to list the structure - IC Steve</title>
+  <title>使用tree 命令展示文件结构 - IC Steve</title>
   
   
   <link rel="stylesheet" href="https://icsteve.com/css/style.min.24a24c98f78559256aab5d85194c299e2fe27a20be7c34b84014af8fa0d3dcb8.css">
   
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-  <meta property="og:title" content="Use tree command to list the structure" />
+  <meta property="og:title" content="使用tree 命令展示文件结构" />
 <meta property="og:description" content="Plan RUI - tree command" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://icsteve.com/zh/2021/01/tree_command/" />
 <meta property="article:published_time" content="2021-01-03T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-01-03T00:00:00+00:00" />
-<meta itemprop="name" content="Use tree command to list the structure">
+<meta itemprop="name" content="使用tree 命令展示文件结构">
 <meta itemprop="description" content="Plan RUI - tree command">
 <meta itemprop="datePublished" content="2021-01-03T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-01-03T00:00:00+00:00" />
-<meta itemprop="wordCount" content="1090">
+<meta itemprop="wordCount" content="1324">
 
 
 
 <meta itemprop="keywords" content="RUI,csh,tree," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Use tree command to list the structure"/>
+<meta name="twitter:title" content="使用tree 命令展示文件结构"/>
 <meta name="twitter:description" content="Plan RUI - tree command"/>
 
   <!--[if lte IE 9]>
@@ -213,7 +213,7 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://icsteve.com/zh/2021/01/tree_command/" class="title">Use tree command to list the structure</a>
+                        <a href="https://icsteve.com/zh/2021/01/tree_command/" class="title">使用tree 命令展示文件结构</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2021-01-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-01-03</time>
@@ -223,7 +223,7 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://icsteve.com/zh/2020/12/csh_argument/" class="title">Csh Argument</a>
+                        <a href="https://icsteve.com/zh/2020/12/csh_argument/" class="title">Csh 选项</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2020-12-31 15:15:15 &#43;0000 UTC" itemprop="datePublished">2020-12-31</time>
@@ -285,7 +285,7 @@
   <a
     class="article-title"
     href="/zh/2021/01/tree_command/"
-    >Use tree command to list the structure</a
+    >使用tree 命令展示文件结构</a
   >
 </h1>
 
@@ -310,7 +310,7 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/zh/2021/01/tree_command/#comments"
             class="article-comment-link">评论</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1090字</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1324字</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3分 </span>
         
         <span>
@@ -417,11 +417,11 @@ usage: tree [-acdfghilnpqrstuvxACDFJQNSUX] [-H baseHREF] [-T title ]
   --            Options processing terminator.
 </code></pre>
 <p>我挑了几个自己特别常用的来讲讲每一个选项的使用场景。可以看到很多选项和<code>ls</code> 命令是很类似的。</p>
-<p><code>-a</code>, list all the files including the hidden files. In the CAD development, some files are for debugging purpose or for one-time configuration, and they are hidden. To list the hidden files, <code>-a</code> must be present.</p>
-<p><code>-d</code>, only list the folder, In some cases, the file list is huge but we only care about the folder structure. The folder will tell the clear structure</p>
-<p><code>-L</code>, controls the levels, sometimes, I don&rsquo;t want to dive into all the folder levels and I only want to show 2 levels, then use <code>-L 2</code>.</p>
-<p><code>-t</code>, sort by last modified time. The flag is useful because when we want to see some new files generated recently, we can easily find them at the end of the tree view.</p>
-<p>Another useful function is HTML or JSON output. In these days, HTML document is very popular and we can use tree to output the html code or json file to use them in our web applications.</p>
+<p><code>-a</code>, 罗列所有的文件，包括隐藏文件。在一些CAD 或者其他工作中，需要debug 的时候，或者需要展示一些隐藏的配置文件的时候，由于文件以 &ldquo;.&rdquo; 开头为隐藏文件，所以需要使用 <code>-a</code> 。</p>
+<p><code>-d</code>, 仅罗列文件夹，忽略文件。在某些情况下，文件很多但是我们并不关心，我们关心的是文件夹结构，文件很有可能是临时文件，按日期生产的。在这种情况下，只列出文件夹会清晰很多。</p>
+<p><code>-L</code>, 用来控制文件夹的层数。某些时候文件夹很深，文件夹内套文件夹，直接用tree 会让输出到stdout 的结果很长。这个时候如果我们只想显示两层结构，可以使用 <code>-L 2</code>.</p>
+<p><code>-t</code>, 按修改时间排列文件。常用于需要展示最新生成的文件，使用这个选项就可以清晰的在tree view 的末尾找到最新被修改过的文件了。</p>
+<p>另外一个好用的功能是HTML 和JSON 格式的输出。现在的HTML 文档越来越流行，html 或者json 输出无疑减轻了好多转换的工作，让我们可以更方便，更快速的将结果集成到web 应用中。</p>
 <h2 id="improvement-or-exercises-改进或练习">Improvement or Exercises 改进或练习</h2>
 <p>尝试以下的命令，了解上面我所列出来的一些常用选项的输出结果。</p>
 <p>也可以自己构建不同的结构来尝试不同的选项，平时多练习，关键时刻不掉链子:)</p>
@@ -445,7 +445,7 @@ tree `pwd` -a -t -d -L 1 --dirsfirst
   <ul class="post-copyright list-unstyled">
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接: </strong>
-      <a href="https://icsteve.com/zh/2021/01/tree_command/" title="Use tree command to list the structure" target="_blank" rel="external">https://icsteve.com/zh/2021/01/tree_command/</a>
+      <a href="https://icsteve.com/zh/2021/01/tree_command/" title="使用tree 命令展示文件结构" target="_blank" rel="external">https://icsteve.com/zh/2021/01/tree_command/</a>
     </li>
     <li class="post-copyright-license">
       <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
@@ -480,7 +480,7 @@ tree `pwd` -a -t -d -L 1 --dirsfirst
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="https://icsteve.com/zh/2020/12/csh_argument/" title="Csh Argument"><i
+                <a href="https://icsteve.com/zh/2020/12/csh_argument/" title="Csh 选项"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;下一篇</span></a>
             </li>
