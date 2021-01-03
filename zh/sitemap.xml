@@ -241,6 +241,74 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/zh/tags/collection/</loc>
+    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/collection/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/collection/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/categories/notion/</loc>
+    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/notion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/notion/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/tags/notion/</loc>
+    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/notion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/notion/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/2020/12/collection_to_notion_inbox/</loc>
+    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/12/collection_to_notion_inbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/12/collection_to_notion_inbox/"
+                />
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/zh/categories/cad/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -262,6 +330,16 @@
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/document_flow/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/document_flow/"
+                />
   </url>
   
   <url>
@@ -286,6 +364,16 @@
     <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/cad_framework/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/cad_framework/"
+                />
   </url>
   
   <url>
@@ -293,6 +381,16 @@
     <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/framework/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/framework/"
+                />
   </url>
   
   <url>
@@ -300,6 +398,16 @@
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/cad_framework_cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/cad_framework_cloud/"
+                />
   </url>
   
   <url>
@@ -307,6 +415,16 @@
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/cad_framework_deploy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/cad_framework_deploy/"
+                />
   </url>
   
   <url>
@@ -314,6 +432,16 @@
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/cloud/"
+                />
   </url>
   
   <url>
