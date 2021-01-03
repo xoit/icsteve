@@ -156,6 +156,74 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/zh/categories/english/</loc>
+    <lastmod>2020-12-31T20:20:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/english/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/tags/english/</loc>
+    <lastmod>2020-12-31T20:20:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/english/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/tags/youtube/</loc>
+    <lastmod>2020-12-31T20:20:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/youtube/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/youtube/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/2020/12/youglish/</loc>
+    <lastmod>2020-12-31T20:20:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/12/youglish/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/12/youglish/"
+                />
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/zh/2020/12/csh_argument/</loc>
     <lastmod>2020-12-31T15:15:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
