@@ -398,6 +398,16 @@
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/asciinema/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/asciinema/"
+                />
   </url>
   
   <url>
@@ -456,6 +466,16 @@
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/cad_asciinema_deploy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/cad_asciinema_deploy/"
+                />
   </url>
   
   <url>
