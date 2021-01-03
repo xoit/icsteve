@@ -5,10 +5,22 @@
     <link>https://icsteve.com/en/posts/</link>
     <description>Recent content in Posts on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 31 Dec 2020 20:20:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Use tree command to list the structure</title>
+      <link>https://icsteve.com/en/2021/01/tree_command/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/01/tree_command/</guid>
+      <description>tree command is helping to show the structure of folders and files.
+Real Case When discussing the folder structure via video meeting, express the structure is a little bit challenge if we have a lot of levels and files. How to make the folder and file structure clear when we present something?
+. means in current dir. and we can use pwd to replace it.
+➜ tree -a --dirsfirst . ├── test -&amp;gt; test_3 ├── test_1 │ └── file_1 ├── test_2 │ └── file_2 ├── test_3 │ └── file_3 └── .</description>
+    </item>
     
     <item>
       <title>English pronunciation helper: youglish.com</title>
