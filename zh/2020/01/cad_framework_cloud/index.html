@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        CAD Framework: Cloud 带来的变化 - IC Steve
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <meta name="description" content="CAD Framework 的目标是让使用者忘记框架。" />
+  <meta name="generator" content="Hugo 0.79.1 with theme pure" />
+  <title>CAD Framework: Cloud 带来的变化 - IC Steve</title>
+  
+  
+  <link rel="stylesheet" href="https://icsteve.com/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
+  
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+  <meta property="og:title" content="CAD Framework: Cloud 带来的变化" />
+<meta property="og:description" content="CAD Framework 的目标是让使用者忘记框架。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://icsteve.com/zh/2020/01/cad_framework_cloud/" />
+<meta property="article:published_time" content="2020-01-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-12T00:00:00+00:00" />
+<meta itemprop="name" content="CAD Framework: Cloud 带来的变化">
+<meta itemprop="description" content="CAD Framework 的目标是让使用者忘记框架。">
+<meta itemprop="datePublished" content="2020-01-12T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-01-12T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1055">
+
+
+
+<meta itemprop="keywords" content="cad,framework,cloud," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CAD Framework: Cloud 带来的变化"/>
+<meta name="twitter:description" content="CAD Framework 的目标是让使用者忘记框架。"/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+
+  
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://icsteve.com" target="_blank">
+            <img class="img-circle img-rotate" src="https://icsteve.com/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">ICSteve</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">CAD/SYN/PNR/STA</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>BayArea, US</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="搜索" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="想要查找什么..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      
+      <div class="text-center" id="switchlang" style="padding-top:8px; padding-bottom: 5px;">
+        <a href="/en/">Switch to English Version</a>
+      </div>
+      
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/zh/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">首页</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/zh/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">存档</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/zh/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">分类</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/zh/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">标签</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/zh/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">关于</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">公告</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>2020 Happy New Year</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> 分类</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/cad/" class="category-list-link">cad</a><span class="category-list-count">4</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> 标签</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/cad/" class="tag-list-link">cad</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/cloud/" class="tag-list-link">cloud</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/framework/" class="tag-list-link">framework</a><span
+                    class="tag-list-count">3</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://icsteve.com/zh/2020/01/document_flow/" class="title">我的文档工作流 （工具篇）</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-01-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-15</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://icsteve.com/zh/2020/01/cad_framework/" class="title">CAD Framework： 来自90 年代的黄金准则</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-01-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-13</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://icsteve.com/zh/2020/01/cad_framework_cloud/" class="title">CAD Framework: Cloud 带来的变化</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-01-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-12</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://icsteve.com/zh/2020/01/cad_framework_deploy/" class="title">CAD Framework: 框架为什么难落地</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-01-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-12</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">文章目录</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/zh/2020/01/cad_framework_cloud/"
+    >CAD Framework: Cloud 带来的变化</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://icsteve.com/zh/2020/01/cad_framework_cloud/" class="article-date">
+  <time datetime="2020-01-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-01-12</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/zh/categories/cad/"> CAD </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/zh/tags/cad/"> cad </a>
+    <a class="article-tag-link" href="/zh/tags/framework/"> framework </a>
+    <a class="article-tag-link" href="/zh/tags/cloud/"> cloud </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/zh/2020/01/cad_framework_cloud/#comments"
+            class="article-comment-link">评论</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1055字</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3分 </span>
+        
+        <span>
+          <a href=/en/2020/01/cad_framework_cloud/>English Version</a>
+        </span>
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>CAD Framework 的目标是让使用者忘记框架，专心于具体的IC 设计工作。</p>
+<ul>
+<li>Framework 能做的尽量让Framework 去做；</li>
+<li>Framework 不能做的，想办法让Framework 去做。</li>
+</ul>
+<p>在上一篇文章中，我们谈到了CAD Framework，我总结成八个字，“数据管理，接口管理”，当然涉及到细节就会有很多了，不同的应用，不同的数据类型，不同的接口设计。</p>
+<h2 id="云来了">云来了</h2>
+<p>Cloud 的兴起，让算力得到了一定的解放，让服务更容易部署，也正改变着供应商的定价模式，以及使用者的操作方式。</p>
+<p>既然这么多方面都在悄然变化，那CAD Framework 不可能一成不变就可以适应新的事物。</p>
+<p>我刚刚提到的数据管理和接口管理，“云来了”并咩有改变数据管理的方式，直接影响的是接口管理，管理好接口一切都好办了。</p>
+<h2 id="接口管理变革">接口管理变革</h2>
+<p>互联网企业，或者互联网思维在“入侵”各行各业，也包括IC 行业，很多初创企业在从互联的角度对IC 使用到的数据进行管理，并结合经典的项目管理思想，形成了一套套的项目管理，数据管理方法论。</p>
+<p>数据的底层还是要结合各行各业的实际情况，IC 行业有自身独有的数据特征，底层数据管理变革的周期很长，想比10年前，或者二十年前来看并没有实质性的改变。</p>
+<p>CAD Framework 的演进是让数据管理变得更加科学，高效。</p>
+<h3 id="数据隔离">数据隔离</h3>
+<p>传统的IT 架构中，只要有权限就可以访问本地数据。</p>
+<p>云端顾名思义，数据不在本地，当然我们可以登录到云端去，比如ssh，那么其实和本地操作无差，但单纯的把机器和环境搬到远程并不能发挥云的优势。</p>
+<p>云的演变从按机器资源为最小颗粒到以功能，以函数的调用提供服务。</p>
+<ul>
+<li>租用云服务器，作为本地服务器的扩展，通过组网完成数据互通</li>
+<li>租用Runtime，比如我只需要做一个dc 的综合并且希望充分利用资源最多一晚上要出结果</li>
+<li>租用函数，我只需要做综合里的compile_ultra，前期以及后续都在本地完成</li>
+</ul>
+<h3 id="数据传输">数据传输</h3>
+<p>数据的传输逐渐成为关注的焦点，安全性与便利性一直是一对矛盾体。</p>
+<p>纯文本，代码类型的传输起来没有一点压力，而版图数据等就不是那么方便了。</p>
+<ul>
+<li>将数据分析，debug搬至云端，降低数据传输的频次</li>
+<li>利用EDA shell来 debug</li>
+<li>错峰传输，比如晚上</li>
+</ul>
+<h3 id="数据格式">数据格式</h3>
+<p>虽然开一个socket通道，什么数据格式都可以传输。</p>
+<p>除了IC 的专有格式之外，配置也好，元数据也好，选择json应该是相对比较友好的格式。</p>
+<h3 id="混合云多云">混合云/多云</h3>
+<p>每家云服务商的接口不尽相同，对于一个CAD框架来说，无论是面对本地环境也好，云环境也罢，都需要有一个坚实的底层架构。</p>
+<p>基础架构的健壮性可以做到不变应万变。</p>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=jJGDro5xmtQ&amp;list=PLKqCo4MpJlW8hgxreoqmOBC59GwMWhYhe">DAC 2019: Design on Cloud</a></li>
+<li><a href="https://blog.semi.org/technology-trends/eda-is-better-in-the-cloud.-heres-why-the-cloud-is-the-future-of-eda">EDA is Better in the Cloud. Here’s Why the Cloud is the Future of EDA</a></li>
+<li><a href="https://d1.awsstatic.com/HPC2019/optimizing-electronic-design-automation-eda-workflows-on-aws.pdf">Optimizing Electronic Design Automation (EDA) Workflows on AWS</a></li>
+<li>更多参考文献，加入<a href="https://wx.zsxq.com/dweb2/index/group/88518421841542">知识星球</a>可获得所有离线资源</li>
+</ul>
+<p><img src="/icsteve_zsxq.jpg" alt="ICSteve 知识星球" title=":size=300"></p>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接: </strong>
+      <a href="https://icsteve.com/zh/2020/01/cad_framework_cloud/" title="CAD Framework: Cloud 带来的变化" target="_blank" rel="external">https://icsteve.com/zh/2020/01/cad_framework_cloud/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://icsteve.com" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://icsteve.com/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://icsteve.com" target="_blank"><span class="text-dark">ICSteve</span><small class="ml-1x">CAD/SYN/PNR/STA</small></a></h3>
+        <div>Good Good Study, Day Day Up~</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://icsteve.com/zh/2020/01/cad_framework_deploy/" title="CAD Framework: 框架为什么难落地"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;下一篇</span></a>
+            </li>
+            <li class="next">
+                <a href="https://icsteve.com/zh/2020/01/cad_framework/"
+                    title="CAD Framework： 来自90 年代的黄金准则"><span>上一篇&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="文章目录" role="button">
+                    <span>[&nbsp;</span><span>文章目录</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="wechat,weibo,facebook,twitter,qq"
+                data-mobile-sites="wechat,weibo,qq"></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/xoit" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://icsteve.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2019  -
+    2021
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/tcl.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://icsteve.com/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://icsteve.com/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(未命名)',
+            },
+            ROOT_URL: 'https:\/\/icsteve.com\/',
+            CONTENT_URL: 'https:\/\/icsteve.com\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://icsteve.com/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/icsteve.com\/zh\/2020\/01\/cad_framework_cloud\/';
+        this.page.identifier = 'icsteve';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'icsteve' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-19459399-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
