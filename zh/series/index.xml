@@ -55,7 +55,7 @@
     </item>
     
     <item>
-      <title>CAD Framework： 来自90 年代的黄金准则</title>
+      <title>CAD 框架：来自90 年代的黄金准则</title>
       <link>https://icsteve.com/zh/2020/01/cad_framework/</link>
       <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
       
@@ -64,7 +64,7 @@
     </item>
     
     <item>
-      <title>CAD Framework: Cloud 带来的变化</title>
+      <title>CAD 框架: Cloud 带来的变化</title>
       <link>https://icsteve.com/zh/2020/01/cad_framework_cloud/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
@@ -73,7 +73,7 @@
     </item>
     
     <item>
-      <title>CAD Framework: 框架为什么难落地</title>
+      <title>CAD 框架: 框架为什么难落地</title>
       <link>https://icsteve.com/zh/2020/01/cad_framework_deploy/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
@@ -82,17 +82,12 @@
     </item>
     
     <item>
-      <title>Use Asciinema</title>
+      <title>使用 Asciinema 来录制终端</title>
       <link>https://icsteve.com/zh/2020/01/cad_asciinema_deploy/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://icsteve.com/zh/2020/01/cad_asciinema_deploy/</guid>
-      <description>This is a terminal recording tool.
-Enjoy a lightweight, purely text-based approach to terminal recording.
-Deploymnet Make sure you have python3 installed.
-I will use &amp;ldquo;Run from source&amp;rdquo; approach.
- download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
-export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
+      <description>This is a terminal recording tool. Enjoy a lightweight, purely text-based approach to terminal recording. Deploymnet Make sure you have python3 installed. I will use &amp;ldquo;Run from source&amp;rdquo; approach. download source git clone https://github.com/asciinema/asciinema.git cd asciinema pwd set PYTHONPATH for bash export PYTHONPATH=`pwd` ; setenv PYTHONPATH `pwd` ; Create command alias alias asciinema=&amp;quot;python3 -m asciinema &amp;quot; alias asciinema &#39;python3 -m asciinema \!*&#39; ; Recording asciinema rec test.cast Display &amp;lt;html&amp;gt; &amp;lt;head&amp;gt;</description>
     </item>
     
     <item>
