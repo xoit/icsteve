@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://icsteve.com/zh/categories/</loc>
-    <lastmod>2021-01-16T09:22:00+00:00</lastmod>
+    <lastmod>2021-01-31T09:22:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -21,7 +21,7 @@
   
   <url>
     <loc>https://icsteve.com/zh/categories/hmc/</loc>
-    <lastmod>2021-01-16T09:22:00+00:00</lastmod>
+    <lastmod>2021-01-31T09:22:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -38,7 +38,7 @@
   
   <url>
     <loc>https://icsteve.com/zh/</loc>
-    <lastmod>2021-01-16T09:22:00+00:00</lastmod>
+    <lastmod>2021-01-31T09:22:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -55,7 +55,7 @@
   
   <url>
     <loc>https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_b/</loc>
-    <lastmod>2021-01-16T09:22:00+00:00</lastmod>
+    <lastmod>2021-01-31T09:22:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -67,6 +67,23 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_b/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/posts/</loc>
+    <lastmod>2021-01-31T09:22:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/posts/"
                 />
   </url>
   
@@ -84,23 +101,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_a/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/zh/posts/</loc>
-    <lastmod>2021-01-16T09:22:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/posts/"
                 />
   </url>
   

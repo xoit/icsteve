@@ -5,10 +5,19 @@
     <link>https://icsteve.com/en/</link>
     <description>Recent content on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Jan 2021 09:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Jan 2021 09:22:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ICSteve Half Moon Collection (2021.01-B)</title>
+      <link>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_b/</link>
+      <pubDate>Sun, 31 Jan 2021 09:22:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_b/</guid>
+      <description>Welcome to ICSteve Knowledge Planet (https://t.zsxq.com/eqr72RB), the category is streamlined into two types, the first category is actual tools and skills sharing, and the second category is the post with my personal thoughts and opinions. CAD | Workmanship How to save the contents in the current vim register to a script? qp &amp;lt;leader&amp;gt;&amp;lt;register name&amp;gt;p ``` 2. A collection of vim plugins, if you are a vim user, you may want</description>
+    </item>
     
     <item>
       <title>ICSteve Half Moon Collection (2021.01-A)</title>
@@ -17,15 +26,6 @@
       
       <guid>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_a/</guid>
       <description>Welcome to follow ICSteve Knowledge Planet (https://t.zsxq.com/eqr72RB). The Half Moon Collection is a half-monthly collection of tweets from the planet, published twice a month. Join the planet to see more interactive discussions, ask questions to the star owners, and get actual hands-on sharing and reviews. CAD | Workmanship started using Notion, shared some tips on using Notion and built some templates. Wrote the first share: Using Notion to collect ideas</description>
-    </item>
-    
-    <item>
-      <title>ICSteve Half Moon Collection (2021.01-B)</title>
-      <link>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_b/</link>
-      <pubDate>Sat, 16 Jan 2021 09:22:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_b/</guid>
-      <description>Welcome to ICSteve Knowledge Planet (https://t.zsxq.com/eqr72RB), the category is streamlined into two types, the first category is actual tools and skills sharing, and the second category is the post with my personal thoughts and opinions. CAD | Workmanship How to save the contents in the current vim register to a script? qp &amp;lt;leader&amp;gt;&amp;lt;register name&amp;gt;p ``` 2. A collection of vim plugins, if you are a vim user, you may want</description>
     </item>
     
     <item>
