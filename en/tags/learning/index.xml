@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on IC Steve</title>
+    <link>https://icsteve.com/en/tags/learning/</link>
+    <description>Recent content in Learning on IC Steve</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://icsteve.com/en/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project Management Notes</title>
+      <link>https://icsteve.com/en/2021/11/project_management_1/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/11/project_management_1/</guid>
+      <description>Recently, I enrolled the Project Management course in Coursera. The course is delivered by Google.
+I found this is interesting, because usually we have some basic knowledge how to manage a small team, and how to manage a simple project.
+For example, plan a trip, upgrade the gararge, etc.
+But after going through the first course, I found this course can really help to correct my mindset and change the way how to communicate with other people.</description>
+    </item>
+    
+    <item>
+      <title>ICSteve Half Moon Collection (2021.01-B)</title>
+      <link>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_b/</link>
+      <pubDate>Sun, 31 Jan 2021 09:22:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_b/</guid>
+      <description>Welcome to ICSteve Knowledge Planet (https://t.zsxq.com/eqr72RB), the category is streamlined into two types, the first category is actual tools and skills sharing, and the second category is the post with my personal thoughts and opinions. CAD | Workmanship How to save the contents in the current vim register to a script? qp &amp;lt;leader&amp;gt;&amp;lt;register name&amp;gt;p ``` 2. A collection of vim plugins, if you are a vim user, you may want</description>
+    </item>
+    
+    <item>
+      <title>ICSteve Half Moon Collection (2021.01-A)</title>
+      <link>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_a/</link>
+      <pubDate>Sat, 16 Jan 2021 09:22:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_a/</guid>
+      <description>Welcome to follow ICSteve Knowledge Planet (https://t.zsxq.com/eqr72RB). The Half Moon Collection is a half-monthly collection of tweets from the planet, published twice a month. Join the planet to see more interactive discussions, ask questions to the star owners, and get actual hands-on sharing and reviews. CAD | Workmanship started using Notion, shared some tips on using Notion and built some templates. Wrote the first share: Using Notion to collect ideas</description>
+    </item>
+    
+    <item>
+      <title>Use tree command to list the structure</title>
+      <link>https://icsteve.com/en/2021/01/tree_command/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/01/tree_command/</guid>
+      <description>tree command is helping to show the structure of folders and files.
+Real Case When discussing the folder structure via video meeting, express the structure is a little bit challenge if we have a lot of levels and files. How to make the folder and file structure clear when we present something?
+. means in current dir. and we can use pwd to replace it.
+➜ tree -a --dirsfirst . ├── test -&amp;gt; test_3 ├── test_1 │ └── file_1 ├── test_2 │ └── file_2 ├── test_3 │ └── file_3 └── .</description>
+    </item>
+    
+    <item>
+      <title>English pronunciation helper: youglish.com</title>
+      <link>https://icsteve.com/en/2020/12/youglish/</link>
+      <pubDate>Thu, 31 Dec 2020 20:20:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/12/youglish/</guid>
+      <description>This is a website to help on the English pronunciation.
+Youglish : https://youglish.com
+The website will pick a lot of youtube videos which includes the words we searched. You will see it shows up 1951 videos and now is currently playing the 4th one.
+This is quite useful because not like the dictionary, the video will not only tell you how the word is pronounced, but also tell you when it is used via video, not just a sentence.</description>
+    </item>
+    
+    <item>
+      <title>Csh Argument</title>
+      <link>https://icsteve.com/en/2020/12/csh_argument/</link>
+      <pubDate>Thu, 31 Dec 2020 15:15:15 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/12/csh_argument/</guid>
+      <description>Case Study There is a cshell script file which is working in others&amp;rsquo; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&amp;rsquo; .cshrc files, but not in yours.
+Understand In Unix-like system, when you want to get the help of one program from Command Line Interface (CLI), we can try the following ways, like csh.</description>
+    </item>
+    
+    <item>
+      <title>Collection to Notion Inbox</title>
+      <link>https://icsteve.com/en/2020/12/collection_to_notion_inbox/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/12/collection_to_notion_inbox/</guid>
+      <description>I have tried many different tools to organize the information collected online. The services like raindrop.io, App List, cubox, etc. They all have their own use cases and scenarios. And Cubox can support tags, date, sort, and other more functions. Comparing to these apps, Notion is a good replacement which can serve the collection very well.
+Result This is the view for my current inbox (Table View). The links are added to the inbox by sharing function from my iPhone when I browse the technical articles or news.</description>
+    </item>
+    
+    <item>
+      <title>My Document Workflow (Tools)</title>
+      <link>https://icsteve.com/en/2020/01/document_flow/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/document_flow/</guid>
+      <description>No English Version yet.</description>
+    </item>
+    
+    <item>
+      <title>CAD Framework： Principles from 90th</title>
+      <link>https://icsteve.com/en/2020/01/cad_framework/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_framework/</guid>
+      <description>No English Version.</description>
+    </item>
+    
+    <item>
+      <title>CAD Framework: Cloud will change the game</title>
+      <link>https://icsteve.com/en/2020/01/cad_framework_cloud/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_framework_cloud/</guid>
+      <description>No English Version.</description>
+    </item>
+    
+    <item>
+      <title>CAD Framework: Why Framework is hard to use in IC</title>
+      <link>https://icsteve.com/en/2020/01/cad_framework_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_framework_deploy/</guid>
+      <description>No English Version.</description>
+    </item>
+    
+    <item>
+      <title>Use Asciinema</title>
+      <link>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</guid>
+      <description>This is a terminal recording tool.
+Enjoy a lightweight, purely text-based approach to terminal recording.
+Deploymnet Make sure you have python3 installed.
+I will use &amp;ldquo;Run from source&amp;rdquo; approach.
+ download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
+export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://icsteve.com/en/about/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/about/</guid>
+      <description>ICSteve is try to achieve the following goals: Build IC knowledge graph Spread the ICCAD Welcome to follow me at 知乎专栏 （ICCAD） 知识星球 （ICSteve） 微信公众号 （IC物理设计）</description>
+    </item>
+    
+  </channel>
+</rss>

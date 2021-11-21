@@ -24,6 +24,33 @@
     <lastmod>2021-11-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/learning/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/tags/learning/</loc>
+    <lastmod>2021-11-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/learning/"
+                />
   </url>
   
   <url>
@@ -31,6 +58,16 @@
     <lastmod>2021-11-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/pm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/pm/"
+                />
   </url>
   
   <url>
@@ -51,10 +88,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/zh/2021/11/project_management/</loc>
+    <loc>https://icsteve.com/zh/2021/11/project_management_1/</loc>
     <lastmod>2021-11-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2021/11/project_management_1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2021/11/project_management_1/"
+                />
   </url>
   
   <url>
@@ -72,13 +119,6 @@
                 hreflang="zh"
                 href="https://icsteve.com/zh/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/zh/tags/%E8%87%AA%E6%88%91%E6%8F%90%E5%8D%87/</loc>
-    <lastmod>2021-11-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
