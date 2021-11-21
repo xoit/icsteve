@@ -37,23 +37,6 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/</loc>
-    <lastmod>2021-01-31T09:22:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/"
-                />
-  </url>
-  
-  <url>
     <loc>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_b/</loc>
     <lastmod>2021-01-31T09:22:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -543,6 +526,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://icsteve.com/en/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/"
                 />
   </url>
   

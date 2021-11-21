@@ -58,7 +58,7 @@ This is quite useful because not like the dictionary, the video will not only te
       <pubDate>Thu, 31 Dec 2020 15:15:15 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2020/12/csh_argument/</guid>
-      <description>Case Study There is a cshell script file which is working in others&#39; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&#39; .cshrc files, but not in yours.
+      <description>Case Study There is a cshell script file which is working in others&amp;rsquo; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&amp;rsquo; .cshrc files, but not in yours.
 Understand In Unix-like system, when you want to get the help of one program from Command Line Interface (CLI), we can try the following ways, like csh.</description>
     </item>
     
