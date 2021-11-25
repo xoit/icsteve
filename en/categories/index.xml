@@ -5,10 +5,22 @@
     <link>https://icsteve.com/en/categories/</link>
     <description>Recent content in Categories on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Project Management Demo Project - Day 1</title>
+      <link>https://icsteve.com/en/2021/11/tcl_csh_cli_1/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/11/tcl_csh_cli_1/</guid>
+      <description>This is a project used to demostrate the project management process and also it is my first project which could benefit the IC design community.
+I will build a course to finish this project through several months. And the project name is &amp;ldquo;Build Cli with tcl and csh&amp;rdquo;.
+The project will be split to several sections in a course to tell some key technology stuff and program management skills.
+Project Initialzation First question, how does this project come out?</description>
+    </item>
     
     <item>
       <title>Project Management Notes</title>

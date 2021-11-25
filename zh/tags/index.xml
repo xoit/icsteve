@@ -5,10 +5,19 @@
     <link>https://icsteve.com/zh/tags/</link>
     <description>Recent content in Tags on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>项目管理演示 - Day 1</title>
+      <link>https://icsteve.com/zh/2021/11/tcl_csh_cli_1/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/zh/2021/11/tcl_csh_cli_1/</guid>
+      <description>这是一个用来演示“项目管理”过程的一个项目，也是我的第一个项目让IC 设计界受益。 我将通过几个月的时间建立一个课程来完成这个项目。项目名称是 &amp;</description>
+    </item>
     
     <item>
       <title>Project Management 课程笔记</title>
