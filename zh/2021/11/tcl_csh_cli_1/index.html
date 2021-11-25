@@ -42,7 +42,7 @@
 <meta itemprop="description" content="Use tclsh to write command line interface">
 <meta itemprop="datePublished" content="2021-11-24T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-11-24T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="776">
+<meta itemprop="wordCount" content="818">
 
 
 
@@ -109,7 +109,7 @@
       </div>
       
       <div class="text-center" id="switchlang" style="padding-top:8px; padding-bottom: 5px;">
-        <a href="/en/">Switch to English Version</a>
+        <a href="/en/">Switch to English Site</a>
       </div>
       
       <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
@@ -351,44 +351,43 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/zh/2021/11/tcl_csh_cli_1/#comments"
             class="article-comment-link">评论</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 776字</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 818字</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 2分 </span>
         
-        <span>
-          <a href=/en/2021/11/tcl_csh_cli_1/>English Version</a>
+        <span><i class="icon icon-language"></i>&nbsp;<a href=/en/2021/11/tcl_csh_cli_1/>English Version</a>
         </span>
         
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p>这是一个用来演示“项目管理”过程的一个项目，也是我的第一个项目让IC 设计界受益。</p>
-<p>我将通过几个月的时间建立一个课程来完成这个项目。项目名称是 &ldquo;用tcl和csh建立Cli&rdquo;。</p>
+<p>我将通过几个月的时间建立一个课程来完成这个项目。项目名称是 &ldquo;用tcl 和csh 建立CLI&rdquo;。</p>
 <p>该项目将在课程中分成几个部分，讲述一些关键技术和项目管理技巧。</p>
 <h2 id="项目初始化">项目初始化</h2>
 <p><img src="/kickoff_meeting.png" alt="Project Kickoff"></p>
-<p>第一个问题，<strong>这个项目是如何产生的？—</strong></p>
+<p>第一个问题，<strong>这个项目是如何产生的？</strong></p>
 <p>通常，对于一个应用程序，我们有图形用户界面(GUI) 和命令用户界面(CLI)。</p>
 <p>在EDA 行业，tcl 仍然是一种非常重要的胶合语言。我写了一篇文章来分享一些想法，为什么tcl 是EDA 行业的合适选择。</p>
 <p>现在，python 越来越流行，使用python 作为主要的界面语言是可能的，但不是一两年的任务。</p>
 <p><strong>Tcl仍然是VLSI行业的主要语言。</strong></p>
-<h3 id="意图">意图</h3>
+<h2 id="意图">意图</h2>
 <p>Tcl 非常灵活，而且太灵活了，不能出错。我们需要一个框架来约束某些使用模式。这就是 &ldquo;tcl-csh-cli&rdquo; 项目的倡议。</p>
-<h3 id="准备启动会议">准备启动会议</h3>
+<h2 id="准备kick-off-会议">准备Kick-off 会议</h2>
 <ul>
 <li>检查会议是否打算让所有的开发者参与，或者只是一些关键的利益相关者和开发者。确保你能在会议上得到更多良好的支持。</li>
 <li>决定将使用什么协作工具，如Jira、Asana、Focalboard等。</li>
 <li>起草时间表和里程碑</li>
 </ul>
-<p>###启动会议记录</p>
+<h2 id="kick-off-会议记录">Kick-off 会议记录</h2>
 <ul>
 <li>日期：11/24/2021</li>
 <li>出席者: Steve, Jane, Peter</li>
 <li>主题: &ldquo;tcl-csh-cli&rdquo; 启动会议</li>
 </ul>
 <ol>
-<li><strong>这个项目会长期存在吗？</strong> 也许不会，这更像是一个演示项目，如果我们找到一个好的途径，我们可以继续维护它。而且通常，有很多商业解决方案。</li>
-<li><strong>资源规划：</strong> 我将创建几个虚拟角色来讲述一些开发故事，并展示不同的团队或不同的人如何相互合作的案例。</li>
-<li><strong>我们需要GUI吗？</strong> 是的，我们需要，但必须建立在CLI之上，而且优先级很低。</li>
+<li><strong>这个项目会长期存在吗？</strong> 也许不会，这更像是一个演示项目，如果我们找到一个好的途径，我们可以继续维护它。而且通常对于CAD 框架已经有很多商业解决方案。</li>
+<li><strong>资源规划：</strong> 我将创建几个虚拟角色来讲述一些开发故事（Jane and Peter)，并展示不同的团队或不同的人如何相互合作的案例。</li>
+<li><strong>我们需要GUI 吗？</strong> 是的，我们需要，但必须建立在CLI 之上，而且优先级很低。</li>
 <li><strong>什么是成本和利润？</strong> 时间是这个项目的主要成本，利润是交朋友，为支持和销售插件挣钱。</li>
 <li><strong>定义交付：</strong> 为开发者开发流程的框架。</li>
 <li><strong>时间表和里程碑：</strong> 整个项目分为三个阶段，一个是基本功能，另外两个是高级功能。</li>
@@ -396,8 +395,24 @@
 </ol>
 <h3 id="技术相关">技术相关</h3>
 <ul>
-<li>tclsh</li>
-<li>csh</li>
+<li>源代码管理 <a href="https://github.com/xoit/tcl-csh-cli">https://github.com/xoit/tcl-csh-cli</a>
+<ul>
+<li>tclsh expert
+<ul>
+<li>Jane</li>
+</ul>
+</li>
+<li>csh expert
+<ul>
+<li>Peter</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Git Usage training</li>
+<li>User requirement document</li>
+<li>User feedback document</li>
+<li>Technology SPEC</li>
 </ul>
 
     </div>
