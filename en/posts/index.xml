@@ -5,10 +5,31 @@
     <link>https://icsteve.com/en/posts/</link>
     <description>Recent content in Posts on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>tcl-csh-cli Project Goals</title>
+      <link>https://icsteve.com/en/2021/11/tcl_csh_cli_2/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/11/tcl_csh_cli_2/</guid>
+      <description>As a project manager, one very important task is to learn, understand, broadcast the project goal correctly and efficiently. This must be documented and put a place, so that project manager can go through it in the meeting and the team can refer to the document any time.
+The solution could be dropbox, sharepoint, onenote, git, ftp, etc.
+Goal of &amp;ldquo;tcl-csh-cli&amp;rdquo; Let&amp;rsquo;s look at the goal of &amp;ldquo;tcl-csh-cli&amp;rdquo; project.
+ Major Goal  Create a framework using tcl and csh to handle the complex design requirement.</description>
+    </item>
+    
+    <item>
+      <title>Tool Recommendation - Tmux</title>
+      <link>https://icsteve.com/en/2021/11/tool_recommendation_tmux/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/11/tool_recommendation_tmux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>tcl-csh-cli Project Kick-off</title>
@@ -20,6 +41,17 @@
 I will build a course to finish this project through several months. And the project name is &amp;ldquo;Build Cli with tcl and csh&amp;rdquo;.
 The project will be split to several sections in a course to tell some key technology stuff and program management skills.
 Project Initialzation First question, how does this project come out?</description>
+    </item>
+    
+    <item>
+      <title>tcl-csh-cli Project technology selection</title>
+      <link>https://icsteve.com/en/2021/11/tcl_csh_cli_3/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/11/tcl_csh_cli_3/</guid>
+      <description>In this post, I would like to talk about my view on technology selection.
+When we talk about VLSI CAD (not EDA), most people will think about CS background, coding ability, etc.
+But I want to think out of box, as a project manager, I can not just pick option 1 or option 2. It is always good to use SME (Subject Matter Expert) tool. So we may need to group a team with option 1 and option 2 mixture.</description>
     </item>
     
     <item>
@@ -65,7 +97,7 @@ Real Case When discussing the folder structure via video meeting, express the st
     </item>
     
     <item>
-      <title>English pronunciation helper: youglish.com</title>
+      <title>English pronunciation helper, youglish.com</title>
       <link>https://icsteve.com/en/2020/12/youglish/</link>
       <pubDate>Thu, 31 Dec 2020 20:20:00 +0000</pubDate>
       
@@ -82,7 +114,7 @@ This is quite useful because not like the dictionary, the video will not only te
       <pubDate>Thu, 31 Dec 2020 15:15:15 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2020/12/csh_argument/</guid>
-      <description>Case Study There is a cshell script file which is working in others&amp;rsquo; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&amp;rsquo; .cshrc files, but not in yours.
+      <description>Case Study There is a cshell script file which is working in others&#39; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&#39; .cshrc files, but not in yours.
 Understand In Unix-like system, when you want to get the help of one program from Command Line Interface (CLI), we can try the following ways, like csh.</description>
     </item>
     
