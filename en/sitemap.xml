@@ -71,10 +71,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/</loc>
+    <loc>https://icsteve.com/en/posts/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/posts/"
+                />
   </url>
   
   <url>
@@ -129,35 +139,45 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/tcl_csh_cli_2/</loc>
+    <loc>https://icsteve.com/en/2021/11/tcl_csh_cli_2/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/tool_alite/</loc>
+    <loc>https://icsteve.com/en/2021/11/tool_alite/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/tool_tmux/</loc>
+    <loc>https://icsteve.com/en/2021/11/tool_tmux/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/tcl_csh_cli_1/</loc>
+    <loc>https://icsteve.com/en/2021/11/tcl_csh_cli_1/</loc>
     <lastmod>2021-11-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2021/11/tcl_csh_cli_1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2021/11/tcl_csh_cli_1/"
+                />
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/tcl_csh_cli_3/</loc>
+    <loc>https://icsteve.com/en/2021/11/tcl_csh_cli_3/</loc>
     <lastmod>2021-11-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -198,10 +218,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/project_management_1/</loc>
+    <loc>https://icsteve.com/en/2021/11/project_management_1/</loc>
     <lastmod>2021-11-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2021/11/project_management_1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2021/11/project_management_1/"
+                />
   </url>
   
   <url>
@@ -222,17 +252,37 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/icsteve_hmc_2020_01_b/</loc>
+    <loc>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_b/</loc>
     <lastmod>2021-01-31T09:22:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_b/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_b/"
+                />
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/icsteve_hmc_2020_01_a/</loc>
+    <loc>https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_a/</loc>
     <lastmod>2021-01-16T09:22:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_a/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2021/01/icsteve_hmc_2020_01_a/"
+                />
   </url>
   
   <url>
@@ -287,10 +337,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/tree_command/</loc>
+    <loc>https://icsteve.com/en/2021/01/tree_command/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2021/01/tree_command/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2021/01/tree_command/"
+                />
   </url>
   
   <url>
@@ -328,10 +388,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/youglish/</loc>
+    <loc>https://icsteve.com/en/2020/12/youglish/</loc>
     <lastmod>2020-12-31T20:20:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/12/youglish/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/12/youglish/"
+                />
   </url>
   
   <url>
@@ -352,10 +422,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/csh_argument/</loc>
+    <loc>https://icsteve.com/en/2020/12/csh_argument/</loc>
     <lastmod>2020-12-31T15:15:15+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/12/csh_argument/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/12/csh_argument/"
+                />
   </url>
   
   <url>
@@ -376,10 +456,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/collection_to_notion_inbox/</loc>
+    <loc>https://icsteve.com/en/2020/12/collection_to_notion_inbox/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/12/collection_to_notion_inbox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/12/collection_to_notion_inbox/"
+                />
   </url>
   
   <url>
@@ -434,10 +524,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/document_flow/</loc>
+    <loc>https://icsteve.com/en/2020/01/document_flow/</loc>
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/document_flow/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/document_flow/"
+                />
   </url>
   
   <url>
@@ -458,10 +558,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/cad_framework/</loc>
+    <loc>https://icsteve.com/en/2020/01/cad_framework/</loc>
     <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/cad_framework/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/cad_framework/"
+                />
   </url>
   
   <url>
@@ -499,17 +609,37 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/cad_framework_cloud/</loc>
+    <loc>https://icsteve.com/en/2020/01/cad_framework_cloud/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/cad_framework_cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/cad_framework_cloud/"
+                />
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/cad_framework_deploy/</loc>
+    <loc>https://icsteve.com/en/2020/01/cad_framework_deploy/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/cad_framework_deploy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/cad_framework_deploy/"
+                />
   </url>
   
   <url>
@@ -530,10 +660,20 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/cad_asciinema_deploy/</loc>
+    <loc>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2020/01/cad_asciinema_deploy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2020/01/cad_asciinema_deploy/"
+                />
   </url>
   
   <url>
@@ -571,7 +711,7 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/post/build_note_structure/</loc>
+    <loc>https://icsteve.com/en/1/01/build_note_structure/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
