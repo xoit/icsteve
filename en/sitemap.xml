@@ -163,6 +163,13 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/en/2021/11/tcl_csh_cli_2/</loc>
+    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/tags/tcl/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -177,13 +184,6 @@
                 hreflang="en"
                 href="https://icsteve.com/en/tags/tcl/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/2021/11/tcl_csh_cli_2/</loc>
-    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
