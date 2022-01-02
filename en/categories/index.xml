@@ -5,10 +5,22 @@
     <link>https://icsteve.com/en/categories/</link>
     <description>Recent content in Categories on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What is &#34;Communication Plan&#34;</title>
+      <link>https://icsteve.com/en/2022/01/communication_plan/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/01/communication_plan/</guid>
+      <description>In the &amp;ldquo;Project Management&amp;rdquo; Course, one of the topics is &amp;ldquo;Communication Plan&amp;rdquo;.
+During my daily work, the important part is to talk to the users, support them.
+ Weekly meetings Feedback collecting Documentation etc.  Some of them are driven by the users, and some of them are driven by the product team. I never think about I can group them and call all these activities &amp;ldquo;Communication Plan&amp;rdquo;.
+When the phrase &amp;ldquo;communication plan&amp;rdquo; is used, I feel it is pretty clear what should I do to sell the product and have better connection with the users, and among the developers.</description>
+    </item>
     
     <item>
       <title>tcl-csh-cli Project Goals</title>
@@ -61,15 +73,6 @@ Project Initialzation First question, how does this project come out?</descripti
       <description>In this post, I would like to talk about my view on technology selection.
 When we talk about VLSI CAD (not EDA), most people will think about CS background, coding ability, etc.
 But I want to think out of box, as a project manager, I can not just pick option 1 or option 2. It is always good to use SME (Subject Matter Expert) tool. So we may need to group a team with option 1 and option 2 mixture.</description>
-    </item>
-    
-    <item>
-      <title>Communication Plan</title>
-      <link>https://icsteve.com/en/2021/11/communication_plan/</link>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2021/11/communication_plan/</guid>
-      <description></description>
     </item>
     
     <item>
