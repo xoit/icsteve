@@ -54,23 +54,6 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/</loc>
-    <lastmod>2021-11-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/"
-                />
-  </url>
-  
-  <url>
     <loc>https://icsteve.com/en/tags/pm/</loc>
     <lastmod>2021-11-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -226,6 +209,16 @@
     <lastmod>2021-01-31T09:22:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/hmc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/hmc/"
+                />
   </url>
   
   <url>
@@ -247,6 +240,16 @@
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/rui/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/rui/"
+                />
   </url>
   
   <url>
@@ -254,6 +257,16 @@
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/rui/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/rui/"
+                />
   </url>
   
   <url>
@@ -261,6 +274,16 @@
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/tree/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/tree/"
+                />
   </url>
   
   <url>
@@ -275,6 +298,16 @@
     <lastmod>2020-12-31T20:20:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/english/"
+                />
   </url>
   
   <url>
@@ -282,6 +315,16 @@
     <lastmod>2020-12-31T20:20:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/english/"
+                />
   </url>
   
   <url>
@@ -296,6 +339,16 @@
     <lastmod>2020-12-31T20:20:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/youtube/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/youtube/"
+                />
   </url>
   
   <url>
@@ -310,6 +363,16 @@
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/collection/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/collection/"
+                />
   </url>
   
   <url>
@@ -324,6 +387,16 @@
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/notion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/notion/"
+                />
   </url>
   
   <url>
@@ -331,6 +404,16 @@
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/notion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/notion/"
+                />
   </url>
   
   <url>
@@ -338,6 +421,16 @@
     <lastmod>2020-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/cad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/cad/"
+                />
   </url>
   
   <url>
@@ -352,6 +445,16 @@
     <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/cad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/cad/"
+                />
   </url>
   
   <url>
@@ -366,6 +469,16 @@
     <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/framework/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/framework/"
+                />
   </url>
   
   <url>
@@ -373,6 +486,16 @@
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/asciinema/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/asciinema/"
+                />
   </url>
   
   <url>
@@ -394,6 +517,16 @@
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/cloud/"
+                />
   </url>
   
   <url>
@@ -401,6 +534,40 @@
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/about/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/"
+                />
   </url>
   
   <url>

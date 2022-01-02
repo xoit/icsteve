@@ -28,53 +28,111 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://icsteve.com/zh/1/01/cad_asciinema_deploy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>ICSteve 半月会（2021.01-下）</title>
+      <link>https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_b/</link>
+      <pubDate>Sun, 31 Jan 2021 09:22:00 +0000</pubDate>
       
-      <guid>https://icsteve.com/zh/1/01/cad_asciinema_deploy/</guid>
-      <description>Use Asciinema This is a terminal recording tool.
-Enjoy a lightweight, purely text-based approach to terminal recording.
-Deploymnet Make sure you have python3 installed.
-I will use &amp;ldquo;Run from source&amp;rdquo; approach.
- download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
-export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
+      <guid>https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_b/</guid>
+      <description>ICSteve 知识星球 半月会 (Half Moon Collection)，欢迎关注ICSteve 知识星球 （https://t.zsxq.com/eqr72RB），分类精简</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://icsteve.com/zh/1/01/cad_framework/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>ICSteve 半月会（2021.01-汇上）</title>
+      <link>https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_a/</link>
+      <pubDate>Sat, 16 Jan 2021 09:22:00 +0000</pubDate>
       
-      <guid>https://icsteve.com/zh/1/01/cad_framework/</guid>
-      <description>CAD Framework： 来自90 年代的黄金准则 为什么起这个标题呢？我这篇文章的参考书目是两本来自90 年代的书，而里面的概念放到无论哪个先进的F</description>
+      <guid>https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_a/</guid>
+      <description>ICSteve 知识星球 半月会 (HMC - Half Moon Collection)，欢迎关注ICSteve 知识星球 （https://t.zsxq.com/eqr72RB）。半月</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://icsteve.com/zh/1/01/cad_framework_cloud/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>使用tree 命令展示文件结构</title>
+      <link>https://icsteve.com/zh/2021/01/tree_command/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://icsteve.com/zh/1/01/cad_framework_cloud/</guid>
-      <description>CAD Framework: Cloud 带来的变化 CAD Framework 的目标是让使用者忘记框架，专心于具体的IC 设计工作。 Framework 能做的尽量让Framework 去做； Framework 不能做的，想办法让Frame</description>
+      <guid>https://icsteve.com/zh/2021/01/tree_command/</guid>
+      <description>tree 是用来帮助我们显示目录和文件结构的一个常用命令。 Real Case 实例 当我们讨论某项方案，或者要和其他同事debug 一些问题的时候，难免需要展示文件夹结</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://icsteve.com/zh/1/01/cad_framework_deploy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>英语发音助手：youglish.com</title>
+      <link>https://icsteve.com/zh/2020/12/youglish/</link>
+      <pubDate>Thu, 31 Dec 2020 20:20:00 +0000</pubDate>
       
-      <guid>https://icsteve.com/zh/1/01/cad_framework_deploy/</guid>
-      <description>CAD Framework: 框架为什么难落地 一个框架的部署牵涉到的东西太多，这里聊聊为什么部署一个大而全的框架那么困难，sFramework 准备怎么做。 你到了一个新</description>
+      <guid>https://icsteve.com/zh/2020/12/youglish/</guid>
+      <description>今天向大家推荐一个网站来学习英语发音。 Youglish : https://youglish.com 这个网站会将你搜索的单词或者词组匹配Youtube 的语音，从下面的截图可以看出我正在播放1951</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://icsteve.com/zh/1/01/document_flow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Csh 选项</title>
+      <link>https://icsteve.com/zh/2020/12/csh_argument/</link>
+      <pubDate>Thu, 31 Dec 2020 15:15:15 +0000</pubDate>
       
-      <guid>https://icsteve.com/zh/1/01/document_flow/</guid>
-      <description>我的文档工作流 （工具篇） 效果预期与知识储备 我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工</description>
+      <guid>https://icsteve.com/zh/2020/12/csh_argument/</guid>
+      <description>csh 从使用者的角度来讲，并不是一个合格的shell 程序，但是在某些情况下，我们不得不使用它来完成大部分工作。作为【睿计划】的一部分，我将讲述如</description>
+    </item>
+    
+    <item>
+      <title>利用Notion 收集想法</title>
+      <link>https://icsteve.com/zh/2020/12/collection_to_notion_inbox/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/zh/2020/12/collection_to_notion_inbox/</guid>
+      <description>我尝试过很多不同的工具来组织从网络上收集到的信息以及我自己转瞬即逝的一些想法。用过的服务有raindrop.io, App List, cubox, 等。They all have their own</description>
+    </item>
+    
+    <item>
+      <title>我的文档工作流 （工具篇）</title>
+      <link>https://icsteve.com/zh/2020/01/document_flow/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/zh/2020/01/document_flow/</guid>
+      <description>效果预期与知识储备 我在本文中分享我的文档工作流方法，那么你可以轻松用markdown 来表达自己，高效地管理下面一些工作中常用到的文档类型。 产</description>
+    </item>
+    
+    <item>
+      <title>CAD 框架：来自90 年代的黄金准则</title>
+      <link>https://icsteve.com/zh/2020/01/cad_framework/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/zh/2020/01/cad_framework/</guid>
+      <description>为什么起这个标题呢？我这篇文章的参考书目是两本来自90 年代的书，而里面的概念放到无论哪个先进的Framework 里都是妥妥的黄金准则（除了C</description>
+    </item>
+    
+    <item>
+      <title>CAD 框架: Cloud 带来的变化</title>
+      <link>https://icsteve.com/zh/2020/01/cad_framework_cloud/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/zh/2020/01/cad_framework_cloud/</guid>
+      <description>CAD Framework 的目标是让使用者忘记框架，专心于具体的IC 设计工作。 Framework 能做的尽量让Framework 去做； Framework 不能做的，想办法让Framework 去做。 在</description>
+    </item>
+    
+    <item>
+      <title>CAD 框架: 框架为什么难落地</title>
+      <link>https://icsteve.com/zh/2020/01/cad_framework_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/zh/2020/01/cad_framework_deploy/</guid>
+      <description>一个框架的部署牵涉到的东西太多，这里聊聊为什么部署一个大而全的框架那么困难，sFramework 准备怎么做。 你到了一个新的公司，很多时候你不</description>
+    </item>
+    
+    <item>
+      <title>使用 Asciinema 来录制终端</title>
+      <link>https://icsteve.com/zh/2020/01/cad_asciinema_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/zh/2020/01/cad_asciinema_deploy/</guid>
+      <description>This is a terminal recording tool. Enjoy a lightweight, purely text-based approach to terminal recording. Deploymnet Make sure you have python3 installed. I will use &amp;ldquo;Run from source&amp;rdquo; approach. download source git clone https://github.com/asciinema/asciinema.git cd asciinema pwd set PYTHONPATH for bash export PYTHONPATH=`pwd` ; setenv PYTHONPATH `pwd` ; Create command alias alias asciinema=&amp;quot;python3 -m asciinema &amp;quot; alias asciinema &#39;python3 -m asciinema \!*&#39; ; Recording asciinema rec test.cast Display &amp;lt;html&amp;gt; &amp;lt;head&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://icsteve.com/zh/about/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/zh/about/</guid>
+      <description>ICSteve is try to achieve the following goals: Build IC knowledge graph Spread the ICCAD Welcome to follow me at 知乎专栏 （ICCAD） 知识星球 （ICSteve） 微信公众号 （IC物理设计）</description>
     </item>
     
   </channel>

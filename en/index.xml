@@ -5,7 +5,7 @@
     <link>https://icsteve.com/en/</link>
     <description>Recent content on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -185,6 +185,15 @@ Deploymnet Make sure you have python3 installed.
 I will use &amp;ldquo;Run from source&amp;rdquo; approach.
  download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
 export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://icsteve.com/en/about/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/about/</guid>
+      <description>ICSteve is try to achieve the following goals: Build IC knowledge graph Spread the ICCAD Welcome to follow me at 知乎专栏 （ICCAD） 知识星球 （ICSteve） 微信公众号 （IC物理设计）</description>
     </item>
     
     <item>
