@@ -42,7 +42,7 @@
 <meta itemprop="description" content="The course actually help me to understand how to deal with communication with others.">
 <meta itemprop="datePublished" content="2022-01-02T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2022-01-02T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="98">
+<meta itemprop="wordCount" content="456">
 
 
 
@@ -362,8 +362,8 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/en/2022/01/communication_plan/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 98words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 456words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
         
         <span>&nbsp;<a href=/zh/2022/01/communication_plan/>中文版</a>
         </span>
@@ -373,7 +373,10 @@
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p>In the &ldquo;Project Management&rdquo; Course, one of the topics is &ldquo;Communication Plan&rdquo;.</p>
 <p>When the phrase &ldquo;communication plan&rdquo; is used, I feel it is pretty clear what should I do to sell the product and have better connection with the users, and among the developers.</p>
-<p>During my daily work, the important part is to talk to the users, support them.</p>
+<blockquote>
+<p>Communication plans can help you clarify the purpose of a product launch or new initiative and officially determine the messages you want to deliver to your intended audience(s).</p>
+</blockquote>
+<p>During my CAD daily work, the important part is to talk to the users, support them.</p>
 <ul>
 <li>Weekly meetings</li>
 <li>Feedback collecting</li>
@@ -381,6 +384,57 @@
 <li>etc.</li>
 </ul>
 <p>Some of them are driven by the users, and some of them are driven by the product team. I never think about I can group them and call all these activities &ldquo;Communication Plan&rdquo;.</p>
+<h2 id="prepare-the-communication-plan">Prepare the &ldquo;Communication Plan&rdquo;</h2>
+<p>When preparing the plan, always ask ourselves these questions.</p>
+<ul>
+<li>Why do you want to communicate with the community?  (What’s your purpose?)</li>
+<li>To whom do you want to communicate it?  (Who’s your audience?)</li>
+<li>What do you want to communicate?  (What’s your message?)</li>
+<li>How do you want to communicate it?  (What communication channels will you use?)</li>
+<li>Whom should you contact, and what should you do to use those channels?  (How will you distribute your message?)</li>
+</ul>
+<p>Once these questions get answered, we have a better picture for the CAD product communication.</p>
+<p>First, during the project implementation, project manager needs to communicate with the developers to make sure the project is on track.
+Like check the milestone, enable the collabration, resolve the issues, etc.</p>
+<p>Second, after involving the key users, collect the feedback, understand the usage difficulty of new CAD product.</p>
+<p>Third, think about the documentation, not only for the end-users, but also for the development community.</p>
+<p>Last but not the least, talk to upper management for the upcomming new product or followup revision of current product.</p>
+<h2 id="convert-communication-plan-to-a-document-and-share">Convert &ldquo;Communication Plan&rdquo; to a document and share</h2>
+<p>Like all other plans in the project, &ldquo;Communication Plan&rdquo; needs to be clearly documented, and transparent to the project members and users.</p>
+<h2 id="use-python-to-generate-ics-files">Use python to generate ics files</h2>
+<p>The goal for the python script is to generate different kinds of meeting place holders for a project.</p>
+<ul>
+<li>Kick off meeting</li>
+<li>Weekly meeting to track the project status</li>
+<li>Milestone Review meetings</li>
+<li>Meetings to resolve the conflicts and issues</li>
+<li>Project closing meeting</li>
+</ul>
+<pre><code class="language-python">from icalendar import Calendar, Event
+import pytz
+from datetime import datetime
+import os
+from pathlib import Path
+
+cal = Calendar()
+cal.add('attendee', 'MAILTO:abc@example.com')
+cal.add('attendee', 'MAILTO:xyz@example.com')
+
+event = Event()
+event.add('summary', 'Python meeting about calendaring')
+event.add('dtstart', datetime(2021, 4, 4, 8, 0, 0, tzinfo=pytz.utc))
+event.add('dtend', datetime(2021, 4, 4, 10, 0, 0, tzinfo=pytz.utc))
+event.add('dtstamp', datetime(2021, 4, 4, 0, 10, 0, tzinfo=pytz.utc))
+
+# Adding events to calendar
+cal.add_component(event)
+
+directory = str(Path(__file__).parent.parent) + &quot;/&quot;
+print(directory)
+f = open(os.path.join(directory, 'example.ics'), 'wb')
+f.write(cal.to_ical())
+f.close()
+</code></pre>
     </div>
     <div class="article-footer">
 <blockquote class="mt-2x">
