@@ -42,7 +42,7 @@
 <meta itemprop="description" content="The course actually help me to understand how to deal with communication with others.">
 <meta itemprop="datePublished" content="2022-01-02T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2022-01-02T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="456">
+<meta itemprop="wordCount" content="625">
 
 
 
@@ -362,7 +362,7 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/en/2022/01/communication_plan/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 456words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 625words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
         
         <span>&nbsp;<a href=/zh/2022/01/communication_plan/>中文版</a>
@@ -401,6 +401,61 @@ Like check the milestone, enable the collabration, resolve the issues, etc.</p>
 <p>Last but not the least, talk to upper management for the upcomming new product or followup revision of current product.</p>
 <h2 id="convert-communication-plan-to-a-document-and-share">Convert &ldquo;Communication Plan&rdquo; to a document and share</h2>
 <p>Like all other plans in the project, &ldquo;Communication Plan&rdquo; needs to be clearly documented, and transparent to the project members and users.</p>
+<p>Here is a table for us to easily go through the key items one by one and then put into the document.</p>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>Frequency</th>
+<th>Channel</th>
+<th>Audience</th>
+<th>Owner</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kick off meeting</td>
+<td>One time</td>
+<td>Zoom + Meeting-Room</td>
+<td>All internal stakeholders and project team members</td>
+<td>Project Manager<!-- raw HTML omitted -->@PM</td>
+<td>Planned</td>
+</tr>
+<tr>
+<td>Status updates</td>
+<td>Weekly</td>
+<td>Zoom + Meeting-Room</td>
+<td>All project team members</td>
+<td>Project Manager<!-- raw HTML omitted -->@PM</td>
+<td>Planned</td>
+</tr>
+<tr>
+<td>Milestone and deliverable updates</td>
+<td>Monthly</td>
+<td>Zoom</td>
+<td>All project team members, stakeholders optional</td>
+<td>Project Manager<!-- raw HTML omitted -->@PM</td>
+<td>Planned</td>
+</tr>
+<tr>
+<td>Project stand-up (check-in)</td>
+<td>Daily</td>
+<td>Slack</td>
+<td>Project team</td>
+<td>Project Team</td>
+<td>Planned</td>
+</tr>
+<tr>
+<td>Weekly User Synch-up</td>
+<td>Weekly</td>
+<td>Zoom + Meeting-Room</td>
+<td>Customers and project team</td>
+<td>Customers and Project Team</td>
+<td>Planned</td>
+</tr>
+</tbody>
+</table>
 <h2 id="use-python-to-generate-ics-files">Use python to generate ics files</h2>
 <p>The goal for the python script is to generate different kinds of meeting place holders for a project.</p>
 <ul>
@@ -410,30 +465,59 @@ Like check the milestone, enable the collabration, resolve the issues, etc.</p>
 <li>Meetings to resolve the conflicts and issues</li>
 <li>Project closing meeting</li>
 </ul>
-<pre><code class="language-python">from icalendar import Calendar, Event
+<p>To test the following function</p>
+<pre><code class="language-csh"># Install iCalendar
+pip install icalendar
+
+# Run the function
+python create_ics.py
+
+# Test example.ics
+# Double click example.ics
+</code></pre>
+<p><img src="./images/create_ics_outlook.png" alt="Outlook Snapshot"></p>
+<pre><code class="language-python">#!env python3
+
+from icalendar import Calendar, Event, vCalAddress, vText
 import pytz
 from datetime import datetime
 import os
 from pathlib import Path
 
-cal = Calendar()
-cal.add('attendee', 'MAILTO:abc@example.com')
-cal.add('attendee', 'MAILTO:xyz@example.com')
-
+# Creating icalendar/event
 event = Event()
 event.add('summary', 'Python meeting about calendaring')
-event.add('dtstart', datetime(2021, 4, 4, 8, 0, 0, tzinfo=pytz.utc))
-event.add('dtend', datetime(2021, 4, 4, 10, 0, 0, tzinfo=pytz.utc))
-event.add('dtstamp', datetime(2021, 4, 4, 0, 10, 0, tzinfo=pytz.utc))
+event.add('dtstart', datetime(2021, 1, 12, 8, 0, 0, tzinfo=pytz.utc))
+event.add('dtend', datetime(2021, 1, 12, 10, 0, 0, tzinfo=pytz.utc))
+event.add('dtstamp', datetime(2021, 1, 12, 0, 10, 0, tzinfo=pytz.utc))
+
+# Adding Organizer
+organizer = vCalAddress('MAILTO:organizer@example.com')
+organizer.params['cn'] = vText('Organizer')
+organizer.params['role'] = vText('CHAIR')
+event['organizer'] = organizer
+
+# Adding attendee
+attendee = vCalAddress('MAILTO:foobar@example.com')
+attendee.params['cn'] = vText('Foo Bar')
+attendee.params['ROLE'] = vText('REQ-PARTICIPANT')
+event.add('attendee', attendee, encode=0)
+
+# Adding location
+event['location'] = vText('Zoom Link')
 
 # Adding events to calendar
+cal = Calendar()
 cal.add_component(event)
 
 directory = str(Path(__file__).parent.parent) + &quot;/&quot;
-print(directory)
+# print(directory)
 f = open(os.path.join(directory, 'example.ics'), 'wb')
 f.write(cal.to_ical())
 f.close()
+
+# vim: ft=python
+
 </code></pre>
     </div>
     <div class="article-footer">
