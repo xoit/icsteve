@@ -20,6 +20,27 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/en/tags/icsteve/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/categories/icsteve/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/2022/01/icsteve_substack/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/categories/learning/</loc>
     <lastmod>2022-01-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -51,6 +72,13 @@
                 hreflang="en"
                 href="https://icsteve.com/en/tags/learning/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/tags/newsletter/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>

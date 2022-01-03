@@ -10,6 +10,15 @@
     
     
     <item>
+      <title>ICSteve substack</title>
+      <link>https://icsteve.com/en/2022/01/icsteve_substack/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/01/icsteve_substack/</guid>
+      <description>ICSteve Newsletter</description>
+    </item>
+    
+    <item>
       <title>What is &#34;Communication Plan&#34;</title>
       <link>https://icsteve.com/en/2022/01/communication_plan/</link>
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
@@ -203,16 +212,6 @@ export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  ali
       
       <guid>https://icsteve.com/en/about/</guid>
       <description>ICSteve is try to achieve the following goals: Build IC knowledge graph Spread the ICCAD Welcome to follow me at 知乎专栏 （ICCAD） 知识星球 （ICSteve） 微信公众号 （IC物理设计）</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://icsteve.com/en/1/01/build_note_structure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/1/01/build_note_structure/</guid>
-      <description>This post share how I setup a git repository to host my note structure with the following tools.
- Hugo for website Obsidian for note taking docsify  </description>
     </item>
     
   </channel>
