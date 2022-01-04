@@ -5,10 +5,23 @@
     <link>https://icsteve.com/zh/categories/</link>
     <description>Recent content in Categories on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>何为 &#34;Communication Plan&#34;</title>
+      <link>https://icsteve.com/zh/2022/01/communication_plan/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/zh/2022/01/communication_plan/</guid>
+      <description>&lt;p&gt;在 Google 的 &amp;ldquo;项目管理&amp;rdquo; 课程中，其中一个重要的主题是 &amp;ldquo;沟通计划&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;当使用 &amp;ldquo;沟通计划&amp;rdquo; 这个词的时候，我觉得它可以很清楚地告诉我，应该做什么来销售我地产品，与用户建立更好的联系，同时也与在开发人员建立关系。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;沟通计划可以帮助你澄清产品发布或新举措的目的，并正式确定你要传递给目标受众的信息。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     
     <item>
       <title>tcl-csh-cli 立项</title>
