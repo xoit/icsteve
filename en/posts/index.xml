@@ -5,13 +5,35 @@
     <link>https://icsteve.com/en/posts/</link>
     <description>Recent content in Posts on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>tcl-csh-cli Project Goals</title>
+      <title>ICSteve substack</title>
+      <link>https://icsteve.com/en/2022/01/icsteve_substack/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/01/icsteve_substack/</guid>
+      <description>ICSteve Newsletter</description>
+    </item>
+    
+    <item>
+      <title>What is &#34;Communication Plan&#34;</title>
+      <link>https://icsteve.com/en/2022/01/communication_plan/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/01/communication_plan/</guid>
+      <description>&lt;p&gt;In the &amp;ldquo;Project Management&amp;rdquo; Course, one of the topics is &amp;ldquo;Communication Plan&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;When the phrase &amp;ldquo;communication plan&amp;rdquo; is used, I feel it is pretty clear what should I do to sell the product and have better connection with the users, and among the developers.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Communication plans can help you clarify the purpose of a product launch or new initiative and officially determine the messages you want to deliver to your intended audience(s).&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Project Goals (tcl-csh-cli)</title>
       <link>https://icsteve.com/en/2021/11/tcl_csh_cli_2/</link>
       <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -23,16 +45,25 @@ Goal of &amp;ldquo;tcl-csh-cli&amp;rdquo; Let&amp;rsquo;s look at the goal of &a
     </item>
     
     <item>
-      <title>Tool Recommendation - Tmux</title>
-      <link>https://icsteve.com/en/2021/11/tool_recommendation_tmux/</link>
+      <title>Tool Recommendation - alite</title>
+      <link>https://icsteve.com/en/2021/11/tool_alite/</link>
       <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://icsteve.com/en/2021/11/tool_recommendation_tmux/</guid>
+      <guid>https://icsteve.com/en/2021/11/tool_alite/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tcl-csh-cli Project Kick-off</title>
+      <title>Tool Recommendation - Tmux</title>
+      <link>https://icsteve.com/en/2021/11/tool_tmux/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2021/11/tool_tmux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Kick-off (tcl-csh-cli)</title>
       <link>https://icsteve.com/en/2021/11/tcl_csh_cli_1/</link>
       <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -44,7 +75,7 @@ Project Initialzation First question, how does this project come out?</descripti
     </item>
     
     <item>
-      <title>tcl-csh-cli Project technology selection</title>
+      <title>Project technology selection (tcl-csh-cli)</title>
       <link>https://icsteve.com/en/2021/11/tcl_csh_cli_3/</link>
       <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
       
