@@ -5,10 +5,22 @@
     <link>https://icsteve.com/en/tags/</link>
     <description>Recent content in Tags on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Good Hardward CAD Framework In my mind</title>
+      <link>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</guid>
+      <description>In IC (Integrated Circuit) industry, CAD is a function to make hardware designer&amp;rsquo;s life easy.
+This is how I define the CAD in the hardware design. &amp;ldquo;Easy&amp;rdquo; contains different meanings.
+ Easy to understand the inputs Easy to use the functions Easy to check the result (Accurate and reliable)  A lot of people always like to use Apple products as an example. Here I am.
+Apple has good technologies, but not the most advanced technology.</description>
+    </item>
     
     <item>
       <title>ICSteve substack</title>
@@ -207,15 +219,6 @@ Deploymnet Make sure you have python3 installed.
 I will use &amp;ldquo;Run from source&amp;rdquo; approach.
  download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
 export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://icsteve.com/en/about/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/about/</guid>
-      <description>ICSteve is try to achieve the following goals: Build IC knowledge graph Spread the ICCAD Welcome to follow me at 知乎专栏 （ICCAD） 知识星球 （ICSteve） 微信公众号 （IC物理设计）</description>
     </item>
     
   </channel>
