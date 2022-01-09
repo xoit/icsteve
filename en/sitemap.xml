@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</loc>
+    <lastmod>2022-01-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/categories/</loc>
     <lastmod>2022-01-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -17,13 +24,6 @@
                 hreflang="en"
                 href="https://icsteve.com/en/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</loc>
-    <lastmod>2022-01-08T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
