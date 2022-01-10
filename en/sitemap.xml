@@ -27,30 +27,6 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/2022/01/help_system/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/categories/learning/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/categories/learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/categories/learning/"
-                />
-  </url>
-  
-  <url>
     <loc>https://icsteve.com/en/tags/learning/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -144,6 +120,23 @@
     <lastmod>2022-01-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/categories/learning/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/learning/"
+                />
   </url>
   
   <url>
