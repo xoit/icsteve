@@ -42,7 +42,7 @@
 <meta itemprop="description" content="The course actually help me to understand how to deal with communication with others.">
 <meta itemprop="datePublished" content="2022-01-09T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2022-01-09T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1033">
+<meta itemprop="wordCount" content="1187">
 
 
 
@@ -363,8 +363,8 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/en/2022/01/my_sight_of_good_cad_framework/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1033words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 5minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1187words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 6minutes </span>
         
         <span>&nbsp;<a href=/zh/2022/01/my_sight_of_good_cad_framework/>中文版</a>
         </span>
@@ -475,8 +475,16 @@ If many questions come into your email box, that means the setting is not clear 
 <p>The help system is a big topic. We will talk about it in next week <a href="help_system.md">Help System</a>.</p>
 <h2 id="good-practice-3-keep-it-simple-stupid">Good practice 3: Keep it Simple, Stupid</h2>
 <h3 id="decouple-more-is-less">Decouple, more is less</h3>
+<p>We have some cases that we need to re-use some utility or code, and then modularization is a good approach.</p>
+<p>Think about this case, the library is used everywhere and one day there is a bug introduced which cases the whole system down.</p>
+<p>Of course, we have other ways to roll back. And reusability is really required in our scenario.</p>
+<p>What if I control the revision and for each module, it is checked out separately. Then even I want to update the common utility for specific application, it will not affect others.</p>
 <h3 id="functional-options">Functional Options</h3>
-<h2 id="tracing-and-visualization">Tracing and Visualization</h2>
+<p>The argument or option should not be hard to understand and should not be too many.</p>
+<p>If there are many argument needed, the utility may need to consider use input configuration file as well.</p>
+<h2 id="visualization">Visualization</h2>
+<p>CLI is needed for the first place, but GUI or Visualization is also great to have.</p>
+<p>That means web technology is a good skill to gain in the CAD career.</p>
 
     </div>
     <div class="article-footer">
