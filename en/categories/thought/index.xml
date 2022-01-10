@@ -5,7 +5,7 @@
     <link>https://icsteve.com/en/categories/thought/</link>
     <description>Recent content in THOUGHT on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/categories/thought/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,13 +13,22 @@
     <item>
       <title>3 Good Practices of Hardward CAD Framework</title>
       <link>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</link>
-      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</guid>
       <description>In IC (Integrated Circuit) industry, CAD is a function to make hardware designer&amp;rsquo;s life easy.
 This is how I define the CAD in the hardware design. &amp;ldquo;Easy&amp;rdquo; contains different meanings.
  Easy to understand the inputs Easy to use the functions Easy to check the result (Accurate and reliable)  A lot of people always like to use Apple products as an example. Here I am.
 Apple has good technologies, but not the most advanced technology.</description>
+    </item>
+    
+    <item>
+      <title>Help System Retrospective</title>
+      <link>https://icsteve.com/en/2022/01/help_system/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/01/help_system/</guid>
+      <description>Test </description>
     </item>
     
     <item>
@@ -205,20 +214,6 @@ Result This is the view for my current inbox (Table View). The links are added t
       
       <guid>https://icsteve.com/en/2020/01/cad_framework_deploy/</guid>
       <description>No English Version.</description>
-    </item>
-    
-    <item>
-      <title>Use Asciinema</title>
-      <link>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</guid>
-      <description>This is a terminal recording tool.
-Enjoy a lightweight, purely text-based approach to terminal recording.
-Deploymnet Make sure you have python3 installed.
-I will use &amp;ldquo;Run from source&amp;rdquo; approach.
- download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
-export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
     </item>
     
   </channel>
