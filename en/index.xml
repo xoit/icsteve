@@ -5,7 +5,7 @@
     <link>https://icsteve.com/en/</link>
     <description>Recent content on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,10 +16,9 @@
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</guid>
-      <description>In IC (Integrated Circuit) industry, CAD is a function to make hardware designer&amp;rsquo;s life easy.
-This is how I define the CAD in the hardware design. &amp;ldquo;Easy&amp;rdquo; contains different meanings.
+      <description>In IC (Integrated Circuit) industry, CAD is a function to make hardware designer&amp;rsquo;s life easy. This is how I define CAD in hardware design. &amp;ldquo;Easy&amp;rdquo; contains different meanings.
  Easy to understand the inputs Easy to use the functions Easy to check the result (Accurate and reliable)  A lot of people always like to use Apple products as an example. Here I am.
-Apple has good technologies, but not the most advanced technology.</description>
+Apple has suitable technologies but not the most advanced technology.</description>
     </item>
     
     <item>
@@ -157,7 +156,7 @@ This is quite useful because not like the dictionary, the video will not only te
       <pubDate>Thu, 31 Dec 2020 15:15:15 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2020/12/csh_argument/</guid>
-      <description>Case Study There is a cshell script file which is working in others&amp;rsquo; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&amp;rsquo; .cshrc files, but not in yours.
+      <description>Case Study There is a cshell script file which is working in others&#39; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&#39; .cshrc files, but not in yours.
 Understand In Unix-like system, when you want to get the help of one program from Command Line Interface (CLI), we can try the following ways, like csh.</description>
     </item>
     
