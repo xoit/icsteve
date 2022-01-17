@@ -42,7 +42,7 @@
 <meta itemprop="description" content="The course actually help me to understand how to deal with communication with others.">
 <meta itemprop="datePublished" content="2022-01-16T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2022-01-16T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="214">
+<meta itemprop="wordCount" content="281">
 
 
 
@@ -363,7 +363,7 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/en/2022/01/ipc_rpc/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 214words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 281words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
         
         <span>&nbsp;<a href=/zh/2022/01/ipc_rpc/>中文版</a>
@@ -427,42 +427,50 @@
 <h3 id="pipe">pipe</h3>
 <h3 id="memory">memory</h3>
 <h2 id="metrics">Metrics</h2>
-<p>So for</p>
+<p>So for hardware design CAD framework, how could we choose?</p>
 <table>
 <thead>
 <tr>
 <th>Metric</th>
-<th>Description</th>
+<th>Priority</th>
+<th>Explanation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>spead</td>
-<td></td>
+<td>low</td>
+<td>Real time and highly concurrent is not critical.</td>
 </tr>
 <tr>
 <td>stablity</td>
-<td></td>
+<td>high</td>
+<td>Re-try or bad data is critical.</td>
 </tr>
 <tr>
 <td>portability</td>
-<td></td>
+<td>medium</td>
+<td>Very good to have.</td>
 </tr>
 <tr>
 <td>dependency</td>
-<td></td>
+<td>medium</td>
+<td>Make the dependency as &ldquo;easy &ldquo;as possible</td>
 </tr>
 <tr>
 <td>deployment</td>
-<td></td>
+<td>medium</td>
+<td>It must be easy to deploy.</td>
 </tr>
 <tr>
 <td>apoption</td>
-<td></td>
+<td>high</td>
+<td>It should be supported by different EDA tools, different program languages.</td>
 </tr>
 <tr>
 <td>customer</td>
-<td></td>
+<td>high</td>
+<td>It is based on the knowledge of pruduct customers</td>
 </tr>
 </tbody>
 </table>

@@ -42,7 +42,7 @@
 <meta itemprop="description" content="The course actually help me to understand how to deal with communication with others.">
 <meta itemprop="datePublished" content="2022-01-09T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2022-01-09T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1187">
+<meta itemprop="wordCount" content="1184">
 
 
 
@@ -363,7 +363,7 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/en/2022/01/my_sight_of_good_cad_framework/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1187words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1184words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 6minutes </span>
         
         <span>&nbsp;<a href=/zh/2022/01/my_sight_of_good_cad_framework/>中文版</a>
@@ -372,47 +372,47 @@
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>In IC (Integrated Circuit) industry, CAD is a function to make hardware designer&rsquo;s life easy.</p>
-<p>This is how I define the CAD in the hardware design. &ldquo;Easy&rdquo; contains different meanings.</p>
+      <p>In IC (Integrated Circuit) industry, CAD is a function to make hardware designer&rsquo;s life easy. This is how I define CAD in hardware design. &ldquo;Easy&rdquo; contains different meanings.</p>
 <ul>
 <li>Easy to understand the inputs</li>
 <li>Easy to use the functions</li>
 <li>Easy to check the result (Accurate and reliable)</li>
 </ul>
 <p>A lot of people always like to use Apple products as an example. Here I am.</p>
-<p>Apple has good technologies, but not the most advanced technology.</p>
-<p>The most advanced technology means more risk. But to put the good technology which is best fit the customer is the key of success.</p>
-<p><strong>BUT, the best solution is always the one which fits the scenario best no matter it follows the following principles or not.</strong></p>
+<p>Apple has suitable technologies but not the most advanced technology.</p>
+<p>The most advanced technology means more risk. But to put the superior technology which is best fit the customer is the key to success.</p>
+<p><strong>BUT, the best solution is always the one that fits the scenario best no matter it follows the following principles or not.</strong></p>
+<p><img src="/images/cad_concept.png" alt="CAD Concept"></p>
 <h2 id="cad-framework-is-designed-for-the-professional">CAD Framework is designed for the professional</h2>
-<p>All the hardware designers, they are experts in the industry. When I first joined the CAD group, I was thinking how to help and what can I help for the professionals.</p>
+<p>All the hardware designers are experts in the industry. When I first joined the CAD group, I was thinking about how to help and what can I help the professionals.</p>
 <p>I need to find out my value to the CAD utility users, to our professional hardware designers since I am not better than them in terms of making chips.</p>
-<p>Since the customer of VLSI CAD utilities is professional hardware engineers, the goal of CAD utilities is to develop a set of tools which can help on the accuracy, productivity.</p>
+<p>Since the customers of VLSI CAD utilities are professional hardware engineers, the goal of CAD utilities is to develop a set of tools that can help with accuracy, productivity.</p>
 <ul>
 <li>Easy to get the data</li>
 <li>Easy to send the data</li>
 <li>Easy to use the data</li>
 </ul>
-<p>In big organization, easy also means standardization.</p>
-<h2 id="good-practise-1-least-astonishment">Good practise 1: Least Astonishment</h2>
+<p>In a big organization, easy also means standardization.</p>
+<h2 id="good-practice-1-least-astonishment">Good practice 1: Least Astonishment</h2>
 <p>a.k.a. least surprise</p>
 <p>Configuration is always a good example to explain this rule.</p>
 <p>In CAD utility, we may have multiple ways to configure the operations.</p>
 <ul>
-<li>Some of them are from environment variables</li>
-<li>Some of them are from configuration file, like (yaml, json)</li>
+<li>Some of them are from environmental variables</li>
+<li>Some of them are from the configuration file, like (yaml, json)</li>
 <li>Some of them are from project hook, defaults, etc.</li>
-<li>Some of them are from handover critials</li>
-<li>Some of them are from EDA tool itself</li>
+<li>Some of them are from handover criteria</li>
+<li>Some of them are from the EDA tool itself</li>
 </ul>
-<p>Sometimes we can not avoid introducing confusion, then the problem becomes how to resolve the issue, clear the confusion.</p>
+<p>Sometimes we can not avoid introducing confusion. Then the problem becomes how to resolve the issue, clear the confusion.</p>
 <h3 id="single-source-of-true-ssot">Single Source of True (SSoT)</h3>
-<p>And in our own configuration file, we may have if-else statement to switch based on the conditions.</p>
-<p>If the learning curve is so steep, it is not good for new projects, they will refuse to migrate.</p>
+<p>And in our configuration file, we may have an if-else statement to switch based on the conditions.</p>
+<p>If the learning curve is so steep, it is not suitable for new projects. They will refuse to migrate.</p>
 <p>Even the engineers master the utility once, they will learn again in the next project.</p>
 <p>The ideal case is that, in our platform, all the utilities can read the configuration from one source.</p>
-<p>But this is not practical. The hardware design is not AI-ready yet, we still need to handle a lot of cases during daily engineering work.</p>
+<p>But this is not practical. The hardware design is not AI-ready yet. We still need to handle a lot of cases during daily engineering work.</p>
 <p>So the solution is that we can split the function or modularize the function layer by layer. Each layer, we have the APIs, or we call configuration files, for inputs and outputs.</p>
-<p>The inputs and outputs are well defined in one entry file. The file is called &ldquo;Metadata&rdquo;, and the APIs should always deliver with &ldquo;Metadata&rdquo;, no guessing.</p>
+<p>The inputs and outputs are well defined in one entry file. The file is called &ldquo;Metadata&rdquo;, and the APIs should consistently deliver with &ldquo;Metadata&rdquo;, no guessing.</p>
 <pre><code class="language-json">{
   &quot;metadata&quot; : {
     &quot;name&quot; : &quot;flow_config&quot;,
@@ -429,34 +429,34 @@
 </code></pre>
 <p><img src="/images/ssot.png" alt="SSOT"></p>
 <p>In the real scenario, we can have more constraints. Like, the dataset must be the objects, k-v pairs.</p>
-<p>Instead of understanding this rule as a single file, we bring the metadata concept which represents the &ldquo;Single Source&rdquo;.</p>
-<p>And in metadata, we also need to describe the relationship between each metadata key, this could be part of the metadata as well.</p>
+<p>Instead of understanding this rule as a single file, we bring the metadata concept, which represents the &ldquo;Single Source&rdquo;.</p>
+<p>And in metadata, we also need to describe the relationship between each metadata key. This could be part of the metadata as well.</p>
 <p>The relationship (<code>$rel</code>) is the logic for certain business needs, so it requires product SPEC to describe how to use and explain the relations.</p>
 <h3 id="unambiguous">Unambiguous</h3>
-<p>The &ldquo;unambiguous&rdquo; is always talked when writing a requirement/schema or configuration.</p>
-<p>Some configuration is good to just use <code>on|off</code>, or <code>1|0</code>, then we should keep it simple.</p>
-<p>Sometimes 1 or 0 is not really telling what is going to do, so we might need to use the word specifically.</p>
-<p>When we define schema, or design configuration, it is better to send it out to different people for review.
-If many questions come into your email box, that means the setting is not clear enough what is going to happen.</p>
+<p>The &ldquo;unambiguous&rdquo; is always talked about when writing a requirement/schema or configuration.</p>
+<p>Some configuration is good to use <code>on|off</code> or <code>1|0</code>, then we should keep it simple.</p>
+<p>Sometimes 1 or 0 is no telling what is going to do, so we might need to use the word precisely.</p>
+<p>When defining schema or design configuration, it is better to send it out to different people for review.
+If any questions come into your email box, that means the setting is not clear enough what will happen.</p>
 <h3 id="conventions-vs-configuration">Conventions vs Configuration</h3>
 <p>I prefer explicit configuration, not conventions.</p>
 <p>But the conventions (default naming) can make the configuration pretty simple.</p>
 <h2 id="good-practice-2-guide-instead-of-blaming">Good practice 2: Guide instead of Blaming</h2>
-<p>When users are asking usage questions or they abused some options.</p>
+<p>When users are asking usage questions, or they abuse some options.</p>
 <p>Did you just reply: &ldquo;Please read the document!!!&rdquo;</p>
 <p>No! No!! No!!!</p>
 <p>Most users are experienced users using the EDA (Electronic Design Automation) tools.</p>
-<p>If the usage is not clear, that means <strong>The philosophy of current utility design is bad!</strong></p>
-<p>I always suggest the new CAD comers to participate several project tapeout, then we can get the real scenario our customers are facing.</p>
-<p>Of course, Software and hardware shares the same ground. But still there are some DDD (domain driven design) differences.</p>
+<p>If the user is not clear, that means <strong>The philosophy of current utility design is terrible!</strong></p>
+<p>I always suggest the new CAD comers participate in several project tapeout. Then we can get the real scenario our customers are facing.</p>
+<p>Of course, Software and hardware share the same ground. But still, there are some DDD (domain-driven design) differences.</p>
 <h3 id="examples-and-templates">Examples and Templates</h3>
-<p>Provide enough template and examples to bring the users in as quickly as possible.</p>
-<p>Template is important, users are able to start with the templates (recipes) which is tested by the CAD developers.</p>
+<p>Provide enough templates and examples to bring the users in as quickly as possible.</p>
+<p>The template is essential. Users are able to start with the templates (recipes), which are tested by the CAD developers.</p>
 <p>To educate the user, what should we do?</p>
 <h3 id="howto">HowTo</h3>
-<p>Develop a training material to help users to build the knowledge.</p>
+<p>Develop a training material to help users to build knowledge.</p>
 <h3 id="whatnext">WhatNext</h3>
-<p>When error happened, try to give out:</p>
+<p>When an error happened, try to give out:</p>
 <ul>
 <li>What happened, error message, error code, etc.</li>
 <li>Error code location, highlight if possible</li>
@@ -464,24 +464,24 @@ If many questions come into your email box, that means the setting is not clear 
 </ul>
 <h3 id="dryrun">Dryrun</h3>
 <p>We have thousands of configuration items, it is not easy to remember all of them.</p>
-<p>So to review the settings which will apply to the upcoming run is important, help the users to check and identify the potential issues.</p>
-<p><strong>This is called ability of &ldquo;dry-run&rdquo;.</strong></p>
-<p>Dry-run log is another art of work which could be very useful.</p>
+<p>So to review the settings which will apply to the upcoming run is essential, helping the users to check and identify the potential issues.</p>
+<p><strong>This is called the ability of &ldquo;dry-run&rdquo;.</strong></p>
+<p>Dry-run log is another art of work that could be very useful.</p>
 <h3 id="help-system">Help System</h3>
-<p>Help system is not only about document and training.</p>
-<p>Document could be in code (show during logging and runtime)</p>
-<p>You could have a 100 page word/pdf document, but think about how do the users use the document.</p>
+<p>The help system is not only about documents and training.</p>
+<p>The document could be in code (show during logging and runtime)</p>
+<p>You could have a 100-page word/pdf document, but think about how do the users use the document.</p>
 <p>The help system also includes <code>-h</code> / <code>--help</code>, man page, error handling, variable tracing, etc.</p>
-<p>The help system is a big topic. We will talk about it in next week <a href="help_system.md">Help System</a>.</p>
+<p>The help system is a big topic. We will talk about it next week <a href="help_system.md">Help System</a>.</p>
 <h2 id="good-practice-3-keep-it-simple-stupid">Good practice 3: Keep it Simple, Stupid</h2>
 <h3 id="decouple-more-is-less">Decouple, more is less</h3>
 <p>We have some cases that we need to re-use some utility or code, and then modularization is a good approach.</p>
-<p>Think about this case, the library is used everywhere and one day there is a bug introduced which cases the whole system down.</p>
+<p>Think about this case, the library is used everywhere, and one day there is a bug introduced which causes the whole system down.</p>
 <p>Of course, we have other ways to roll back. And reusability is really required in our scenario.</p>
-<p>What if I control the revision and for each module, it is checked out separately. Then even I want to update the common utility for specific application, it will not affect others.</p>
+<p>What if I control the revision, and for each module, it is checked out separately. Then even I want to update the common utility for a specific application, it will not affect others.</p>
 <h3 id="functional-options">Functional Options</h3>
 <p>The argument or option should not be hard to understand and should not be too many.</p>
-<p>If there are many argument needed, the utility may need to consider use input configuration file as well.</p>
+<p>If there are many arguments needed, the utility may need to consider use input configuration files as well.</p>
 <h2 id="visualization">Visualization</h2>
 <p>CLI is needed for the first place, but GUI or Visualization is also great to have.</p>
 <p>That means web technology is a good skill to gain in the CAD career.</p>

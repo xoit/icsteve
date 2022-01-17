@@ -3,8 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/</loc>
+    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/"
+                />
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/zh/categories/</loc>
-    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -16,6 +33,91 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://icsteve.com/zh/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/tags/learning/</loc>
+    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/learning/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/tags/pm/</loc>
+    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/pm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/pm/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/posts/</loc>
+    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/tags/</loc>
+    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/categories/thought/</loc>
+    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/thought/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/thought/"
                 />
   </url>
   
@@ -33,74 +135,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://icsteve.com/zh/categories/learning/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/zh/tags/learning/</loc>
-    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/tags/learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/tags/learning/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/zh/tags/pm/</loc>
-    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/tags/pm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/tags/pm/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/zh/posts/</loc>
-    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/zh/tags/</loc>
-    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/tags/"
                 />
   </url>
   
