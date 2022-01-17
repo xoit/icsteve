@@ -11,6 +11,25 @@
     
     
     <item>
+      <title>Help System Retrospective</title>
+      <link>https://icsteve.com/en/2022/01/help_system/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/01/help_system/</guid>
+      <description>Test </description>
+    </item>
+    
+    <item>
+      <title>What is best for design data sharing? I tell, you choose</title>
+      <link>https://icsteve.com/en/2022/01/ipc_rpc/</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/01/ipc_rpc/</guid>
+      <description>First question I want to go throug is: What is {{IPC}} and {{RPC}}, and why it is important in Hardward design flow?
+ IPC or Inter-Process Communication which refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data. RPC or Remote Procedure Call, which builds on some form of inter-process communication, provides a mechanism for calling a procedure in a program running on a remote system is called.</description>
+    </item>
+    
+    <item>
       <title>3 Good Practices of Hardward CAD Framework</title>
       <link>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
@@ -196,29 +215,6 @@ Result This is the view for my current inbox (Table View). The links are added t
       
       <guid>https://icsteve.com/en/2020/01/cad_framework_cloud/</guid>
       <description>No English Version.</description>
-    </item>
-    
-    <item>
-      <title>CAD Framework: Why Framework is hard to use in IC</title>
-      <link>https://icsteve.com/en/2020/01/cad_framework_deploy/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2020/01/cad_framework_deploy/</guid>
-      <description>No English Version.</description>
-    </item>
-    
-    <item>
-      <title>Use Asciinema</title>
-      <link>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</guid>
-      <description>This is a terminal recording tool.
-Enjoy a lightweight, purely text-based approach to terminal recording.
-Deploymnet Make sure you have python3 installed.
-I will use &amp;ldquo;Run from source&amp;rdquo; approach.
- download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
-export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
     </item>
     
   </channel>

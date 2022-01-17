@@ -10,6 +10,29 @@
     
     
     <item>
+      <title>CAD Framework: Why Framework is hard to use in IC</title>
+      <link>https://icsteve.com/en/2020/01/cad_framework_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_framework_deploy/</guid>
+      <description>No English Version.</description>
+    </item>
+    
+    <item>
+      <title>Use Asciinema</title>
+      <link>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</guid>
+      <description>This is a terminal recording tool.
+Enjoy a lightweight, purely text-based approach to terminal recording.
+Deploymnet Make sure you have python3 installed.
+I will use &amp;ldquo;Run from source&amp;rdquo; approach.
+ download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
+export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://icsteve.com/en/about/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
