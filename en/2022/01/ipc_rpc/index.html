@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        What is best for design data sharing? I tell, you choose - IC Steve
+        What is best for IPC or RPC? I tell, you choose - IC Steve
       </title>
     <head>
   <meta charset="utf-8">
@@ -25,29 +25,29 @@
   
   <meta name="description" content="The course actually help me to understand how to deal with communication with others." />
   <meta name="generator" content="Hugo 0.68.3 with theme pure" />
-  <title>What is best for design data sharing? I tell, you choose - IC Steve</title>
+  <title>What is best for IPC or RPC? I tell, you choose - IC Steve</title>
   
   
   <link rel="stylesheet" href="https://icsteve.com/css/style.min.24a24c98f78559256aab5d85194c299e2fe27a20be7c34b84014af8fa0d3dcb8.css">
   
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-  <meta property="og:title" content="What is best for design data sharing? I tell, you choose" />
+  <meta property="og:title" content="What is best for IPC or RPC? I tell, you choose" />
 <meta property="og:description" content="The course actually help me to understand how to deal with communication with others." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://icsteve.com/en/2022/01/ipc_rpc/" />
 <meta property="article:published_time" content="2022-01-16T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-01-16T00:00:00+00:00" />
-<meta itemprop="name" content="What is best for design data sharing? I tell, you choose">
+<meta itemprop="name" content="What is best for IPC or RPC? I tell, you choose">
 <meta itemprop="description" content="The course actually help me to understand how to deal with communication with others.">
 <meta itemprop="datePublished" content="2022-01-16T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2022-01-16T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="281">
+<meta itemprop="wordCount" content="475">
 
 
 
 <meta itemprop="keywords" content="PM,Learning," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="What is best for design data sharing? I tell, you choose"/>
+<meta name="twitter:title" content="What is best for IPC or RPC? I tell, you choose"/>
 <meta name="twitter:description" content="The course actually help me to understand how to deal with communication with others."/>
 
   <!--[if lte IE 9]>
@@ -267,7 +267,7 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://icsteve.com/en/2022/01/ipc_rpc/" class="title">What is best for design data sharing? I tell, you choose</a>
+                        <a href="https://icsteve.com/en/2022/01/ipc_rpc/" class="title">What is best for IPC or RPC? I tell, you choose</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2022-01-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-01-16</time>
@@ -339,7 +339,7 @@
   <a
     class="article-title"
     href="/en/2022/01/ipc_rpc/"
-    >What is best for design data sharing? I tell, you choose</a
+    >What is best for IPC or RPC? I tell, you choose</a
   >
 </h1>
 
@@ -363,8 +363,8 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/en/2022/01/ipc_rpc/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 281words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 475words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
         
         <span>&nbsp;<a href=/zh/2022/01/ipc_rpc/>中文版</a>
         </span>
@@ -372,7 +372,7 @@
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      <p>First question I want to go throug is: What is {{IPC}} and {{RPC}}, and why it is important in Hardward design flow?</p>
+      <p>First question I want to go throug is: What is IPC and RPC, and why it is important in Hardward design flow?</p>
 <ul>
 <li>IPC or Inter-Process Communication which refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data.</li>
 <li>RPC or Remote Procedure Call, which builds on some form of inter-process communication, provides a mechanism for calling a procedure in a program running on a remote system is called.</li>
@@ -438,14 +438,19 @@
 </thead>
 <tbody>
 <tr>
-<td>spead</td>
-<td>low</td>
-<td>Real time and highly concurrent is not critical.</td>
+<td>customer</td>
+<td>high</td>
+<td>It is based on the knowledge of pruduct customers</td>
 </tr>
 <tr>
-<td>stablity</td>
+<td>stability</td>
 <td>high</td>
 <td>Re-try or bad data is critical.</td>
+</tr>
+<tr>
+<td>adoption</td>
+<td>high</td>
+<td>It should be supported by different EDA tools, different program languages.</td>
 </tr>
 <tr>
 <td>portability</td>
@@ -463,17 +468,16 @@
 <td>It must be easy to deploy.</td>
 </tr>
 <tr>
-<td>apoption</td>
-<td>high</td>
-<td>It should be supported by different EDA tools, different program languages.</td>
-</tr>
-<tr>
-<td>customer</td>
-<td>high</td>
-<td>It is based on the knowledge of pruduct customers</td>
+<td>spead</td>
+<td>low</td>
+<td>Real time and highly concurrent is not critical.</td>
 </tr>
 </tbody>
 </table>
+<p>So based on the table above, I vote the first 3 high priority. In the hardware design scenario, CAD framework is serving, helping a specific domain engnieers, they are good at hardware design, and hardware design has various background knowledge requirement. Some ASIC frontend engineers may like python, perl, and makefile, but some ASIC backend engineers may prefer tcl, perl, shell, or EDA tool specific language. Backend process relies on tool a lot nowadays.</p>
+<p>Stability is anohter very important one, the cost of re-run is very high. For software, web service, maybe re-send a request will not affect any user experience and only takes one seconds to re-do something. But, in ASIC Backend flow, after routing is done, if you want to fix the floorplan issue, we may already waste a lot of engineering time, license spense, and pay the business loss of losing market time.</p>
+<p>adoption is similar to stability, for ASIC flows, we rely on EDA tools a lot. If the tool can not support the methodology, technology we choose, then communicating with EDA tools will become very bad.</p>
+<p>for others, they may good to have or just needed in some scenarios.</p>
 
     </div>
     <div class="article-footer">
@@ -481,7 +485,7 @@
   <ul class="post-copyright list-unstyled">
     <li class="post-copyright-link hidden-xs">
       <strong>Permalink: </strong>
-      <a href="https://icsteve.com/en/2022/01/ipc_rpc/" title="What is best for design data sharing? I tell, you choose" target="_blank" rel="external">https://icsteve.com/en/2022/01/ipc_rpc/</a>
+      <a href="https://icsteve.com/en/2022/01/ipc_rpc/" title="What is best for IPC or RPC? I tell, you choose" target="_blank" rel="external">https://icsteve.com/en/2022/01/ipc_rpc/</a>
     </li>
     <li class="post-copyright-license">
       <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>

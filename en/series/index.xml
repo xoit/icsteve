@@ -10,12 +10,12 @@
     
     
     <item>
-      <title>What is best for design data sharing? I tell, you choose</title>
+      <title>What is best for IPC or RPC? I tell, you choose</title>
       <link>https://icsteve.com/en/2022/01/ipc_rpc/</link>
       <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2022/01/ipc_rpc/</guid>
-      <description>First question I want to go throug is: What is {{IPC}} and {{RPC}}, and why it is important in Hardward design flow?
+      <description>First question I want to go throug is: What is IPC and RPC, and why it is important in Hardward design flow?
  IPC or Inter-Process Communication which refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data. RPC or Remote Procedure Call, which builds on some form of inter-process communication, provides a mechanism for calling a procedure in a program running on a remote system is called.</description>
     </item>
     
