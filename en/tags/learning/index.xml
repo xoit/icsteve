@@ -5,19 +5,10 @@
     <link>https://icsteve.com/en/tags/learning/</link>
     <description>Recent content in Learning on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jan 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Help System Retrospective</title>
-      <link>https://icsteve.com/en/2022/01/help_system/</link>
-      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2022/01/help_system/</guid>
-      <description>Test </description>
-    </item>
     
     <item>
       <title>What is best for design data sharing? I tell, you choose</title>
@@ -213,6 +204,15 @@ Result This is the view for my current inbox (Table View). The links are added t
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2020/01/cad_framework_cloud/</guid>
+      <description>No English Version.</description>
+    </item>
+    
+    <item>
+      <title>CAD Framework: Why Framework is hard to use in IC</title>
+      <link>https://icsteve.com/en/2020/01/cad_framework_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_framework_deploy/</guid>
       <description>No English Version.</description>
     </item>
     
