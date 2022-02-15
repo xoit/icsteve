@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICSteve on IC Steve</title>
+    <link>https://icsteve.com/en/categories/icsteve/</link>
+    <description>Recent content in ICSteve on IC Steve</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://icsteve.com/en/categories/icsteve/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://icsteve.com/en/about/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/about/</guid>
+      <description>ICSteve is try to achieve the following goals: Build IC knowledge graph Spread the ICCAD Welcome to follow me at 知乎专栏 （ICCAD） 知识星球 （ICSteve） 微信公众号 （IC物理设计）</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://icsteve.com/en/1/01/build_note_structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/1/01/build_note_structure/</guid>
+      <description>This post share how I setup a git repository to host my note structure with the following tools.
+ Hugo for website Obsidian for note taking docsify  </description>
+    </item>
+    
+  </channel>
+</rss>

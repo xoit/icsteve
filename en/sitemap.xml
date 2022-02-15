@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://icsteve.com/en/categories/</loc>
-    <lastmod>2022-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -20,8 +20,32 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/en/2022/01/help_system-lifengs-mac-mini/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/categories/learning/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/learning/"
+                />
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/tags/learning/</loc>
-    <lastmod>2022-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -38,7 +62,7 @@
   
   <url>
     <loc>https://icsteve.com/en/tags/pm/</loc>
-    <lastmod>2022-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -55,7 +79,7 @@
   
   <url>
     <loc>https://icsteve.com/en/posts/</loc>
-    <lastmod>2022-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -72,7 +96,7 @@
   
   <url>
     <loc>https://icsteve.com/en/tags/</loc>
-    <lastmod>2022-01-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -147,23 +171,6 @@
     <lastmod>2022-01-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/categories/learning/</loc>
-    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/categories/learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/categories/learning/"
-                />
   </url>
   
   <url>

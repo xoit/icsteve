@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        使用tree 命令展示文件结构 - IC Steve
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <meta name="description" content="Plan RUI - tree command" />
+  <meta name="generator" content="Hugo 0.89.4 with theme pure" />
+  <title>使用tree 命令展示文件结构 - IC Steve</title>
+  
+  
+  <link rel="stylesheet" href="https://icsteve.com/css/style.min.18cff97056c95ef067453580ee1025582e2095927b0a89a429d693e0c9044a59.css">
+  
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+  <meta property="og:title" content="使用tree 命令展示文件结构" />
+<meta property="og:description" content="Plan RUI - tree command" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://icsteve.com/zh/2021/01/tree_command/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-01-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-03T00:00:00+00:00" />
+
+<meta itemprop="name" content="使用tree 命令展示文件结构">
+<meta itemprop="description" content="Plan RUI - tree command"><meta itemprop="datePublished" content="2021-01-03T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-01-03T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1326">
+<meta itemprop="keywords" content="RUI,csh,tree," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="使用tree 命令展示文件结构"/>
+<meta name="twitter:description" content="Plan RUI - tree command"/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+
+  
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://icsteve.com" target="_blank">
+            <img class="img-circle img-rotate" src="https://icsteve.com/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">ICSteve</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">CAD/SYN/PNR/STA</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>BayArea, US</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="搜索" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="想要查找什么..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      
+      <div class="text-center" id="switchlang" style="padding-top:8px; padding-bottom: 5px;">
+        <a href="/en/">Switch to English Site</a>
+      </div>
+      
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/zh/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">首页</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/zh/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">存档</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/zh/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">分类</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/zh/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">标签</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/zh/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">关于</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">公告</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>2021 新年快乐!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> 分类</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/cad/" class="category-list-link">cad</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/english/" class="category-list-link">english</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/hmc/" class="category-list-link">hmc</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/learning/" class="category-list-link">learning</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/notion/" class="category-list-link">notion</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/project/" class="category-list-link">project</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/rui/" class="category-list-link">rui</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/thought/" class="category-list-link">thought</a><span class="category-list-count">1</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> 标签</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/asciinema/" class="tag-list-link">asciinema</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/cad/" class="tag-list-link">cad</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/cli/" class="tag-list-link">cli</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/cloud/" class="tag-list-link">cloud</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/collection/" class="tag-list-link">collection</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/csh/" class="tag-list-link">csh</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/english/" class="tag-list-link">english</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/framework/" class="tag-list-link">framework</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/learning/" class="tag-list-link">learning</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/notion/" class="tag-list-link">notion</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/pm/" class="tag-list-link">pm</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/rui/" class="tag-list-link">rui</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/tcl/" class="tag-list-link">tcl</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/tree/" class="tag-list-link">tree</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/youtube/" class="tag-list-link">youtube</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/" class="title">ASIC 硬件设计 CAD 框架的 3 个有用实践</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2022-01-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-01-09</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://icsteve.com/zh/2022/01/communication_plan/" class="title">何为 &#34;Communication Plan&#34;</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2022-01-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-01-02</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://icsteve.com/zh/2021/11/tcl_csh_cli_1/" class="title">tcl-csh-cli 立项</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-11-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-11-24</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://icsteve.com/zh/2021/11/project_management_1/" class="title">Project Management 课程笔记</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-11-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-11-20</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_b/" class="title">ICSteve 半月会（2021.01-下）</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-01-31 09:22:00 &#43;0000 UTC" itemprop="datePublished">2021-01-31</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">文章目录</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/zh/2021/01/tree_command/"
+    >使用tree 命令展示文件结构</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://icsteve.com/zh/2021/01/tree_command/" class="article-date">
+  <time datetime="2021-01-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-01-03</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/zh/categories/rui/"> RUI </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/zh/tags/rui/"> RUI </a>
+    <a class="article-tag-link" href="/zh/tags/csh/"> csh </a>
+    <a class="article-tag-link" href="/zh/tags/tree/"> tree </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/zh/2021/01/tree_command/#comments"
+            class="article-comment-link">评论</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 1326字</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 3分 </span>
+        
+        <span>&nbsp;<a href=/en/2021/01/tree_command/>English Version</a>
+        </span>
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p><code>tree</code> 是用来帮助我们显示目录和文件结构的一个常用命令。</p>
+<h2 id="real-case-实例">Real Case 实例</h2>
+<p>当我们讨论某项方案，或者要和其他同事debug 一些问题的时候，难免需要展示文件夹结构，尤其是在通过视频会议来分享这些内容的时候，口头描述成为一个挑战，不仅表达不一定准确，而且会来回得确认，不断地回溯。那怎样才能清晰地表述文件结构呢？</p>
+<p><code>.</code> 代表了当前文件夹，我们可以使用<code>pwd</code> 来代替它</p>
+<pre><code class="language-bash">➜  tree -a --dirsfirst
+.
+├── test -&gt; test_3
+├── test_1
+│   └── file_1
+├── test_2
+│   └── file_2
+├── test_3
+│   └── file_3
+└── .conf
+4 directories, 4 files
+
+➜  tree `pwd` -a --dirsfirst
+/Users/steve/demo
+├── test -&gt; test_3
+├── test_1
+│   └── file_1
+├── test_2
+│   └── file_2
+├── test_3
+│   └── file_3
+└── .conf
+
+4 directories, 4 files
+</code></pre>
+<h2 id="understand-理解">Understand 理解</h2>
+<p>运行 tree —help 来查看tree 命令的帮助信息，如果忘记某些选项的意思的话。</p>
+<pre><code class="language-bash">➜  ~ tree --help
+usage: tree [-acdfghilnpqrstuvxACDFJQNSUX] [-H baseHREF] [-T title ]
+	[-L level [-R]] [-P pattern] [-I pattern] [-o filename] [--version]
+	[--help] [--inodes] [--device] [--noreport] [--nolinks] [--dirsfirst]
+	[--charset charset] [--filelimit[=]#] [--si] [--timefmt[=]&lt;f&gt;]
+	[--sort[=]&lt;name&gt;] [--matchdirs] [--ignore-case] [--fromfile] [--]
+	[&lt;directory list&gt;]
+  ------- Listing options -------
+  -a            All files are listed.
+  -d            List directories only.
+  -l            Follow symbolic links like directories.
+  -f            Print the full path prefix for each file.
+  -x            Stay on current filesystem only.
+  -L level      Descend only level directories deep.
+  -R            Rerun tree when max dir level reached.
+  -P pattern    List only those files that match the pattern given.
+  -I pattern    Do not list files that match the given pattern.
+  --ignore-case Ignore case when pattern matching.
+  --matchdirs   Include directory names in -P pattern matching.
+  --noreport    Turn off file/directory count at end of tree listing.
+  --charset X   Use charset X for terminal/HTML and indentation line output.
+  --filelimit # Do not descend dirs with more than # files in them.
+  --timefmt &lt;f&gt; Print and format time according to the format &lt;f&gt;.
+  -o filename   Output to file instead of stdout.
+  ------- File options -------
+  -q            Print non-printable characters as '?'.
+  -N            Print non-printable characters as is.
+  -Q            Quote filenames with double quotes.
+  -p            Print the protections for each file.
+  -u            Displays file owner or UID number.
+  -g            Displays file group owner or GID number.
+  -s            Print the size in bytes of each file.
+  -h            Print the size in a more human readable way.
+  --si          Like -h, but use in SI units (powers of 1000).
+  -D            Print the date of last modification or (-c) status change.
+  -F            Appends '/', '=', '*', '@', '|' or '&gt;' as per ls -F.
+  --inodes      Print inode number of each file.
+  --device      Print device ID number to which each file belongs.
+  ------- Sorting options -------
+  -v            Sort files alphanumerically by version.
+  -t            Sort files by last modification time.
+  -c            Sort files by last status change time.
+  -U            Leave files unsorted.
+  -r            Reverse the order of the sort.
+  --dirsfirst   List directories before files (-U disables).
+  --sort X      Select sort: name,version,size,mtime,ctime.
+  ------- Graphics options -------
+  -i            Don't print indentation lines.
+  -A            Print ANSI lines graphic indentation lines.
+  -S            Print with CP437 (console) graphics indentation lines.
+  -n            Turn colorization off always (-C overrides).
+  -C            Turn colorization on always.
+  ------- XML/HTML/JSON options -------
+  -X            Prints out an XML representation of the tree.
+  -J            Prints out an JSON representation of the tree.
+  -H baseHREF   Prints out HTML format with baseHREF as top directory.
+  -T string     Replace the default HTML title and H1 header with string.
+  --nolinks     Turn off hyperlinks in HTML output.
+  ------- Input options -------
+  --fromfile    Reads paths from files (.=stdin)
+  ------- Miscellaneous options -------
+  --version     Print version and exit.
+  --help        Print usage and this help message and exit.
+  --            Options processing terminator.
+</code></pre>
+<p>我挑了几个自己特别常用的来讲讲每一个选项的使用场景。可以看到很多选项和<code>ls</code> 命令是很类似的。</p>
+<p><code>-a</code>, 罗列所有的文件，包括隐藏文件。在一些CAD 或者其他工作中，需要debug 的时候，或者需要展示一些隐藏的配置文件的时候，由于文件以 &ldquo;.&rdquo; 开头为隐藏文件，所以需要使用 <code>-a</code> 。</p>
+<p><code>-d</code>, 仅罗列文件夹，忽略文件。在某些情况下，文件很多但是我们并不关心，我们关心的是文件夹结构，文件很有可能是临时文件，按日期生产的。在这种情况下，只列出文件夹会清晰很多。</p>
+<p><code>-L</code>, 用来控制文件夹的层数。某些时候文件夹很深，文件夹内套文件夹，直接用tree 会让输出到stdout 的结果很长。这个时候如果我们只想显示两层结构，可以使用 <code>-L 2</code>.</p>
+<p><code>-t</code>, 按修改时间排列文件。常用于需要展示最新生成的文件，使用这个选项就可以清晰的在tree view 的末尾找到最新被修改过的文件了。</p>
+<p>另外一个好用的功能是HTML 和JSON 格式的输出。现在的HTML 文档越来越流行，html 或者json 输出无疑减轻了好多转换的工作，让我们可以更方便，更快速的将结果集成到web 应用中。</p>
+<h2 id="improvement-or-exercises-改进或练习">Improvement or Exercises 改进或练习</h2>
+<p>尝试以下的命令，了解上面我所列出来的一些常用选项的输出结果。</p>
+<p>也可以自己构建不同的结构来尝试不同的选项，平时多练习，关键时刻不掉链子:)</p>
+<pre><code class="language-bash">mkdir tree_demo
+cd tree_demo
+mkdir -p demo_1 demo_2 demo_3 demo_4 demo_5
+touch demo_1/file_1 demo_2/file_2_1 demo_2/file_2_2 demo_3/file_3 demo_5/file_5
+touch .demo_6
+tree `pwd`
+tree `pwd` -a
+tree `pwd` -a --dirsfirst
+touch demo_2/file_2_2
+tree `pwd` -a -t --dirsfirst
+tree `pwd` -a -t -L 1 --dirsfirst
+tree `pwd` -a -t -d -L 1 --dirsfirst
+</code></pre>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接: </strong>
+      <a href="https://icsteve.com/zh/2021/01/tree_command/" title="使用tree 命令展示文件结构" target="_blank" rel="external">https://icsteve.com/zh/2021/01/tree_command/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://icsteve.com" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://icsteve.com/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://icsteve.com" target="_blank"><span class="text-dark">ICSteve</span><small class="ml-1x">CAD/SYN/PNR/STA</small></a></h3>
+        <div>Good Good Study, Day Day Up~</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://icsteve.com/zh/2020/12/youglish/" title="英语发音助手：youglish.com"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;下一篇</span></a>
+            </li>
+            <li class="next">
+                <a href="https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_a/"
+                    title="ICSteve 半月会（2021.01-汇上）"><span>上一篇&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="文章目录" role="button">
+                    <span>[&nbsp;</span><span>文章目录</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="wechat,weibo,facebook,twitter,qq"
+                data-mobile-sites="wechat,weibo,qq"></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/xoit" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://icsteve.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2019  -
+    2022
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/tcl.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://icsteve.com/js/application.min.a94ab19cb63a95c8d7fbd7b85cab3ddeea8c369bdf75b9cab6708787ead123af.js"></script>
+<script src="https://icsteve.com/js/plugin.min.19c5bcb2fb0789ab4f2b7834e5ceb5e92635645605bab902c1024b25f1502364.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(未命名)',
+            },
+            ROOT_URL: 'https:\/\/icsteve.com\/',
+            CONTENT_URL: 'https:\/\/icsteve.com\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://icsteve.com/js/insight.min.4a2d52de4bfff73e0c688404fe3d17c9a3ae12d9888e1e1ac9c690e4890de2ded50fe55f2b819c2ba55435a76f396f3ea6805765f0b0af5635cdf74ea459eab0.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/icsteve.com\/zh\/2021\/01\/tree_command\/';
+        this.page.identifier = 'icsteve';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'icsteve' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-19459399-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
