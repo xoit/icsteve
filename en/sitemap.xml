@@ -3,6 +3,85 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://icsteve.com/en/tags/aah/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/categories/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/categories/life/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/posts/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/tags/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/tags/volunteer/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/2022/07/volunteer_aah_20220702/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,23 +95,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/categories/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/categories/"
                 />
   </url>
   
@@ -67,40 +129,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://icsteve.com/en/tags/pm/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/posts/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/tags/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/tags/"
                 />
   </url>
   
@@ -797,12 +825,6 @@
   
   <url>
     <loc>https://icsteve.com/en/1/01/ipc_rpc/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/1/01/volunteer_aah_20220702/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -5,10 +5,22 @@
     <link>https://icsteve.com/en/posts/</link>
     <description>Recent content in Posts on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jul 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Volunteer day at AAH (2022/07/02)</title>
+      <link>https://icsteve.com/en/2022/07/volunteer_aah_20220702/</link>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/07/volunteer_aah_20220702/</guid>
+      <description>Today is my 2nd time volunteer experience at AAH (https://www.animalassistedhappiness.org/).
+Other than school volunteer, I have less experience on other organizations. AAH is providing the oportunities with the animals. I like close to the animals.
+Clean the Horse House We already know the process:
+ Pick and clean up the horse manure Pile the leaves under the tree Fill the water Check and fill the big holes Pick and dump the branches  This time, we have 5 people total.</description>
+    </item>
     
     <item>
       <title>3 Good Practices of Hardward CAD Framework</title>
@@ -204,20 +216,6 @@ Result This is the view for my current inbox (Table View). The links are added t
       
       <guid>https://icsteve.com/en/2020/01/cad_framework_deploy/</guid>
       <description>No English Version.</description>
-    </item>
-    
-    <item>
-      <title>Use Asciinema</title>
-      <link>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</guid>
-      <description>This is a terminal recording tool.
-Enjoy a lightweight, purely text-based approach to terminal recording.
-Deploymnet Make sure you have python3 installed.
-I will use &amp;ldquo;Run from source&amp;rdquo; approach.
- download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
-export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
     </item>
     
   </channel>

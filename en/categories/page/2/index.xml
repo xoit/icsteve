@@ -5,10 +5,24 @@
     <link>https://icsteve.com/en/categories/</link>
     <description>Recent content in Categories on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jul 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Use Asciinema</title>
+      <link>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</guid>
+      <description>This is a terminal recording tool.
+Enjoy a lightweight, purely text-based approach to terminal recording.
+Deploymnet Make sure you have python3 installed.
+I will use &amp;ldquo;Run from source&amp;rdquo; approach.
+ download source  git clone https://github.com/asciinema/asciinema.git cd asciinema pwd   set PYTHONPATH  for bash
+export PYTHONPATH=`pwd` ;  setenv PYTHONPATH `pwd` ;   Create command alias  alias asciinema=&amp;quot;python3 -m asciinema &amp;quot;  alias asciinema &#39;python3 -m asciinema \!</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -37,17 +51,6 @@
       <guid>https://icsteve.com/en/1/01/ipc_rpc/</guid>
       <description>author: &amp;ldquo;Steve&amp;rdquo; title: &amp;ldquo;What is best for IPC or RPC? I tell, you choose&amp;rdquo; date: &amp;ldquo;2022-01-16&amp;rdquo; description: &amp;ldquo;The course actually help me to understand how to deal with communication with others.&amp;rdquo; tags : [ &amp;ldquo;PM&amp;rdquo;, &amp;ldquo;Learning&amp;rdquo; ] categories : [&amp;ldquo;THOUGHT&amp;rdquo;] First question I want to go throug is: What is IPC and RPC, and why it is important in Hardward design flow?
  IPC or Inter-Process Communication which refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://icsteve.com/en/1/01/volunteer_aah_20220702/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/1/01/volunteer_aah_20220702/</guid>
-      <description> author : &amp;ldquo;Steve&amp;rdquo; title : &amp;ldquo;Volunteer day at AAH (2022/07/02)&amp;rdquo; date : &amp;ldquo;2021-07-02&amp;rdquo; description : &amp;ldquo;Plan RUI - tree command&amp;rdquo; tags : [&amp;ldquo;volunteer&amp;rdquo;, &amp;ldquo;aah&amp;rdquo;] categories : [&amp;ldquo;life&amp;rdquo;] Volunteer day at AAH (2022/07/02) Today is my 2nd time volunteer experience at AAH (https://www.animalassistedhappiness.org/).
-Other than school volunteer, I have less experience on other organizations. AAH is providing the oportunities with the animals. I like close to the animals.
-Clean the Horse House from </description>
     </item>
     
     <item>
