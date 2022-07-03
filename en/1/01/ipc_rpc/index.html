@@ -25,11 +25,11 @@
   
   <meta name="description" content="author: &amp;ldquo;Steve&amp;rdquo; title: &amp;ldquo;What is best for IPC or RPC? I tell, you choose&amp;rdquo; date: &amp;ldquo;2022-01-16&amp;rdquo; description: &amp;ldquo;The course actually help me to understand how to deal with communication with others.&amp;rdquo; tags : [ &amp;ldquo;PM&amp;rdquo;, &amp;ldquo;Learning&amp;rdquo; ] categories : [&amp;ldquo;THOUGHT&amp;rdquo;] First question I want to go throug is: What is IPC and RPC, and why it is important in Hardward design flow?
  IPC or Inter-Process Communication which refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data." />
-  <meta name="generator" content="Hugo 0.89.4 with theme pure" />
+  <meta name="generator" content="Hugo 0.68.3 with theme pure" />
   <title> - IC Steve</title>
   
   
-  <link rel="stylesheet" href="https://icsteve.com/css/style.min.18cff97056c95ef067453580ee1025582e2095927b0a89a429d693e0c9044a59.css">
+  <link rel="stylesheet" href="https://icsteve.com/css/style.min.24a24c98f78559256aab5d85194c299e2fe27a20be7c34b84014af8fa0d3dcb8.css">
   
   <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
@@ -37,15 +37,16 @@
 <meta property="og:description" content="author: &ldquo;Steve&rdquo; title: &ldquo;What is best for IPC or RPC? I tell, you choose&rdquo; date: &ldquo;2022-01-16&rdquo; description: &ldquo;The course actually help me to understand how to deal with communication with others.&rdquo; tags : [ &ldquo;PM&rdquo;, &ldquo;Learning&rdquo; ] categories : [&ldquo;THOUGHT&rdquo;] First question I want to go throug is: What is IPC and RPC, and why it is important in Hardward design flow?
  IPC or Inter-Process Communication which refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://icsteve.com/en/1/01/ipc_rpc/" /><meta property="article:section" content="posts" />
-
-
+<meta property="og:url" content="https://icsteve.com/en/1/01/ipc_rpc/" />
 
 <meta itemprop="name" content="">
 <meta itemprop="description" content="author: &ldquo;Steve&rdquo; title: &ldquo;What is best for IPC or RPC? I tell, you choose&rdquo; date: &ldquo;2022-01-16&rdquo; description: &ldquo;The course actually help me to understand how to deal with communication with others.&rdquo; tags : [ &ldquo;PM&rdquo;, &ldquo;Learning&rdquo; ] categories : [&ldquo;THOUGHT&rdquo;] First question I want to go throug is: What is IPC and RPC, and why it is important in Hardward design flow?
  IPC or Inter-Process Communication which refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data.">
 
 <meta itemprop="wordCount" content="557">
+
+
+
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content="author: &ldquo;Steve&rdquo; title: &ldquo;What is best for IPC or RPC? I tell, you choose&rdquo; date: &ldquo;2022-01-16&rdquo; description: &ldquo;The course actually help me to understand how to deal with communication with others.&rdquo; tags : [ &ldquo;PM&rdquo;, &ldquo;Learning&rdquo; ] categories : [&ldquo;THOUGHT&rdquo;] First question I want to go throug is: What is IPC and RPC, and why it is important in Hardward design flow?
@@ -516,7 +517,7 @@ categories : [&ldquo;THOUGHT&rdquo;]</h2>
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="https://icsteve.com/en/1/01/help_system/" title="Help System Retrospective"><i
+                <a href="https://icsteve.com/en/1/01/volunteer_aah_20220702/" title=""><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
             </li>
@@ -585,8 +586,8 @@ categories : [&ldquo;THOUGHT&rdquo;]</h2>
     })
     hljs.initHighlightingOnLoad();
 </script>
-<script src="https://icsteve.com/js/application.min.a94ab19cb63a95c8d7fbd7b85cab3ddeea8c369bdf75b9cab6708787ead123af.js"></script>
-<script src="https://icsteve.com/js/plugin.min.19c5bcb2fb0789ab4f2b7834e5ceb5e92635645605bab902c1024b25f1502364.js"></script>
+<script src="https://icsteve.com/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://icsteve.com/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
 
 <script>
     (function (window) {
@@ -604,7 +605,7 @@ categories : [&ldquo;THOUGHT&rdquo;]</h2>
         window.INSIGHT_CONFIG = INSIGHT_CONFIG;
     })(window);
 </script>
-<script type="text/javascript" src="https://icsteve.com/js/insight.min.4a2d52de4bfff73e0c688404fe3d17c9a3ae12d9888e1e1ac9c690e4890de2ded50fe55f2b819c2ba55435a76f396f3ea6805765f0b0af5635cdf74ea459eab0.js" defer></script>
+<script type="text/javascript" src="https://icsteve.com/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
 <script>
     tocbot.init({

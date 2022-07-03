@@ -37,23 +37,6 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/zh/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/"
-                />
-  </url>
-  
-  <url>
     <loc>https://icsteve.com/zh/tags/learning/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -730,6 +713,23 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://icsteve.com/zh/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/zh/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/"
                 />
   </url>
   

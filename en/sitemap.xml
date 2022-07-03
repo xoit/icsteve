@@ -37,23 +37,6 @@
   </url>
   
   <url>
-    <loc>https://icsteve.com/en/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/"
-                />
-  </url>
-  
-  <url>
     <loc>https://icsteve.com/en/tags/learning/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -790,6 +773,23 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/en/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/"
+                />
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/1/01/build_note_structure/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -797,6 +797,12 @@
   
   <url>
     <loc>https://icsteve.com/en/1/01/ipc_rpc/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/1/01/volunteer_aah_20220702/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
