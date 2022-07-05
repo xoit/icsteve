@@ -3,15 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://icsteve.com/en/tags/aah/</loc>
-    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://icsteve.com/en/categories/</loc>
-    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -27,15 +20,36 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/en/tags/fireworks/</loc>
+    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/2022/07/fireworks_20220704/</loc>
+    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/tags/independent/</loc>
+    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/categories/life/</loc>
-    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://icsteve.com/en/posts/</loc>
-    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -52,7 +66,7 @@
   
   <url>
     <loc>https://icsteve.com/en/tags/</loc>
-    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -65,6 +79,13 @@
                 hreflang="en"
                 href="https://icsteve.com/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/tags/aah/</loc>
+    <lastmod>2022-07-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
