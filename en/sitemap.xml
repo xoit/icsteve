@@ -3,8 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://icsteve.com/en/tags/asic/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/categories/asic/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/categories/</loc>
-    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -16,6 +30,54 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://icsteve.com/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/tags/concurrent-engineering/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/2022/07/concurrent_engineering/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/posts/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/tags/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://icsteve.com/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://icsteve.com/en/tags/"
                 />
   </url>
   
@@ -45,40 +107,6 @@
     <lastmod>2022-07-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/posts/</loc>
-    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://icsteve.com/en/tags/</loc>
-    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://icsteve.com/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://icsteve.com/en/tags/"
-                />
   </url>
   
   <url>

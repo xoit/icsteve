@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Concurrent Engineering in ASIC</title>
+      <link>https://icsteve.com/en/2022/07/concurrent_engineering/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2022/07/concurrent_engineering/</guid>
+      <description>&amp;ldquo;Concurrent Engineering&amp;rdquo; is a systematic method of designing and developing products (projects) where different activities run simultaneously.
+This decreases the production time leading to reduced costs. Although it has more challenges on extensive communication and coordination.
+My Big Point: Apparently, the CAD flow is trying to finish one specific task. Actually, the CAD flow is building a comunication channel between CAD and Designer, between Designer and EDA tool.
+&amp;ldquo;Concurent Engineering&amp;rdquo; has followingbenefits:</description>
+    </item>
+    
+    <item>
       <title>Fireworks (2022/07/04)</title>
       <link>https://icsteve.com/en/2022/07/fireworks_20220704/</link>
       <pubDate>Tue, 05 Jul 2022 00:00:00 +0000</pubDate>
@@ -210,15 +222,6 @@ Result This is the view for my current inbox (Table View). The links are added t
       <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2020/01/cad_framework/</guid>
-      <description>No English Version.</description>
-    </item>
-    
-    <item>
-      <title>CAD Framework: Cloud will change the game</title>
-      <link>https://icsteve.com/en/2020/01/cad_framework_cloud/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2020/01/cad_framework_cloud/</guid>
       <description>No English Version.</description>
     </item>
     
