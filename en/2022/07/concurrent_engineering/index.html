@@ -42,7 +42,7 @@
 <meta itemprop="description" content="Concurrent Engineering in ASIC design flow">
 <meta itemprop="datePublished" content="2022-07-06T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2022-07-06T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="696">
+<meta itemprop="wordCount" content="699">
 
 
 
@@ -389,7 +389,7 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/en/2022/07/concurrent_engineering/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 696words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 699words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
         
         <span>&nbsp;<a href=/zh/2022/07/concurrent_engineering/>中文版</a>
@@ -399,59 +399,59 @@
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p>&ldquo;Concurrent Engineering&rdquo; is a systematic method of designing and developing products (projects) where different activities run simultaneously.</p>
-<p>This decreases the production time leading to reduced costs. Although it has more challenges on extensive communication and coordination.</p>
-<p><strong>My Big Point</strong>:  Apparently, the CAD flow is trying to finish one specific task. Actually, the CAD flow is building a comunication channel between CAD and Designer, between Designer and EDA tool.</p>
-<p>&ldquo;Concurent Engineering&rdquo; has followingbenefits:</p>
+<p>This decreases the production time leading to reduced costs. Although it has more challenges in extensive communication and coordination.</p>
+<p><strong>My Big Point</strong>:  Apparently, the CAD flow is trying to finish one specific task. Actually, the CAD flow is building a communication channel between CAD and Designer, between Designer and EDA tool.</p>
+<p>&ldquo;Concurrent Engineering&rdquo; has the following benefits:</p>
 <ul>
 <li>Less material wasted and less engineering time</li>
 <li>Short time to tapeout and time to market</li>
-<li>Allows for early correction of design, flow, and eda tools</li>
-<li>Large amount of same methodology produced in a shorter amount of time</li>
-<li>Ability to leverage teamwork and make infomred decisions</li>
+<li>Allows for early correction of design, flow, and EDA tools</li>
+<li>A large amount of the same methodology produced in a shorter amount of time</li>
+<li>Ability to leverage teamwork and make informed decisions</li>
 <li>Better communication and project management</li>
 </ul>
 <h2 id="concurrent-engineering-in-asic">Concurrent Engineering in ASIC</h2>
-<p>In the ASIC flow, we are already practising Concurrent Engineering a lot.</p>
+<p>In the ASIC flow, we are already practicing Concurrent Engineering a lot.</p>
 <p>None of the companies will follow the sequential process. Time to market is as important as design quality, even more.</p>
-<p><strong>Partition</strong> is a way to parallel the work and we can put sub-blocks together on the top. (This is not the only reason of partition, EDA capacity is another important reason)</p>
-<p>So when we finish 60% (or 80%) of RTL design, we will start to <strong>Flow flushing</strong> in order to verify the ASIC methodology earlier.</p>
+<p><strong>Partition</strong> is a way to parallel the work and we can put sub-blocks together on the top. (This is not the only reason for partition, EDA capacity is another important reason)</p>
+<p>So when we finish 60% (or 80%) of RTL design, we will start to <strong>Flow flushing</strong> to verify the ASIC methodology earlier.</p>
 <p><strong>My Big Point</strong>: Experience or knowledge passing from one place to another is super important in the ASIC design.</p>
-<p>And meanwhile, a lot of work in specific area could be split to small jobs and we can pull more resource into the project and make it concurrent.</p>
-<p>Some of the verification or other work, like timing, power, DFT, etc. we will do all the way through the whole project. When we build the CAD flow or plan the resource, we need to pay attention to these types of work.</p>
+<p>And meanwhile, a lot of work in a specific area could be split into small jobs and we can pull more resources into the project and make it concurrent.</p>
+<p>Some of the verification or other work, like timing, power, DFT, etc. we will do through the whole project. When we build the CAD flow or plan the resource, we need to pay attention to these types of work.</p>
 <p><strong>Mock</strong> tapeout could let the foundry get the manufacture verification earlier and reduce the risk when doing the real tapeout.</p>
 <p><img src="/images/concurrent_engineering_asic_flow.png" alt="Concurrent Engineering in ASIC"></p>
 <h3 id="partition">Partition</h3>
-<p>The partition is a great way for concurrent engineering idea.</p>
+<p>The partition is a great way for concurrent engineering ideas.</p>
 <p>There are several reasons for the partition approach.</p>
 <ul>
 <li>The complexity of certain design logic, some of them are analog, some of them might be RF, etc.</li>
-<li>The EDA tool capacity limitation. The EDA tool can not handle millions of millions gates design.</li>
-<li>Make full use of resource to reduce the time to tapeout.</li>
+<li>The EDA tool capacity limitation. The EDA tool can not handle millions of millions of gates design.</li>
+<li>Make full use of resources to reduce the time to tapeout.</li>
 </ul>
 <p><img src="/images/concurrent_engineering_sub_blocks.png" alt=""></p>
 <h3 id="flow-flushing">Flow flushing</h3>
 <p>This is very common, we are trying to automate our flow as much as possible. So we need to flush the flow before running the 100% good data.</p>
 <p>Like tune the tool settings, pick the strategy based on the design type.</p>
-<p>As soon as the library, tech files are ready, we can start to flush the flow with small test case.</p>
+<p>As soon as the library and tech files are ready, we can start to flush the flow with the small test case.</p>
 <p>Even the library is not ready,</p>
 <h3 id="mock-data">Mock Data</h3>
-<p>Use mock data is a common way to work parallelly.</p>
+<p>Using mock data is a common way to work parallelly.</p>
 <ul>
-<li>Mock tech files, like use the old one and add some new rules</li>
-<li>Mock library, or empty .lib, like verilog to lib.</li>
+<li>Mock tech files, like using the old one and add some new rules</li>
+<li>Mock library, or empty .lib, like Verilog to lib.</li>
 <li>Mock design, small test case, design from previous revision</li>
 <li>Mock tapeout, just list all the masks and chip size, etc.</li>
 <li>Mock API, work around some critical issues.</li>
 </ul>
 <h2 id="more-detail-in-specific-process">More detail in specific process</h2>
-<p>There are a lot of more details in one specific area. Like logic synthesis and physical implementation, we can do a lot of work to apply the concurrent engineering concept.</p>
-<p>I may have separate post for the topics when dive into each flow.</p>
+<p>There are a lot more details in one specific area. Like logic synthesis and physical implementation, we can do a lot of work to apply the concurrent engineering concept.</p>
+<p>I may have a separate post for the topics when diving into each flow.</p>
 <h2 id="concurrent-engineering-in-cad">Concurrent Engineering in CAD</h2>
-<p>CAD flow could help on concurrent engineering mindset as well and also plays an important role.</p>
+<p>CAD flow could help with concurrent engineering mindset as well and also plays an important role.</p>
 <h3 id="optimize-the-dependency">Optimize the dependency</h3>
-<p>The dependency in triditional ASIC flow is &ldquo;stage&rdquo; based. Like RTL, DFT, SYN, APR-Floorplan, APR-Placement, APR-CTS, APR-PostCTS, APR-Routing, APR-PostRouting, Extraction, STA, PhysicalVerification, EMIR, etc.</p>
-<p>But when we look at our daily work, we are spending a lot of time to do the iterations, debugging, reporting, these activities are not needed for the downstream processes.</p>
-<p>The downstream jobs only need the output collateral as the input, that means the downstream flow may only need verilog to check the logic equivalent, or only need saved database but not reporting, output data, etc.</p>
+<p>The dependency in traditional ASIC flow is &ldquo;stage&rdquo; based. Like RTL, DFT, SYN, APR-Floorplan, APR-Placement, APR-CTS, APR-PostCTS, APR-Routing, APR-PostRouting, Extraction, STA, PhysicalVerification, EMIR, etc.</p>
+<p>But when we look at our daily work, we are spending a lot of time doing the iterations, debugging, and reporting, these activities are not needed for the downstream processes.</p>
+<p>The downstream jobs only need the output collateral as the input, which means the downstream flow may only need Verilog to check the logic equivalent, or only need saved database but not reporting, output data, etc.</p>
 <h2 id="todo">TODO</h2>
 <ul>
 <li>Dive into detail about &ldquo;Concurrent Engineering&rdquo; practice.
