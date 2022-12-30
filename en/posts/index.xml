@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on IC Steve</title>
     <link>https://icsteve.com/en/posts/</link>
     <description>Recent content in Posts on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://icsteve.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://icsteve.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Use Web Technology in Engineering Work</title>
       <link>https://icsteve.com/en/2022/12/use_web_tech_in_engineering/</link>
@@ -216,67 +220,6 @@ Result This is the view for my current inbox (Table View). The links are added t
       
       <guid>https://icsteve.com/en/2020/01/cad_framework/</guid>
       <description>No English Version.</description>
-    </item>
-    
-    <item>
-      <title>CAD Framework: Cloud will change the game</title>
-      <link>https://icsteve.com/en/2020/01/cad_framework_cloud/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2020/01/cad_framework_cloud/</guid>
-      <description>No English Version.</description>
-    </item>
-    
-    <item>
-      <title>CAD Framework: Why Framework is hard to use in IC</title>
-      <link>https://icsteve.com/en/2020/01/cad_framework_deploy/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2020/01/cad_framework_deploy/</guid>
-      <description>No English Version.</description>
-    </item>
-    
-    <item>
-      <title>Use Asciinema</title>
-      <link>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</guid>
-      <description>This is a terminal recording tool.
-Enjoy a lightweight, purely text-based approach to terminal recording.
-Deploymnet Make sure you have python3 installed.
-I will use &amp;ldquo;Run from source&amp;rdquo; approach.
-download source git clone https://github.com/asciinema/asciinema.git cd asciinema pwd set PYTHONPATH for bash
-export PYTHONPATH=`pwd` ; setenv PYTHONPATH `pwd` ; Create command alias alias asciinema=&amp;quot;python3 -m asciinema &amp;quot; alias asciinema &#39;python3 -m asciinema \!*&#39; ; Recording asciinema rec test.cast Display &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;http://icsteve.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://icsteve.com/en/1/01/build_note_structure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/1/01/build_note_structure/</guid>
-      <description>This post share how I setup a git repository to host my note structure with the following tools.
-Hugo for website Obsidian for note taking docsify </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://icsteve.com/en/1/01/ipc_rpc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/1/01/ipc_rpc/</guid>
-      <description>author: &amp;ldquo;Steve&amp;rdquo; title: &amp;ldquo;What is best for IPC or RPC? I tell, you choose&amp;rdquo; date: &amp;ldquo;2022-01-16&amp;rdquo; description: &amp;ldquo;The course actually help me to understand how to deal with communication with others.&amp;rdquo; tags : [ &amp;ldquo;PM&amp;rdquo;, &amp;ldquo;Learning&amp;rdquo; ] categories : [&amp;ldquo;THOUGHT&amp;rdquo;] First question I want to go throug is: What is IPC and RPC, and why it is important in Hardward design flow?
-IPC or Inter-Process Communication which refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data.</description>
-    </item>
-    
-    <item>
-      <title>Help System Retrospective</title>
-      <link>https://icsteve.com/en/1/01/help_system/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icsteve.com/en/1/01/help_system/</guid>
-      <description> Test </description>
     </item>
     
   </channel>
