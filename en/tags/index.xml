@@ -5,21 +5,18 @@
     <link>https://icsteve.com/en/tags/</link>
     <description>Recent content in Tags on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://icsteve.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Concurrent Engineering in ASIC</title>
-      <link>https://icsteve.com/en/2022/07/concurrent_engineering/</link>
-      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      <title>Use Web Technology in Engineering Work</title>
+      <link>https://icsteve.com/en/2022/12/use_web_tech_in_engineering/</link>
+      <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://icsteve.com/en/2022/07/concurrent_engineering/</guid>
-      <description>&amp;ldquo;Concurrent Engineering&amp;rdquo; is a systematic method of designing and developing products (projects) where different activities run simultaneously.
-This decreases the production time leading to reduced costs. Although it has more challenges in extensive communication and coordination.
-My Big Point: Apparently, the CAD flow is trying to finish one specific task. Actually, the CAD flow is building a communication channel between CAD and Designer, between Designer and EDA tool.
-&amp;ldquo;Concurrent Engineering&amp;rdquo; has the following benefits:</description>
+      <guid>https://icsteve.com/en/2022/12/use_web_tech_in_engineering/</guid>
+      <description>Web technology will become our daily work technology, especially for developers and engineers.</description>
     </item>
     
     <item>
@@ -193,7 +190,7 @@ This is quite useful because not like the dictionary, the video will not only te
       <pubDate>Thu, 31 Dec 2020 15:15:15 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2020/12/csh_argument/</guid>
-      <description>Case Study There is a cshell script file which is working in others&amp;rsquo; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&amp;rsquo; .cshrc files, but not in yours.
+      <description>Case Study There is a cshell script file which is working in others&#39; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&#39; .cshrc files, but not in yours.
 Understand In Unix-like system, when you want to get the help of one program from Command Line Interface (CLI), we can try the following ways, like csh.</description>
     </item>
     
