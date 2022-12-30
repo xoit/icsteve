@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on IC Steve</title>
     <link>https://icsteve.com/en/posts/</link>
     <description>Recent content in Posts on IC Steve</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate>
-    
-        <atom:link href="https://icsteve.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://icsteve.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use Web Technology in Engineering Work</title>
       <link>https://icsteve.com/en/2022/12/use_web_tech_in_engineering/</link>
@@ -41,7 +37,7 @@ Fireworks in Moutain View At 9:45, the sky was almost dark, and the lights were 
       <description>Today is my 2nd time volunteer experience at AAH (https://www.animalassistedhappiness.org/).
 Other than school volunteer, I have less experience on other organizations. AAH is providing the oportunities with the animals. I like close to the animals.
 Clean the Horse House We already know the process:
- Pick and clean up the horse manure Pile the leaves under the tree Fill the water Check and fill the big holes Pick and dump the branches  This time, we have 5 people total.</description>
+Pick and clean up the horse manure Pile the leaves under the tree Fill the water Check and fill the big holes Pick and dump the branches This time, we have 5 people total.</description>
     </item>
     
     <item>
@@ -51,7 +47,7 @@ Clean the Horse House We already know the process:
       
       <guid>https://icsteve.com/en/2022/01/my_sight_of_good_cad_framework/</guid>
       <description>In IC (Integrated Circuit) industry, CAD is a function to make hardware designer&amp;rsquo;s life easy. This is how I define CAD in hardware design. &amp;ldquo;Easy&amp;rdquo; contains different meanings.
- Easy to understand the inputs Easy to use the functions Easy to check the result (Accurate and reliable)  A lot of people always like to use Apple products as an example. Here I am.
+Easy to understand the inputs Easy to use the functions Easy to check the result (Accurate and reliable) A lot of people always like to use Apple products as an example. Here I am.
 Apple has suitable technologies but not the most advanced technology.</description>
     </item>
     
@@ -86,7 +82,7 @@ Apple has suitable technologies but not the most advanced technology.</descripti
       <description>As a project manager, one very important task is to learn, understand, broadcast the project goal correctly and efficiently. This must be documented and put a place, so that project manager can go through it in the meeting and the team can refer to the document any time.
 The solution could be dropbox, sharepoint, onenote, git, ftp, etc.
 Goal of &amp;ldquo;tcl-csh-cli&amp;rdquo; Let&amp;rsquo;s look at the goal of &amp;ldquo;tcl-csh-cli&amp;rdquo; project.
- Major Goal  Create a framework using tcl and csh to handle the complex design requirement.</description>
+Major Goal Create a framework using tcl and csh to handle the complex design requirement.</description>
     </item>
     
     <item>
@@ -190,7 +186,7 @@ This is quite useful because not like the dictionary, the video will not only te
       <pubDate>Thu, 31 Dec 2020 15:15:15 +0000</pubDate>
       
       <guid>https://icsteve.com/en/2020/12/csh_argument/</guid>
-      <description>Case Study There is a cshell script file which is working in others&#39; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&#39; .cshrc files, but not in yours.
+      <description>Case Study There is a cshell script file which is working in others&amp;rsquo; environment but not in yours, one of prossibilities is that the cshell will load the unit cshell file ~/.cshrc( cshrc). So there might be some setting in others&amp;rsquo; .cshrc files, but not in yours.
 Understand In Unix-like system, when you want to get the help of one program from Command Line Interface (CLI), we can try the following ways, like csh.</description>
     </item>
     
@@ -220,6 +216,67 @@ Result This is the view for my current inbox (Table View). The links are added t
       
       <guid>https://icsteve.com/en/2020/01/cad_framework/</guid>
       <description>No English Version.</description>
+    </item>
+    
+    <item>
+      <title>CAD Framework: Cloud will change the game</title>
+      <link>https://icsteve.com/en/2020/01/cad_framework_cloud/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_framework_cloud/</guid>
+      <description>No English Version.</description>
+    </item>
+    
+    <item>
+      <title>CAD Framework: Why Framework is hard to use in IC</title>
+      <link>https://icsteve.com/en/2020/01/cad_framework_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_framework_deploy/</guid>
+      <description>No English Version.</description>
+    </item>
+    
+    <item>
+      <title>Use Asciinema</title>
+      <link>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/2020/01/cad_asciinema_deploy/</guid>
+      <description>This is a terminal recording tool.
+Enjoy a lightweight, purely text-based approach to terminal recording.
+Deploymnet Make sure you have python3 installed.
+I will use &amp;ldquo;Run from source&amp;rdquo; approach.
+download source git clone https://github.com/asciinema/asciinema.git cd asciinema pwd set PYTHONPATH for bash
+export PYTHONPATH=`pwd` ; setenv PYTHONPATH `pwd` ; Create command alias alias asciinema=&amp;quot;python3 -m asciinema &amp;quot; alias asciinema &#39;python3 -m asciinema \!*&#39; ; Recording asciinema rec test.cast Display &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;http://icsteve.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://icsteve.com/en/1/01/build_note_structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/1/01/build_note_structure/</guid>
+      <description>This post share how I setup a git repository to host my note structure with the following tools.
+Hugo for website Obsidian for note taking docsify </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://icsteve.com/en/1/01/ipc_rpc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/1/01/ipc_rpc/</guid>
+      <description>author: &amp;ldquo;Steve&amp;rdquo; title: &amp;ldquo;What is best for IPC or RPC? I tell, you choose&amp;rdquo; date: &amp;ldquo;2022-01-16&amp;rdquo; description: &amp;ldquo;The course actually help me to understand how to deal with communication with others.&amp;rdquo; tags : [ &amp;ldquo;PM&amp;rdquo;, &amp;ldquo;Learning&amp;rdquo; ] categories : [&amp;ldquo;THOUGHT&amp;rdquo;] First question I want to go throug is: What is IPC and RPC, and why it is important in Hardward design flow?
+IPC or Inter-Process Communication which refers specifically to the mechanisms an operating system provides to allow the processes to manage shared data.</description>
+    </item>
+    
+    <item>
+      <title>Help System Retrospective</title>
+      <link>https://icsteve.com/en/1/01/help_system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icsteve.com/en/1/01/help_system/</guid>
+      <description> Test </description>
     </item>
     
   </channel>

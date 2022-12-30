@@ -1,347 +1,493 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html
+  itemscope
+  itemtype="http://schema.org/WebPage"
+  lang="zh"
+  class="color-toggle-hidden"
+  
+>
   <head>
-    <title>
-        ASIC 硬件设计 CAD 框架的 3 个有用实践 - IC Steve
-      </title>
-        <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <meta name="renderer" content="webkit">
-    <meta http-equiv="Cache-Control" content="no-transform" />
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta charset="UTF-8" />
+<meta name="referrer" content="no-referrer" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="Hugo 0.109.0">
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="The course actually help me to understand how to deal with communication with others." />
+
+    <title>ASIC 硬件设计 CAD 框架的 3 个有用实践 | IC Steve</title>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="/favicon/favicon-32x32.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="/favicon/favicon-16x16.png"
+/>
+
     
-    <meta name="theme-color" content="#000000" />
+
     
-    <meta http-equiv="window-target" content="_top" />
-    
-    
-    <meta name="description" content="The course actually help me to understand how to deal with communication with others." />
-    <meta name="generator" content="Hugo 0.89.4 with theme pure" />
-    <title>ASIC 硬件设计 CAD 框架的 3 个有用实践 - IC Steve</title>
-    
-    
-    <link rel="stylesheet" href="https://icsteve.com/css/style.min.e64d754037c0ee0ec4e20ab1d6f07740ace61729bc03850559b8caa21ae4a597.css">
-    
-    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-    <meta property="og:title" content="ASIC 硬件设计 CAD 框架的 3 个有用实践" />
-<meta property="og:description" content="The course actually help me to understand how to deal with communication with others." />
+  <meta
+    property="og:title"
+    content="ASIC 硬件设计 CAD 框架的 3 个有用实践"
+  />
+  <meta property="og:site_name" content="IC Steve" />
+  <meta property="og:description" content="The course actually help me to understand how to deal with communication with others." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-01-09T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-01-09T00:00:00+00:00" />
+<meta property="og:url" content="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/" />
 
-<meta itemprop="name" content="ASIC 硬件设计 CAD 框架的 3 个有用实践">
-<meta itemprop="description" content="The course actually help me to understand how to deal with communication with others."><meta itemprop="datePublished" content="2022-01-09T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-01-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="2308">
-<meta itemprop="keywords" content="PM,Learning," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ASIC 硬件设计 CAD 框架的 3 个有用实践"/>
-<meta name="twitter:description" content="The course actually help me to understand how to deal with communication with others."/>
+<meta property="article:section" content="Posts" />
+    <meta
+      property="article:published_time"
+      content="2022-01-09T00:00:00+00:00"
+    />
+    <meta
+      property="article:modified_time"
+      content="2022-01-09T00:00:00+00:00"
+    />
 
-    <!--[if lte IE 9]>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-      <![endif]-->
 
-    <!--[if lt IE 9]>
-        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-      <![endif]-->
+  <meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="ASIC 硬件设计 CAD 框架的 3 个有用实践" />
+  <meta name="twitter:description" content="The course actually help me to understand how to deal with communication with others." />
+
+<script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "Posts",
+      "name": "ASIC 硬件设计 CAD 框架的 3 个有用实践",
+      "url" : "https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/",
+      "headline": "ASIC 硬件设计 CAD 框架的 3 个有用实践",
+      "description": "The course actually help me to understand how to deal with communication with others.",
+      "wordCount" : "2308",
+      "inLanguage": "zh",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/"
+      },
+      "keywords" : [ "PM" , "Learning" ],
+      "author" : [
+      ],
+      "copyrightHolder" : "IC Steve",
+      "copyrightYear" : "2022",
+      "dateCreated": "2022-01-09T00:00:00.00Z",
+      "datePublished": "2022-01-09T00:00:00.00Z",
+      "dateModified": "2022-01-09T00:00:00.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "IC Steve",
+          "url": "https://icsteve.com/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https://icsteve.com/brand.svg",
+              "width":"32",
+              "height":"32"
+          }
+      }
+  }
+  </script>
+
+
+    
+  <script src="/"></script>
+<script src="/"></script>
+
+<link
+  rel="preload"
+  as="font"
+  href="/fonts/Metropolis.woff2"
+  type="font/woff2"
+  crossorigin="anonymous"
+/>
+<link
+  rel="preload"
+  as="font"
+  href="/fonts/LiberationSans.woff2"
+  type="font/woff2"
+  crossorigin="anonymous"
+/>
+<link
+  rel="preload"
+  as="font"
+  href="/fonts/GeekblogIcons.woff2"
+  type="font/woff2"
+  crossorigin="anonymous"
+/>
+
+<link
+  rel="preload"
+  href="/"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="/"
+  media="all"
+/>
+
+<link
+  rel="preload"
+  href="/"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="/"
+  media="screen and (max-width: 45rem)"
+/>
+
+<link
+  rel="preload"
+  href="/"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="/"
+  media="print"
+/>
+
+<link
+  rel="preload"
+  href="/"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="/"
+  media="all"
+/>
+  <link href="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/" rel="canonical" type="text/html" />
+    <link href="https://icsteve.com/zh/index.xml" rel="alternate" type="application/rss+xml" title="IC Steve RSS Feed" />
+    <link href="https://icsteve.com/zh/searchindex.json" rel="alternate" type="application/json" title="IC Steve searchindex Feed" />
+
+<!-- Made with Geekblog theme https://github.com/thegeeklab/hugo-geekblog -->
+
+    
+
   </head>
 
-  
-  
-
-  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
-    <div class="slimContent">
-      <div class="navbar-header">
-        <div class="profile-block text-center">
-          <a id="avatar" href="https://icsteve.com" target="_blank">
-            <img class="img-circle img-rotate" src="https://icsteve.com/avatar.png" width="200" height="200">
-          </a>
-          <h2 id="name" class="hidden-xs hidden-sm">ICSteve</h2>
-          <h3 id="title" class="hidden-xs hidden-sm hidden-md">ASIC CHIP DESIGN</h3>
-          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>BayArea, US</small>
-        </div><div class="search" id="search-form-wrap">
-    <form class="search-form sidebar-form">
-        <div class="input-group">
-            <input type="text" class="search-form-input form-control" placeholder="搜索" />
-            <span class="input-group-btn">
-                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
-                        class="icon icon-search"></i></button>
-            </span>
-        </div>
-        <div class="ins-search">
-            <div class="ins-search-mask"></div>
-            <div class="ins-search-container">
-                <div class="ins-input-wrapper">
-                    <input type="text" class="ins-search-input" placeholder="想要查找什么..."
-                        x-webkit-speech />
-                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
-                        aria-label="Close"><span aria-hidden="true">×</span></button>
-                </div>
-                <div class="ins-section-wrapper">
-                    <div class="ins-section-container"></div>
-                </div>
-            </div>
-        </div>
-    </form>
-</div>
-        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-        <ul class="nav navbar-nav main-nav">
-            <li class="menu-item menu-item-home">
-                <a href="/zh/">
-                    <i class="icon icon-home-fill"></i>
-                  <span class="menu-title">首页</span>
-                </a>
-            </li>
-            <li class="menu-item menu-item-archives">
-                <a href="/zh/posts/">
-                    <i class="icon icon-archives-fill"></i>
-                  <span class="menu-title">存档</span>
-                </a>
-            </li>
-            <li class="menu-item menu-item-categories">
-                <a href="/zh/categories/">
-                    <i class="icon icon-folder"></i>
-                  <span class="menu-title">分类</span>
-                </a>
-            </li>
-            <li class="menu-item menu-item-tags">
-                <a href="/zh/tags/">
-                    <i class="icon icon-tags"></i>
-                  <span class="menu-title">标签</span>
-                </a>
-            </li>
-            <li class="menu-item menu-item-about">
-                <a href="/zh/about/">
-                    <i class="icon icon-cup-fill"></i>
-                  <span class="menu-title">关于</span>
-                </a>
-            </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
-  <div class="slimContent">
+  <body>
     
-      <div class="widget">
-    <h3 class="widget-title">公告</h3>
-    <div class="widget-body">
-        <div id="board">
-            <div class="content"><p>2023 新年快乐!</p>
-            </div>
-        </div>
-    </div>
-</div>
 
-      <div class="widget">
-    <h3 class="widget-title"> 分类</h3>
-    <div class="widget-body">
-        <ul class="category-list">
-            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/cad/" class="category-list-link">cad</a><span class="category-list-count">5</span></li>
-            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/english/" class="category-list-link">english</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/hmc/" class="category-list-link">hmc</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/learning/" class="category-list-link">learning</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/notion/" class="category-list-link">notion</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/project/" class="category-list-link">project</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/rui/" class="category-list-link">rui</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://icsteve.com/zh/categories/thought/" class="category-list-link">thought</a><span class="category-list-count">1</span></li>
-        </ul>
-    </div>
-</div>
-      <div class="widget">
-    <h3 class="widget-title"> 标签</h3>
-    <div class="widget-body">
-        <ul class="tag-list">
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/asciinema/" class="tag-list-link">asciinema</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/cad/" class="tag-list-link">cad</a><span
-                    class="tag-list-count">4</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/cli/" class="tag-list-link">cli</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/cloud/" class="tag-list-link">cloud</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/collection/" class="tag-list-link">collection</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/csh/" class="tag-list-link">csh</a><span
-                    class="tag-list-count">2</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/english/" class="tag-list-link">english</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/framework/" class="tag-list-link">framework</a><span
-                    class="tag-list-count">3</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/learning/" class="tag-list-link">learning</a><span
-                    class="tag-list-count">3</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/notion/" class="tag-list-link">notion</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/pm/" class="tag-list-link">pm</a><span
-                    class="tag-list-count">4</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/rui/" class="tag-list-link">rui</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/tcl/" class="tag-list-link">tcl</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/tree/" class="tag-list-link">tree</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://icsteve.com/zh/tags/youtube/" class="tag-list-link">youtube</a><span
-                    class="tag-list-count">1</span></li>
-            
-        </ul>
 
-    </div>
-</div>
-      
-<div class="widget">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget-body">
-        <ul class="recent-post-list list-unstyled no-thumbnail">
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/" class="title">ASIC 硬件设计 CAD 框架的 3 个有用实践</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2022-01-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-01-09</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://icsteve.com/zh/2022/01/communication_plan/" class="title">何为 &#34;Communication Plan&#34;</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2022-01-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-01-02</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://icsteve.com/zh/2021/11/tcl_csh_cli_1/" class="title">tcl-csh-cli 立项</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2021-11-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-11-24</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://icsteve.com/zh/2021/11/project_management_1/" class="title">Project Management 课程笔记</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2021-11-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-11-20</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://icsteve.com/zh/2021/01/icsteve_hmc_2020_01_b/" class="title">ICSteve 半月会（2021.01-下）</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2021-01-31 09:22:00 &#43;0000 UTC" itemprop="datePublished">2021-01-31</time>
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-  </div>
-</aside>
 
-    
-    
-<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
-  <div class="slimContent">
-    <h4 class="toc-title">文章目录</h4>
-    <nav id="toc" class="js-toc toc">
-
-    </nav>
-  </div>
-</aside>
-<main class="main" role="main"><div class="content">
-  <article id="-" class="article article-type-" itemscope
-    itemtype="http://schema.org/BlogPosting">
-    
-    <div class="article-header">
-      <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/zh/2022/01/my_sight_of_good_cad_framework/"
-    >ASIC 硬件设计 CAD 框架的 3 个有用实践</a
-  >
-</h1>
-
-      <div class="article-meta">
+    <div
+      class="wrapper "
+    >
+      <header class="gblog-header">
+  <div class="container flex flex-wrap">
+    <div class="gblog-header__col-1 flex justify-start hidden-mobile"></div>
+    <div class="gblog-header__col-2 flex align-center justify-center ">
+      <a class="gblog-header__link" rel="me" href="https://icsteve.com/">
+        <span class="gblog-brand flex align-center justify-center">
+          <img
+            class="gblog-brand__img"
+            src="/brand.svg"
+            alt=""
+          />
+          <span class="gblog-brand__title">IC Steve</span>
+        </span>
         
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/" class="article-date">
-  <time datetime="2022-01-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-01-09</time>
-</a>
+      </a>
+    </div>
+    <div class="gblog-header__col-3 flex justify-end">
+      <span id="gblog-color-theme">
+        <svg class="gblog-icon gblog_brightness_dark">
+          <title></title>
+          <use xlink:href="#gblog_brightness_dark"></use>
+        </svg>
+        <svg class="gblog-icon gblog_brightness_light">
+          <title></title>
+          <use xlink:href="#gblog_brightness_light"></use>
+        </svg>
+        <svg class="gblog-icon gblog_brightness_auto">
+          <title></title>
+          <use xlink:href="#gblog_brightness_auto"></use>
+        </svg>
+      </span>
+    </div>
+  </div>
+</header>
+<nav class="gblog-nav">
+  <input type="checkbox" id="menu-control" class="hidden" />
+  <div class="gblog-nav__control">
+    <label for="menu-control" class="flex align-center justify-center">
+      <svg class="gblog-icon gblog_menu"><use xlink:href="#gblog_menu"></use></svg>
+      <svg class="gblog-icon gblog_clear"><use xlink:href="#gblog_clear"></use></svg>
+      <span>Navigation</span>
+    </label>
+  </div>
+  <ul class="gblog-nav__list container flex flex-wrap justify-center menu-content">
+    
+    
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/asciinema/"
+            >
+              Asciinema
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/cad/"
+            >
+              Cad
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/cli/"
+            >
+              CLI
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/cloud/"
+            >
+              Cloud
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/collection/"
+            >
+              Collection
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/csh/"
+            >
+              Csh
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/english/"
+            >
+              English
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/framework/"
+            >
+              Framework
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/learning/"
+            >
+              Learning
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/notion/"
+            >
+              Notion
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/pm/"
+            >
+              Pm
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/rui/"
+            >
+              Rui
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/tcl/"
+            >
+              Tcl
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/tree/"
+            >
+              Tree
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a
+              class="gblog-nav__entry"
+              href="/zh/tags/youtube/"
+            >
+              Youtube
+            </a>
+          </li>
+        
+      
+    
+    
+  </ul>
+</nav>
+
+
+
+      <main class="gblog-page container">
+        
+  <article class="gblog-post">
+    <header class="gblog-post__header">
+      
+      
+
+
+      <h1 class="gblog-post__title">ASIC 硬件设计 CAD 框架的 3 个有用实践</h1>
+
+      
+        <div class="flex flex-wrap align-center gblog-post__meta gblog-post__meta--head">
+          <span class="flex align-center no-wrap">
+  <svg class="gblog-icon gblog_date"><use xlink:href="#gblog_date"></use></svg>
+  <span class="gblog-post__tag">
+    <time datetime="2022-01-09T00:00:00Z">
+      
+      Jan 9, 2022
+    </time>
+  </span>
 </span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/zh/categories/thought/"> THOUGHT </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/zh/tags/pm/"> PM </a>
-    <a class="article-tag-link" href="/zh/tags/learning/"> Learning </a>
+
+<span class="flex align-center no-wrap">
+  <svg class="gblog-icon gblog_timer"><use xlink:href="#gblog_timer"></use></svg>
+  <span class="gblog-post__tag">5 min read</span>
+</span>
+
+
+
+
+
+
+
+
+  
+    
+    
+      
+        <span class="flex align-center no-wrap">
+          <svg class="gblog-icon gblog_bookmark"><use xlink:href="#gblog_bookmark"></use></svg>
+          
+  <span class="gblog-post__tag gblog-button gblog-button--regular">
+    <a
+      class="gblog-button__link"
+      href="/zh/tags/learning/"
+      title="All posts tagged with 'Learning'"
+    >
+      Learning
+    </a>
   </span>
 
-        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/zh/2022/01/my_sight_of_good_cad_framework/#comments"
-            class="article-comment-link">评论</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 2308字</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 5分 </span>
-      </div>
-    </div>
-    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+        </span>
+      
+    
+    
+  
+    
+    
+      
+        <span class="flex align-center">
+          
+  <span class="gblog-post__tag gblog-button gblog-button--regular">
+    <a
+      class="gblog-button__link"
+      href="/zh/tags/pm/"
+      title="All posts tagged with 'PM'"
+    >
+      PM
+    </a>
+  </span>
+
+        </span>
+      
+    
+    
+  
+
+
+
+
+
+
+        </div>
+      
+    </header>
+    <section class="gblog-markdown">
       <p>在IC（集成电路）行业，CAD是一种使硬件设计者的生活变得简单的功能。这就是我对硬件设计中的CAD的定义。&ldquo;容易 &ldquo;包含不同的含义。</p>
 <ul>
 <li>易于理解输入</li>
@@ -352,8 +498,19 @@
 <p>苹果有合适的技术，但不是最先进的技术。</p>
 <p>最先进的技术意味着更多的风险。但是，把最适合客户的优越技术放在一起，是成功的关键。</p>
 <p>但是，无论是否遵循以下原则，最好的解决方案永远是最适合场景的方案。</p>
-<p><img src="/images/cad_concept.png" alt="CAD概念"></p>
-<h2 id="cad框架是为专业人士设计的">CAD框架是为专业人士设计的</h2>
+<p><img
+  src="/images/cad_concept.png"
+  alt="CAD概念"
+  
+/></p>
+<div class="gblog-post__anchorwrap">
+    <h2 id="cad框架是为专业人士设计的">
+        CAD框架是为专业人士设计的
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#cad框架是为专业人士设计的" class="gblog-post__anchor clip flex align-center" aria-label="Anchor CAD框架是为专业人士设计的" href="#cad%e6%a1%86%e6%9e%b6%e6%98%af%e4%b8%ba%e4%b8%93%e4%b8%9a%e4%ba%ba%e5%a3%ab%e8%ae%be%e8%ae%a1%e7%9a%84">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h2>
+</div>
 <p>所有的硬件设计师都是行业内的专家。当我第一次加入CAD小组时，我在想如何帮助，我可以帮助专业人士什么。</p>
 <p>我需要找出我对CAD工具用户的价值，对我们的专业硬件设计师的价值，因为在制作芯片方面我并不比他们强。</p>
 <p>由于VLSI CAD实用程序的客户是专业的硬件工程师，CAD实用程序的目标是开发一套能够帮助提高准确性、生产力的工具。</p>
@@ -363,7 +520,14 @@
 <li>易于使用数据</li>
 </ul>
 <p>在一个大组织中，容易也意味着标准化。</p>
-<h2 id="良好做法1最小的惊奇">良好做法1：最小的惊奇</h2>
+<div class="gblog-post__anchorwrap">
+    <h2 id="良好做法1最小的惊奇">
+        良好做法1：最小的惊奇
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#良好做法1最小的惊奇" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 良好做法1：最小的惊奇" href="#%e8%89%af%e5%a5%bd%e5%81%9a%e6%b3%951%e6%9c%80%e5%b0%8f%e7%9a%84%e6%83%8a%e5%a5%87">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h2>
+</div>
 <p>a.k.a. 最少的惊讶</p>
 <p>配置总是一个很好的例子来解释这个规则。</p>
 <p>在CAD工具中，我们可能有多种方式来配置操作。</p>
@@ -375,7 +539,14 @@
 <li>有些是来自EDA工具本身。</li>
 </ul>
 <p>有时我们无法避免引入混乱。那么问题就变成了如何解决这个问题，清除混乱。</p>
-<h3 id="单一真实来源ssot">单一真实来源(SSoT)</h3>
+<div class="gblog-post__anchorwrap">
+    <h3 id="单一真实来源ssot">
+        单一真实来源(SSoT)
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#单一真实来源ssot" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 单一真实来源(SSoT)" href="#%e5%8d%95%e4%b8%80%e7%9c%9f%e5%ae%9e%e6%9d%a5%e6%ba%90ssot">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h3>
+</div>
 <p>而在我们的配置文件中，我们可能有一个if-else语句来根据条件进行切换。</p>
 <p>如果学习曲线如此陡峭，就不适合新项目。他们会拒绝迁移。</p>
 <p>即使工程师掌握了一次实用程序，他们也会在下一个项目中再次学习。</p>
@@ -397,12 +568,23 @@
   }
 }
 </code></pre>
-<p><img src="/images/ssot.png" alt="SSOT"></p>
+<p><img
+  src="/images/ssot.png"
+  alt="SSOT"
+  
+/></p>
 <p>在真实场景中，我们可以有更多的约束。比如，数据集必须是对象，k-v对。</p>
 <p>我们不把这个规则理解为一个单一的文件，而是带来了元数据的概念，它代表了 &ldquo;单一来源&rdquo;。</p>
 <p>而在元数据中，我们还需要描述每个元数据键之间的关系。这也可以是元数据的一部分。</p>
 <p>关系（<code>$rel</code>）是某些业务需求的逻辑，所以需要产品SPEC来描述如何使用和解释关系。</p>
-<h3 id="无歧义">无歧义</h3>
+<div class="gblog-post__anchorwrap">
+    <h3 id="无歧义">
+        无歧义
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#无歧义" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 无歧义" href="#%e6%97%a0%e6%ad%a7%e4%b9%89">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h3>
+</div>
 <p>在编写需求/模式或配置时，&ldquo;毫不含糊 &ldquo;总是被谈及。</p>
 <p>有些配置使用<code>on|off</code>或<code>1|0</code>就很好，那么我们应该保持简单。</p>
 <p>有时1或0是不知道要做什么的，所以我们可能需要精确地使用这个词。</p>
@@ -411,7 +593,14 @@
 <p>###约定与配置</p>
 <p>我更喜欢明确的配置，而不是惯例。</p>
 <p>但惯例（默认命名）可以使配置变得相当简单。</p>
-<h2 id="良好做法2引导而不是指责">良好做法2：引导而不是指责</h2>
+<div class="gblog-post__anchorwrap">
+    <h2 id="良好做法2引导而不是指责">
+        良好做法2：引导而不是指责
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#良好做法2引导而不是指责" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 良好做法2：引导而不是指责" href="#%e8%89%af%e5%a5%bd%e5%81%9a%e6%b3%952%e5%bc%95%e5%af%bc%e8%80%8c%e4%b8%8d%e6%98%af%e6%8c%87%e8%b4%a3">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h2>
+</div>
 <p>当用户提出使用问题，或者他们滥用一些选项时。</p>
 <p>你是否只是回答。&ldquo;请阅读文档！！！&rdquo;</p>
 <p>不！不！! 不!!!</p>
@@ -419,209 +608,147 @@
 <p>如果用户不清楚，那就意味着__目前的实用设计理念很糟糕！__。</p>
 <p>我总是建议新来的CAD人员参加几个项目的tapeout。然后我们就可以得到我们的客户所面临的真实场景。</p>
 <p>当然，软件和硬件有相同的基础。但是，仍然有一些DDD（领域驱动设计）的差异。</p>
-<h3 id="实例和模板">实例和模板</h3>
+<div class="gblog-post__anchorwrap">
+    <h3 id="实例和模板">
+        实例和模板
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#实例和模板" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 实例和模板" href="#%e5%ae%9e%e4%be%8b%e5%92%8c%e6%a8%a1%e6%9d%bf">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h3>
+</div>
 <p>提供足够的模板和例子，使用户尽可能快地进入。</p>
 <p>模板是必不可少的。用户能够从模板（菜谱）开始，这些模板是经过CAD开发人员测试的。</p>
 <p>为了教育用户，我们应该怎么做？</p>
-<h3 id="howto">HowTo</h3>
+<div class="gblog-post__anchorwrap">
+    <h3 id="howto">
+        HowTo
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#howto" class="gblog-post__anchor clip flex align-center" aria-label="Anchor HowTo" href="#howto">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h3>
+</div>
 <p>开发一个培训材料，帮助用户建立知识。</p>
-<h3 id="whatnext">WhatNext</h3>
+<div class="gblog-post__anchorwrap">
+    <h3 id="whatnext">
+        WhatNext
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#whatnext" class="gblog-post__anchor clip flex align-center" aria-label="Anchor WhatNext" href="#whatnext">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h3>
+</div>
 <p>当一个错误发生时，尝试给出。</p>
 <ul>
 <li>发生了什么，错误信息，错误代码，等等。</li>
 <li>错误代码的位置，如果可能的话突出显示</li>
 <li>给出建议，下一步是什么</li>
 </ul>
-<h3 id="dryrun">Dryrun</h3>
+<div class="gblog-post__anchorwrap">
+    <h3 id="dryrun">
+        Dryrun
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#dryrun" class="gblog-post__anchor clip flex align-center" aria-label="Anchor Dryrun" href="#dryrun">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h3>
+</div>
 <p>我们有数以千计的配置项目，要记住所有的项目并不容易。</p>
 <p>因此，审查适用于即将到来的运行的设置是非常重要的，帮助用户检查和识别潜在的问题。</p>
 <p>这就是所谓的 &ldquo;干运行 &ldquo;的能力。</p>
 <p>干运行日志是另一种可能非常有用的工作艺术。</p>
-<h3 id="帮助系统">帮助系统</h3>
+<div class="gblog-post__anchorwrap">
+    <h3 id="帮助系统">
+        帮助系统
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#帮助系统" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 帮助系统" href="#%e5%b8%ae%e5%8a%a9%e7%b3%bb%e7%bb%9f">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h3>
+</div>
 <p>帮助系统不仅仅是指文件和培训。</p>
 <p>文件可以是代码（在日志和运行时显示）。</p>
 <p>你可以有一个100页的word/pdf文档，但要考虑用户如何使用这个文档。</p>
 <p>帮助系统还包括<code>-h</code>/<code>-help</code>、man page、错误处理、变量追踪等。</p>
-<p>帮助系统是一个很大的话题。我们将在下周谈论它<a href="help_system.md">帮助系统</a>。</p>
-<h2 id="良好实践3保持简单愚蠢">良好实践3：保持简单，愚蠢</h2>
-<h3 id="解耦多即是少">解耦，多即是少</h3>
+<p>帮助系统是一个很大的话题。我们将在下周谈论它<a
+  class="gblog-markdown__link"
+  href="help_system.md"
+>帮助系统</a>。</p>
+<div class="gblog-post__anchorwrap">
+    <h2 id="良好实践3保持简单愚蠢">
+        良好实践3：保持简单，愚蠢
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#良好实践3保持简单愚蠢" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 良好实践3：保持简单，愚蠢" href="#%e8%89%af%e5%a5%bd%e5%ae%9e%e8%b7%b53%e4%bf%9d%e6%8c%81%e7%ae%80%e5%8d%95%e6%84%9a%e8%a0%a2">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<div class="gblog-post__anchorwrap">
+    <h3 id="解耦多即是少">
+        解耦，多即是少
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#解耦多即是少" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 解耦，多即是少" href="#%e8%a7%a3%e8%80%a6%e5%a4%9a%e5%8d%b3%e6%98%af%e5%b0%91">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h3>
+</div>
 <p>我们有一些情况需要重复使用一些工具或代码，那么模块化就是一个很好的方法。</p>
 <p>想一想这种情况，这个库到处都在使用，有一天有一个bug被引入，导致整个系统瘫痪。</p>
 <p>当然，我们还有其他方法可以回滚。而在我们的方案中，可重用性确实是需要的。</p>
 <p>如果我控制修订版，并且对每个模块单独进行检查，会怎么样？那么，即使我想为一个特定的应用程序更新通用工具，也不会影响其他的。</p>
-<h3 id="功能选项">功能选项</h3>
+<div class="gblog-post__anchorwrap">
+    <h3 id="功能选项">
+        功能选项
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#功能选项" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 功能选项" href="#%e5%8a%9f%e8%83%bd%e9%80%89%e9%a1%b9">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h3>
+</div>
 <p>参数或选项不应该难以理解，也不应该太多。</p>
 <p>如果需要很多参数，该工具可能也需要考虑使用输入配置文件。</p>
-<h2 id="视觉化">视觉化</h2>
+<div class="gblog-post__anchorwrap">
+    <h2 id="视觉化">
+        视觉化
+        <a data-clipboard-text="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/#视觉化" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 视觉化" href="#%e8%a7%86%e8%a7%89%e5%8c%96">
+            <svg class="gblog-icon gblog_link"><use xlink:href="#gblog_link"></use></svg>
+        </a>
+    </h2>
+</div>
 <p>CLI是首先需要的，但是GUI或可视化也是很好的选择。</p>
 <p>这意味着网络技术是CAD职业生涯中需要获得的一项好技能。</p>
 
-    </div>
-    <div class="article-footer">
-<blockquote class="mt-2x">
-  <ul class="post-copyright list-unstyled">
-    <li class="post-copyright-link hidden-xs">
-      <strong>本文链接: </strong>
-      <a href="https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/" title="ASIC 硬件设计 CAD 框架的 3 个有用实践" target="_blank" rel="external">https://icsteve.com/zh/2022/01/my_sight_of_good_cad_framework/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>License: </strong>
-        
-    </li>
-  </ul>
-</blockquote>
-
-<div class="panel panel-default panel-badger">
-  <div class="panel-body">
-    <figure class="media">
-      <div class="media-left">
-        <a href="https://icsteve.com" target="_blank" class="img-burn thumb-sm visible-lg">
-          <img src="https://icsteve.com/avatar.png" class="img-rounded w-full" alt="">
-        </a>
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading"><a href="https://icsteve.com" target="_blank"><span class="text-dark">ICSteve</span><small class="ml-1x">ASIC CHIP DESIGN</small></a></h3>
-        <div>If you want to go fast, go alone ; If you want to go further, go together.</div>
-      </div>
-    </figure>
-  </div>
-</div>
-
-    </div>
+    </section>
   </article>
-<section id="comments">
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-</section>
 
-</div><nav class="bar bar-footer clearfix" data-stick-bottom>
-    <div class="bar-inner">
-        <ul class="pager pull-left">
-            <li class="prev">
-                <a href="https://icsteve.com/zh/2022/01/communication_plan/" title="何为 &#34;Communication Plan&#34;"><i
-                        class="icon icon-angle-left"
-                        aria-hidden="true"></i><span>&nbsp;&nbsp;下一篇</span></a>
-            </li>
-            
-            <li class="toggle-toc">
-                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
-                    title="文章目录" role="button">
-                    <span>[&nbsp;</span><span>文章目录</span>
-                    <i class="text-collapsed icon icon-anchor"></i>
-                    <i class="text-in icon icon-close"></i>
-                    <span>]</span>
-                </a>
-            </li>
-        </ul>
-        <div class="bar-right">
-            <div class="share-component" data-sites="wechat,weibo,facebook,twitter,qq"
-                data-mobile-sites="wechat,weibo,qq"></div>
-        </div>
-    </div>
-</nav>
+      </main>
 
-
-</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
-<ul class="social-links">
-    <li><a href="https://github.com/xoit" target="_blank" title="github" data-toggle=tooltip data-placement=top >
-            <i class="icon icon-github"></i></a></li>
-    <li><a href="https://icsteve.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
-            <i class="icon icon-rss"></i></a></li>
-</ul>
-  <div class="copyright">
-    &copy;2019  -
-    2022
-    <div class="publishby">
-        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+      <footer class="gblog-footer">
+  <nav class="container flex">
+    <div>
+      <section class="flex flex-wrap align-center">
+        
+        
+        
+        
+      </section>
+      <section class="flex flex-wrap align-center">
+        <span class="gblog-footer__item">
+          Built with <a href="https://gohugo.io/" class="gblog-footer__link">Hugo</a> and
+          <svg class="gblog-icon gblog_heart"><use xlink:href="#gblog_heart"></use></svg>
+        </span>
+      </section>
+      
+      
     </div>
     
-  </div>
+      <div class="flex flex-25 justify-end">
+        <span class="gblog-footer__item text-right">
+          <a class="gblog-footer__link fake-link" href="#" aria-label="Back to top">
+            <svg class="gblog-icon gblog_keyboard_arrow_up">
+              <use xlink:href="#gblog_keyboard_arrow_up"></use>
+            </svg>
+            <span class="hidden-mobile">Back to top</span>
+          </a>
+        </span>
+      </div>
+    
+  </nav>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-            showMathMenu: false, //disables context menu
-            tex2jax: {
-            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
-           }
-    });
-</script>
-
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<script>
-    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
-</script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/tcl.min.js" defer></script><script>
-    hljs.configure({
-        tabReplace: '    ', 
-        classPrefix: ''     
-        
-    })
-    hljs.initHighlightingOnLoad();
-</script>
-<script src="https://icsteve.com/js/application.min.a94ab19cb63a95c8d7fbd7b85cab3ddeea8c369bdf75b9cab6708787ead123af.js"></script>
-<script src="https://icsteve.com/js/plugin.min.19c5bcb2fb0789ab4f2b7834e5ceb5e92635645605bab902c1024b25f1502364.js"></script>
-
-<script>
-    (function (window) {
-        var INSIGHT_CONFIG = {
-            TRANSLATION: {
-                POSTS: '文章',
-                PAGES: '页面',
-                CATEGORIES: '分类',
-                TAGS: '标签',
-                UNTITLED: '(未命名)',
-            },
-            ROOT_URL: 'https:\/\/icsteve.com\/',
-            CONTENT_URL: 'https:\/\/icsteve.com\/\/searchindex.json ',
-        };
-        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-    })(window);
-</script>
-<script type="text/javascript" src="https://icsteve.com/js/insight.min.4a2d52de4bfff73e0c688404fe3d17c9a3ae12d9888e1e1ac9c690e4890de2ded50fe55f2b819c2ba55435a76f396f3ea6805765f0b0af5635cdf74ea459eab0.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
-<script>
-    tocbot.init({
-        
-        tocSelector: '.js-toc',
-        
-        contentSelector: '.js-toc-content',
-        
-        headingSelector: 'h1, h2, h3',
-        
-        hasInnerContainers: true,
-    });
-</script>
-
-<script>
-    var disqus_config = function () {
-        this.page.url = 'https:\/\/icsteve.com\/zh\/2022\/01\/my_sight_of_good_cad_framework\/';
-        this.page.identifier = 'icsteve';
-    };
-    (function () {
-        var d = document, s = d.createElement('script');
-        s.src = '//' + 'icsteve' + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-19459399-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
+    </div>
   </body>
 </html>
