@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://icsteve.com/en/2022/12/deploy_app_online/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/</loc>
     <lastmod>2022-12-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -37,7 +44,21 @@
   </url>
   
   <url>
+    <loc>https://icsteve.com/en/2022/12/setup_local_dev_env/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://icsteve.com/en/2022/12/use_web_tech_in_engineering/</loc>
+    <lastmod>2022-12-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://icsteve.com/en/2022/12/why_cdxdash/</loc>
     <lastmod>2022-12-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
